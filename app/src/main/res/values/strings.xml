@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Teach-Me</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_principal">Principal</string>
+    <string name="title_pesquisar">Pesquisar</string>
+    <string name="title_aulas">Aulas</string>
+    <string name="title_perfil">Perfil</string>
 </resources>
