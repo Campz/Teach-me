@@ -29,6 +29,10 @@
         </activity>
 
         <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.teach_me.com.squareup.picasso"
+            android:exported="false" />
+        <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.example.teach_me.lifecycle-process"
             android:exported="false"
