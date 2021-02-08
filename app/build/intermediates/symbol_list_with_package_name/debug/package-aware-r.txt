@@ -60,6 +60,10 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1571,12 +1575,15 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_background
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add_blue_64dp
+drawable ic_add_circle_white_48dp
 drawable ic_book_white_24dp
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
@@ -1590,6 +1597,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_person_white_24dp
 drawable ic_search_white_24dp
+drawable main_background
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1622,6 +1630,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font roboto
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1709,6 +1718,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id bt_buscar
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1782,6 +1792,7 @@ id fitToContents
 id fixed
 id flip
 id floating
+id floatingActionButton
 id forever
 id fragment_container_view_tag
 id ghost_view
@@ -1802,6 +1813,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -1889,6 +1901,7 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id reverseSawtooth
@@ -1969,8 +1982,8 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_dashboard
-id text_home
 id text_input_end_icon
 id text_input_start_icon
 id text_notifications
@@ -1996,6 +2009,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txt_disciplinas
+id txt_professores
 id unchecked
 id uniform
 id unlabeled
@@ -2090,6 +2105,7 @@ layout design_text_input_start_icon
 layout fragment_dashboard
 layout fragment_home
 layout fragment_notifications
+layout item_destaques
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

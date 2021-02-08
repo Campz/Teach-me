@@ -4,18 +4,18 @@ import java.util.Date;
 
 public class Usuario {
 
-    private int cdUsuario;
+    private String cdUsuario;
     private String nmUsuario;
     private String email;
     private String login;
     private String senha;
-    private Date dtNascimento;
-    private double avaliacao;
+    private String dtNascimento;
+    private String avaliacao;
     private String descricao;
     private String foto;
     private Instituicao instituicao;
 
-    public Usuario(int cdUsuario, String nmUsuario, String email, String login, String senha, Date dtNascimento, double avaliacao, String descricao, String foto, Instituicao instituicao) {
+    public Usuario(String cdUsuario, String nmUsuario, String email, String login, String senha, String dtNascimento, String avaliacao, String descricao, String foto, Instituicao instituicao) {
         this.cdUsuario = cdUsuario;
         this.nmUsuario = nmUsuario;
         this.email = email;
@@ -28,11 +28,11 @@ public class Usuario {
         this.instituicao = instituicao;
     }
 
-    public int getCdUsuario() {
+    public String getCdUsuario() {
         return cdUsuario;
     }
 
-    public void setCdUsuario(int cdUsuario) {
+    public void setCdUsuario(String cdUsuario) {
         this.cdUsuario = cdUsuario;
     }
 
@@ -68,19 +68,19 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public Date getDtNascimento() {
+    public String getDtNascimento() {
         return dtNascimento;
     }
 
-    public void setDtNascimento(Date dtNascimento) {
+    public void setDtNascimento(String dtNascimento) {
         this.dtNascimento = dtNascimento;
     }
 
-    public double getAvaliacao() {
+    public String getAvaliacao() {
         return avaliacao;
     }
 
-    public void setAvaliacao(double avaliacao) {
+    public void setAvaliacao(String avaliacao) {
         this.avaliacao = avaliacao;
     }
 

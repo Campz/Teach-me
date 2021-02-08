@@ -2,21 +2,21 @@ package com.example.teach_me.models;
 
 public class Instituicao {
 
-    private int cdInstituicao;
+    private String cdInstituicao;
     private String nmInstituicao;
     private String endereco;
 
-    public Instituicao(int cdInstituicao, String nmInstituicao, String endereco) {
+    public Instituicao(String cdInstituicao, String nmInstituicao, String endereco) {
         this.cdInstituicao = cdInstituicao;
         this.nmInstituicao = nmInstituicao;
         this.endereco = endereco;
     }
 
-    public int getCdInstituicao() {
+    public String getCdInstituicao() {
         return cdInstituicao;
     }
 
-    public void setCdInstituicao(int cdInstituicao) {
+    public void setCdInstituicao(String cdInstituicao) {
         this.cdInstituicao = cdInstituicao;
     }
 

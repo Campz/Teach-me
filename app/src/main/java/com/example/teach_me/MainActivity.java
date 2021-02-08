@@ -1,19 +1,24 @@
 package com.example.teach_me;
 
 import android.os.Bundle;
-
+import com.example.teach_me.models.Usuario;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import java.util.ArrayList;
+
+
 public class MainActivity extends AppCompatActivity {
+
+    ArrayList<Usuario> destaques = new ArrayList<Usuario>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        destaques.add(new Usuario(0,"Ruan",null,null,null,null,5,null,null,null));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
