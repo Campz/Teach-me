@@ -1,11 +1,11 @@
 package com.example.teach_me;
-
+import com.example.teach_me.api.InstituicaoService;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClientInstance {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "https://teachme-apirest.herokuapp.com";
+    private static final String BASE_URL = "https://teachme-apirest.herokuapp.com/";
 
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
@@ -16,4 +16,9 @@ public class RetrofitClientInstance {
         }
         return retrofit;
     }
+
+    public InstituicaoService getInstituicaoService() {
+        return this.retrofit.create(InstituicaoService.class);
+    }
+
 }
