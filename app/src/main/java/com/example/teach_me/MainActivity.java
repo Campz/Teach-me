@@ -1,10 +1,6 @@
 package com.example.teach_me;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-
 import com.example.teach_me.models.Usuario;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,9 +11,6 @@ import androidx.navigation.ui.NavigationUI;
 
 import java.util.ArrayList;
 
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        destaques.add(new Usuario());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
@@ -38,14 +30,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-        Button buscarAula = findViewById(R.id.bt_buscar);
-        final Usuario usu = new Usuario();
-        buscarAula.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Call<Usuario> call = new RetrofitClientInstance().getUsuarioService().buscarUsuario(usu.toString());
-                Log.d("Teste", usu.toString());
-            }
-        });
     }
+
 }
