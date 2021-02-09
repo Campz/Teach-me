@@ -25,4 +25,10 @@ public class Tipo {
     public void setNmTipo(String nmTipo) {
         this.nmTipo = nmTipo;
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + getCdTipo()
+                + "\nTipo: " + getNmTipo();
+    }
 }

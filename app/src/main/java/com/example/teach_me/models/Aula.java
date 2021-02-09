@@ -45,4 +45,12 @@ public class Aula {
     public void setHorario(String horario) {
         this.horario = horario;
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + getAluno()
+                + "\nAluno: " + getAluno().getNmUsuario()
+                + "\nProfessor: " + getAnuncio().getCdUsuario_Professor().getNmUsuario()
+                + "\nHorário: " + getHorario();
+    }
 }

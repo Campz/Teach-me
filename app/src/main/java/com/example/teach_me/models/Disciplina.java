@@ -35,4 +35,11 @@ public class Disciplina {
     public void setTipo(Tipo tipo) {
         this.tipo = tipo;
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + getCdDisciplina()
+                + "\nNome: " + getNmDisciplina()
+                + "\nTipo: " + getTipo().getNmTipo();
+    }
 }

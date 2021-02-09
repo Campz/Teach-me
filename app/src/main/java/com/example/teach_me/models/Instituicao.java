@@ -42,5 +42,4 @@ public class Instituicao {
                 + "\nNome: " + getNmInstituicao()
                 + "\nEndereço: " + getEndereco();
     }
-
 }

@@ -28,6 +28,8 @@ public class Usuario {
         this.instituicao = instituicao;
     }
 
+    public Usuario() {}
+
     public String getCdUsuario() {
         return cdUsuario;
     }
@@ -106,5 +108,16 @@ public class Usuario {
 
     public void setInstituicao(Instituicao instituicao) {
         this.instituicao = instituicao;
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + getCdUsuario()
+                + "\nNome: " + getNmUsuario()
+                + "\nNota: " + getAvaliacao()
+                + "\nDescrição: " + getDescricao()
+                + "\nDT Nascimento: " + getDtNascimento()
+                + "\nEmail: " + getEmail()
+                + "\nInstituição: " + getInstituicao().getNmInstituicao();
     }
 }

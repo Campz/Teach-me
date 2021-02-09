@@ -2,15 +2,15 @@ package com.example.teach_me.models;
 
 public class Anuncio {
     private int cdAnuncio;
-    private int qtdAnuncio;
+    private int qtdAlunos;
     private String descricao;
     private Disciplina disciplina;
     private Usuario cdUsuario_Professor;
     private double valor;
 
-    public Anuncio(int cdAnuncio, int qtdAnuncio, String descricao, Disciplina disciplina, Usuario cdUsuario_Professor, double valor) {
+    public Anuncio(int cdAnuncio, int qtdAlunos, String descricao, Disciplina disciplina, Usuario cdUsuario_Professor, double valor) {
         this.cdAnuncio = cdAnuncio;
-        this.qtdAnuncio = qtdAnuncio;
+        this.qtdAlunos = qtdAlunos;
         this.descricao = descricao;
         this.disciplina = disciplina;
         this.cdUsuario_Professor = cdUsuario_Professor;
@@ -25,12 +25,12 @@ public class Anuncio {
         this.cdAnuncio = cdAnuncio;
     }
 
-    public int getQtdAnuncio() {
-        return qtdAnuncio;
+    public int getQtdAlunos() {
+        return qtdAlunos;
     }
 
-    public void setQtdAnuncio(int qtdAnuncio) {
-        this.qtdAnuncio = qtdAnuncio;
+    public void setQtdAlunoso(int qtdAlunos) {
+        this.qtdAlunos = qtdAlunos;
     }
 
     public String getDescricao() {
@@ -63,5 +63,15 @@ public class Anuncio {
 
     public void setValor(double valor) {
         this.valor = valor;
+    }
+
+    @Override
+    public String toString() {
+        return "ID: " + getCdAnuncio()
+                + "\nDescrição: " + getDescricao()
+                + "\nProfessor: " + getCdUsuario_Professor().getNmUsuario()
+                + "\nQTD Alunos: " + getQtdAlunos()
+                + "\nDisciplina: " + getDisciplina().getNmDisciplina()
+                + "\nValor: " + getValor();
     }
 }
