@@ -978,6 +978,7 @@ color checkbox_themeable_attribute_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorWhite
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1572,6 +1573,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_login
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1581,6 +1583,13 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
+drawable button_background_azul
+drawable button_background_white
+drawable button_facebook
+drawable button_google
+drawable button_transparente
+drawable campo_branco
+drawable campo_transparente
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1590,9 +1599,13 @@ drawable design_snackbar_background
 drawable ic_add_blue_64dp
 drawable ic_add_circle_white_48dp
 drawable ic_book_white_24dp
+drawable ic_caderno_black
+drawable ic_chapeu_black
+drawable ic_chapeu_white
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
 drawable ic_home_white_24dp
+drawable ic_https_white_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1725,6 +1738,10 @@ id blocking
 id bottom
 id bounce
 id bt_buscar
+id bt_facebook
+id bt_google
+id bt_login
+id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1735,6 +1752,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox_conectado
 id checkbox
 id checked
 id chip
@@ -1784,6 +1802,10 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editText_disciplina
+id editText_instituicao
+id editText_login
+id editText_senha
 id edit_query
 id end
 id end_padder
@@ -1816,6 +1838,10 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id ic_disciplina
+id ic_instituicao
+id ic_login
+id ic_senha
 id icon
 id icon_group
 id ifRoom
@@ -1823,6 +1849,11 @@ id ignore
 id ignoreRequest
 id image
 id img_avatar
+id img_campo1
+id img_campo2
+id img_campo_disciplina
+id img_campo_instituicao
+id img_chapeu
 id info
 id invisible
 id italic
@@ -1992,6 +2023,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2017,8 +2049,14 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txt_disciplinas
+id txt_ecolha_disciplina
+id txt_esqueci
+id txt_naopossui
 id txt_nome
+id txt_ou
 id txt_professores
+id txt_pular
+id txt_registrar
 id unchecked
 id uniform
 id unlabeled
@@ -2093,6 +2131,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

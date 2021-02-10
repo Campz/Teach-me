@@ -22,9 +22,8 @@
         android:id="@+id/img_campo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
         android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/campo_transparente" />
@@ -33,9 +32,8 @@
         android:id="@+id/img_campo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
         android:layout_marginTop="370dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/campo_transparente" />
@@ -114,13 +112,13 @@
         style="@android:style/Widget.CompoundButton.CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:button="@android:drawable/checkbox_off_background"
         android:text="  Mantenha-me conectado"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.362"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_campo2" />
 
@@ -129,13 +127,12 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_background_white"
         android:text="LOGIN"
         android:textColor="#1D9869"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox_conectado" />
 
@@ -143,12 +140,12 @@
         android:id="@+id/txt_naopossui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="74dp"
-        android:layout_marginLeft="74dp"
         android:layout_marginTop="12dp"
         android:text="Não possui uma conta?"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_login" />
 
@@ -170,12 +167,11 @@
         android:id="@+id/txt_ou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="195dp"
-        android:layout_marginLeft="195dp"
         android:layout_marginTop="24dp"
         android:text="Ou"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_naopossui" />
 
@@ -183,10 +179,10 @@
         android:id="@+id/bt_google"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_ou" />
 
@@ -205,13 +201,12 @@
         android:id="@+id/txt_esqueci"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
         android:layout_marginTop="24dp"
         android:text="Esqueci minha senha"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_google" />
 
