@@ -60,7 +60,7 @@ public class DestaquesAdapter extends RecyclerView.Adapter<DestaquesAdapter.Dest
 
     @Override
     public int getItemCount() {
-        return 0;
+        return destaques.size();
     }
 
 

@@ -61,12 +61,11 @@ public class HomeFragment extends Fragment {
         destaques.add(usuario);
         destaques.add(usuario);
         RecyclerView lista_destaques = root.findViewById(R.id.lista_destaques);
-        destaquesAdapter = new DestaquesAdapter(requireContext(),destaques);
+        destaquesAdapter = new DestaquesAdapter(getContext(),destaques);
         lista_destaques.setAdapter(destaquesAdapter);
-        LinearLayoutManager layout = new LinearLayoutManager(requireContext());
+        LinearLayoutManager layout = new LinearLayoutManager(getContext());
         layout.setOrientation(RecyclerView.HORIZONTAL);
         lista_destaques.setLayoutManager(layout);
-
 
         final TextView txt_professores = root.findViewById(R.id.txt_professores);
 
