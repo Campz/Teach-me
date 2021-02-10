@@ -979,6 +979,7 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color colorWhite
+color colorYellow
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1608,13 +1609,17 @@ drawable ic_home_white_24dp
 drawable ic_https_white_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_linkedin
+drawable ic_local
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
+drawable ic_person_black_24dp
 drawable ic_person_white_24dp
 drawable ic_search_white_24dp
+drawable img_capa
 drawable main_background
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1645,6 +1650,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable ruan_foto
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1746,6 +1752,8 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id card_bio
+id card_info
 id cardview
 id center
 id center_horizontal
@@ -1838,8 +1846,11 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id ic_bio
+id ic_curso
 id ic_disciplina
-id ic_instituicao
+id ic_linkedin
+id ic_local
 id ic_login
 id ic_senha
 id icon
@@ -1853,7 +1864,9 @@ id img_campo1
 id img_campo2
 id img_campo_disciplina
 id img_campo_instituicao
+id img_capa
 id img_chapeu
+id img_perfil
 id info
 id invisible
 id italic
@@ -1942,6 +1955,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratingBar
+id ratingBar_avaliacao
 id ratio
 id rectangles
 id reverseSawtooth
@@ -2024,6 +2038,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView4
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2051,7 +2066,11 @@ id triangle
 id txt_disciplinas
 id txt_ecolha_disciplina
 id txt_esqueci
+id txt_idade
+id txt_linkedin
 id txt_naopossui
+id txt_nmCurso
+id txt_nmLocal
 id txt_nome
 id txt_ou
 id txt_professores
