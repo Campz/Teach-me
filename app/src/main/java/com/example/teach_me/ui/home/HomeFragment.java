@@ -61,9 +61,9 @@ public class HomeFragment extends Fragment {
         destaques.add(usuario);
         destaques.add(usuario);
         RecyclerView lista_destaques = root.findViewById(R.id.lista_destaques);
-        destaquesAdapter = new DestaquesAdapter(getContext(),destaques);
+        destaquesAdapter = new DestaquesAdapter(requireContext(),destaques);
         lista_destaques.setAdapter(destaquesAdapter);
-        LinearLayoutManager layout = new LinearLayoutManager(getContext());
+        LinearLayoutManager layout = new LinearLayoutManager(requireContext());
         layout.setOrientation(RecyclerView.HORIZONTAL);
         lista_destaques.setLayoutManager(layout);
 
