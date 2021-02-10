@@ -12,14 +12,21 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.teach_me.ui.dashboard.DashboardFragment"
-        android:label="title_pesquisar"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_pesquisa"
+        android:name="com.example.teach_me.ui.pesquisa.PesquisaFragment"
+        android:label="@string/title_pesquisar"
+        tools:layout="@layout/fragment_pesquisa" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.teach_me.ui.notifications.NotificationsFragment"
-        android:label="title_aulas"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_aulas"
+        android:name="com.example.teach_me.ui.aulas.AulasFragment"
+        android:label="@string/title_aulas"
+        tools:layout="@layout/fragment_aulas" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.example.teach_me.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
 </navigation>

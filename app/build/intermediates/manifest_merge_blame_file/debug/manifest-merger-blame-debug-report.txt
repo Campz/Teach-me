@@ -10,66 +10,72 @@
 9        android:targetSdkVersion="29" />
 9-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:5:5-24:19
-12        android:allowBackup="true"
-12-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c24177ae83091978e5c4ae83bccf2f01\core-1.3.1\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity
-20-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:12:9-20:20
-21            android:name="com.example.teach_me.MainActivity"
-21-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:13:13-41
-22            android:label="@string/app_name" >
-22-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:14:13-45
-23            <intent-filter>
-23-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:15:13-19:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:16:17-69
-24-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:16:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:18:17-77
-26-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:18:27-74
-27            </intent-filter>
-28        </activity>
+11    <!-- Permissão para acessar a internet -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:8:5-29:19
+15        android:allowBackup="true"
+15-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c24177ae83091978e5c4ae83bccf2f01\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity
+24-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:16:9-24:20
+25            android:name="com.example.teach_me.MainActivity"
+25-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:17:13-41
+26            android:label="@string/app_name" >
+26-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:18:13-45
+27            <intent-filter>
+27-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:20:17-69
+28-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:20:25-66
 29
-30        <meta-data
-30-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:21:9-23:57
-31            android:name="preloaded_fonts"
-31-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:22:13-43
-32            android:resource="@array/preloaded_fonts" />
-32-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:13-54
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:22:17-77
+30-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
 33
-34        <provider
-34-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-35            android:name="com.squareup.picasso.PicassoProvider"
-35-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-36            android:authorities="com.example.teach_me.com.squareup.picasso"
-36-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-37            android:exported="false" />
-37-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+34        <meta-data
+34-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:26:9-28:57
+35            android:name="preloaded_fonts"
+35-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:27:13-43
+36            android:resource="@array/preloaded_fonts" />
+36-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:28:13-54
+37
 38        <provider
-38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-40            android:authorities="com.example.teach_me.lifecycle-process"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-41            android:exported="false"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-42            android:multiprocess="true" />
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-43    </application>
-44
-45</manifest>
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+39            android:name="com.squareup.picasso.PicassoProvider"
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+40            android:authorities="com.example.teach_me.com.squareup.picasso"
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+41            android:exported="false" />
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+42        <provider
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+44            android:authorities="com.example.teach_me.lifecycle-process"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+45            android:exported="false"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+46            android:multiprocess="true" />
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+47    </application>
+48
+49</manifest>

@@ -28,20 +28,16 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_blue_64dp.xml.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_blue_64dp.xml"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_book_white_24dp.png.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_book_white_24dp.png"
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_book_white_24dp.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_book_white_24dp.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_circle_white_48dp.png.flat",
@@ -116,12 +112,12 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_blue_64dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_blue_64dp.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search_white_24dp.png.flat",
@@ -192,24 +188,24 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_white_24dp.png.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_white_24dp.png"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home_black_24dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_white_24dp.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_white_24dp.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_book_white_24dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_book_white_24dp.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_home_black_24dp.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_blue_64dp.png.flat",
@@ -220,16 +216,16 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_aulas.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\fragment_aulas.xml"
+    },
+    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_dashboard_black_24dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_dashboard_black_24dp.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_dashboard_black_24dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
-    },
-    {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search_white_24dp.png.flat",
@@ -288,12 +284,12 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_white_24dp.png"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_white_24dp.png.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_white_24dp.png"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_blue_64dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_blue_64dp.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_white_24dp.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_white_24dp.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home_black_24dp.png.flat",
@@ -310,6 +306,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_home_black_24dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pesquisa.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\fragment_pesquisa.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_book_white_24dp.png.flat",
@@ -354,6 +354,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_perfil.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\fragment_perfil.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",

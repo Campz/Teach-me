@@ -6,6 +6,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public interface InstituicaoService {
-    @GET("api/instituicaos")
-    Call<Instituicao> buscarInstituicao(String instituicao);
+    @GET("instituicao/{instituicao}")
+    Call<Instituicao> buscarInstituicao(@Path("instituicao") String instituicao);
 }

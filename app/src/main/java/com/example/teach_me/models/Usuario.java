@@ -1,118 +1,119 @@
 package com.example.teach_me.models;
 
-import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties({"data","message","success"})
 public class Usuario {
 
-    private String cdUsuario;
-    private String nmUsuario;
-    private String email;
-    private String login;
-    private String senha;
-    private String dtNascimento;
-    private String avaliacao;
-    private String descricao;
-    private String foto;
-    private Instituicao instituicao;
+    private String id;
+    private String NmUsuario;
+    private String Email;
+    private String Login;
+    private String Senha;
+    private String DtNascimento;
+    private String Avaliacao;
+    private String Descricao;
+    private String Foto;
+    private Instituicao Instituicao;
 
-    public Usuario(String cdUsuario, String nmUsuario, String email, String login, String senha, String dtNascimento, String avaliacao, String descricao, String foto, Instituicao instituicao) {
-        this.cdUsuario = cdUsuario;
-        this.nmUsuario = nmUsuario;
-        this.email = email;
-        this.login = login;
-        this.senha = senha;
-        this.dtNascimento = dtNascimento;
-        this.avaliacao = avaliacao;
-        this.descricao = descricao;
-        this.foto = foto;
-        this.instituicao = instituicao;
+    public Usuario(String id, String nmUsuario, String email, String login, String senha, String dtNascimento, String avaliacao, String descricao, String foto, Instituicao instituicao) {
+        this.id = id;
+        this.NmUsuario = nmUsuario;
+        this.Email = email;
+        this.Login = login;
+        this.Senha = senha;
+        this.DtNascimento = dtNascimento;
+        this.Avaliacao = avaliacao;
+        this.Descricao = descricao;
+        this.Foto = foto;
+        this.Instituicao = instituicao;
     }
 
     public Usuario() {}
 
-    public String getCdUsuario() {
-        return cdUsuario;
+    public String getId() {
+        return id;
     }
 
-    public void setCdUsuario(String cdUsuario) {
-        this.cdUsuario = cdUsuario;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getNmUsuario() {
-        return nmUsuario;
+        return NmUsuario;
     }
 
     public void setNmUsuario(String nmUsuario) {
-        this.nmUsuario = nmUsuario;
+        this.NmUsuario = nmUsuario;
     }
 
     public String getEmail() {
-        return email;
+        return Email;
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        this.Email = email;
     }
 
     public String getLogin() {
-        return login;
+        return Login;
     }
 
     public void setLogin(String login) {
-        this.login = login;
+        this.Login = login;
     }
 
     public String getSenha() {
-        return senha;
+        return Senha;
     }
 
     public void setSenha(String senha) {
-        this.senha = senha;
+        this.Senha = senha;
     }
 
     public String getDtNascimento() {
-        return dtNascimento;
+        return DtNascimento;
     }
 
     public void setDtNascimento(String dtNascimento) {
-        this.dtNascimento = dtNascimento;
+        this.DtNascimento = dtNascimento;
     }
 
     public String getAvaliacao() {
-        return avaliacao;
+        return Avaliacao;
     }
 
     public void setAvaliacao(String avaliacao) {
-        this.avaliacao = avaliacao;
+        this.Avaliacao = avaliacao;
     }
 
     public String getDescricao() {
-        return descricao;
+        return Descricao;
     }
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
+        this.Descricao = descricao;
     }
 
     public String getFoto() {
-        return foto;
+        return Foto;
     }
 
     public void setFoto(String foto) {
-        this.foto = foto;
+        this.Foto = foto;
     }
 
     public Instituicao getInstituicao() {
-        return instituicao;
+        return Instituicao;
     }
 
     public void setInstituicao(Instituicao instituicao) {
-        this.instituicao = instituicao;
+        this.Instituicao = instituicao;
     }
 
     @Override
     public String toString() {
-        return "ID: " + getCdUsuario()
+        return "ID: " + getId()
                 + "\nNome: " + getNmUsuario()
                 + "\nNota: " + getAvaliacao()
                 + "\nDescrição: " + getDescricao()

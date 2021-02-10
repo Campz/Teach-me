@@ -1,4 +1,4 @@
-#Sun Feb 07 17:56:03 BRST 2021
+#Wed Feb 10 09:32:28 BRST 2021
 base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
