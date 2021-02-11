@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.DestaquesAdapter;
 import com.example.teach_me.R;
+import com.example.teach_me.Repositorio;
 import com.example.teach_me.RetrofitClientInstance;
 import com.example.teach_me.models.Usuario;
 
@@ -54,19 +54,13 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        destaques = new ArrayList<Usuario>();
-        Usuario usuario = new Usuario("1","Ruan",null,null,null,null,"4.0",null,"https://i.imgur.com/VBPTe69.jpg",null);
-        destaques.add(usuario);
-        destaques.add(usuario);
-        destaques.add(usuario);
-        destaques.add(usuario);
+        destaques = Repositorio.getInstance().getUsuarios();
         RecyclerView lista_destaques = root.findViewById(R.id.lista_destaques);
         destaquesAdapter = new DestaquesAdapter(getContext(),destaques);
         lista_destaques.setAdapter(destaquesAdapter);
         LinearLayoutManager layout = new LinearLayoutManager(getContext());
         layout.setOrientation(RecyclerView.HORIZONTAL);
         lista_destaques.setLayoutManager(layout);
-
 
         final TextView txt_professores = root.findViewById(R.id.txt_professores);
 
@@ -78,10 +72,10 @@ public class HomeFragment extends Fragment {
                 call.enqueue(new Callback<Usuario>() {
                     @Override
                     public void onResponse(Call<Usuario> call, Response<Usuario> response) {
-
                         Usuario usu = response.body();
+                        System.out.println(usu.getData().getAvaliacao());
                         Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
-                        txt_professores.setText(usu.getNmUsuario());
+                        txt_professores.setText(usu.getData().getNmUsuario());
                     }
 
                     @Override

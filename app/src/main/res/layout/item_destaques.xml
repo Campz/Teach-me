@@ -31,11 +31,12 @@
         <RatingBar
             android:id="@+id/ratingBar"
             style="@style/Widget.AppCompat.RatingBar.Small"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:max="5"
             android:numStars="5"
+            android:paddingTop="4dp"
             android:rating="4"
             android:scrollbarDefaultDelayBeforeFade="400"
             android:scrollbarFadeDuration="250"

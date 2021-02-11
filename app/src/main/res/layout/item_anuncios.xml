@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_anuncio"
+    android:layout_width="195dp"
+    android:layout_height="253dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_professor"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txt_nomeprof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_horizontal"
+            android:text="Nome"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ic_curso"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_chapeu_black" />
+
+            <TextView
+                android:id="@+id/txt_nomecurso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="Engenharia da Computação"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/ic_curso"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_nomelocal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="CEFET-MG"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/ic_local"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nomecurso" />
+
+            <ImageView
+                android:id="@+id/ic_local"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ic_curso"
+                app:srcCompat="@drawable/ic_local" />
+
+            <ImageView
+                android:id="@+id/img_preco"
+                android:layout_width="76dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/img_avaliacao"
+                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/img_retangulo_verde" />
+
+            <TextView
+                android:id="@+id/txt_preco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$80/h"
+                android:textColor="#1B5E36"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/img_preco"
+                app:layout_constraintEnd_toEndOf="@+id/img_preco"
+                app:layout_constraintStart_toStartOf="@+id/img_preco"
+                app:layout_constraintTop_toTopOf="@+id/img_preco" />
+
+            <ImageView
+                android:id="@+id/img_avaliacao"
+                android:layout_width="76dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/img_retangulo_amarelo" />
+
+            <ImageView
+                android:id="@+id/ic_estrela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="9dp"
+                app:layout_constraintBottom_toBottomOf="@+id/img_avaliacao"
+                app:layout_constraintEnd_toEndOf="@+id/img_avaliacao"
+                app:srcCompat="@drawable/ic_estrela" />
+
+            <TextView
+                android:id="@+id/txt_avaliacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginBottom="6dp"
+                android:text="5"
+                android:textColor="#ED8A19"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/img_avaliacao"
+                app:layout_constraintEnd_toStartOf="@+id/ic_estrela"
+                app:layout_constraintStart_toStartOf="@+id/img_avaliacao"
+                app:layout_constraintTop_toTopOf="@+id/img_avaliacao" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

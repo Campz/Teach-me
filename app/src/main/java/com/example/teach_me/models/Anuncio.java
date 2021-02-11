@@ -1,14 +1,14 @@
 package com.example.teach_me.models;
 
 public class Anuncio {
-    private int cdAnuncio;
-    private int qtdAlunos;
+    private String cdAnuncio;
+    private String qtdAlunos;
     private String descricao;
     private Disciplina disciplina;
     private Usuario cdUsuario_Professor;
-    private double valor;
+    private String valor;
 
-    public Anuncio(int cdAnuncio, int qtdAlunos, String descricao, Disciplina disciplina, Usuario cdUsuario_Professor, double valor) {
+    public Anuncio(String cdAnuncio, String qtdAlunos, String descricao, Disciplina disciplina, Usuario cdUsuario_Professor, String valor) {
         this.cdAnuncio = cdAnuncio;
         this.qtdAlunos = qtdAlunos;
         this.descricao = descricao;
@@ -17,19 +17,19 @@ public class Anuncio {
         this.valor = valor;
     }
 
-    public int getCdAnuncio() {
+    public String getCdAnuncio() {
         return cdAnuncio;
     }
 
-    public void setCdAnuncio(int cdAnuncio) {
+    public void setCdAnuncio(String cdAnuncio) {
         this.cdAnuncio = cdAnuncio;
     }
 
-    public int getQtdAlunos() {
+    public String getQtdAlunos() {
         return qtdAlunos;
     }
 
-    public void setQtdAlunoso(int qtdAlunos) {
+    public void setQtdAlunoso(String qtdAlunos) {
         this.qtdAlunos = qtdAlunos;
     }
 
@@ -57,11 +57,11 @@ public class Anuncio {
         this.cdUsuario_Professor = cdUsuario_Professor;
     }
 
-    public double getValor() {
+    public String getValor() {
         return valor;
     }
 
-    public void setValor(double valor) {
+    public void setValor(String valor) {
         this.valor = valor;
     }
 
@@ -69,7 +69,7 @@ public class Anuncio {
     public String toString() {
         return "ID: " + getCdAnuncio()
                 + "\nDescrição: " + getDescricao()
-                + "\nProfessor: " + getCdUsuario_Professor().getNmUsuario()
+                + "\nProfessor: " + getCdUsuario_Professor().getData().getNmUsuario()
                 + "\nQTD Alunos: " + getQtdAlunos()
                 + "\nDisciplina: " + getDisciplina().getNmDisciplina()
                 + "\nValor: " + getValor();
