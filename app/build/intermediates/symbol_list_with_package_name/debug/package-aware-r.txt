@@ -1584,7 +1584,9 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
+drawable button_background_amarelo
 drawable button_background_azul
+drawable button_background_verde
 drawable button_background_white
 drawable button_facebook
 drawable button_google
@@ -1604,6 +1606,7 @@ drawable ic_caderno_black
 drawable ic_chapeu_black
 drawable ic_chapeu_white
 drawable ic_dashboard_black_24dp
+drawable ic_estrela
 drawable ic_home_black_24dp
 drawable ic_home_white_24dp
 drawable ic_https_white_24dp
@@ -1620,6 +1623,8 @@ drawable ic_person_black_24dp
 drawable ic_person_white_24dp
 drawable ic_search_white_24dp
 drawable img_capa
+drawable img_retangulo_amarelo
+drawable img_retangulo_verde
 drawable main_background
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1747,7 +1752,6 @@ id bt_buscar
 id bt_facebook
 id bt_google
 id bt_login
-id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1782,6 +1786,7 @@ id cos
 id custom
 id customPanel
 id cut
+id cv_anuncio
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1849,6 +1854,7 @@ id honorRequest
 id ic_bio
 id ic_curso
 id ic_disciplina
+id ic_estrela
 id ic_linkedin
 id ic_local
 id ic_login
@@ -1859,6 +1865,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id img_avaliacao
 id img_avatar
 id img_campo1
 id img_campo2
@@ -1867,6 +1874,8 @@ id img_campo_instituicao
 id img_capa
 id img_chapeu
 id img_perfil
+id img_preco
+id img_professor
 id info
 id invisible
 id italic
@@ -1964,6 +1973,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_categorias
+id rv_resultados
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2063,6 +2074,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txt_avaliacao
 id txt_disciplinas
 id txt_ecolha_disciplina
 id txt_esqueci
@@ -2072,10 +2084,15 @@ id txt_naopossui
 id txt_nmCurso
 id txt_nmLocal
 id txt_nome
+id txt_nomecurso
+id txt_nomelocal
+id txt_nomeprof
 id txt_ou
+id txt_preco
 id txt_professores
 id txt_pular
 id txt_registrar
+id txt_resultados
 id unchecked
 id uniform
 id unlabeled
@@ -2152,6 +2169,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_resultados
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2172,6 +2190,7 @@ layout fragment_aulas
 layout fragment_home
 layout fragment_perfil
 layout fragment_pesquisa
+layout item_anuncios
 layout item_destaques
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions

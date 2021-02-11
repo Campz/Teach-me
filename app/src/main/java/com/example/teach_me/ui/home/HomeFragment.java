@@ -20,6 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.DestaquesAdapter;
 import com.example.teach_me.R;
+import com.example.teach_me.Repositorio;
 import com.example.teach_me.RetrofitClientInstance;
 import com.example.teach_me.models.Usuario;
 
@@ -54,12 +55,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        destaques = new ArrayList<Usuario>();
-        Usuario usuario = new Usuario("1","Ruan",null,null,null,null,"4.0",null,"https://i.imgur.com/VBPTe69.jpg",null);
-        destaques.add(usuario);
-        destaques.add(usuario);
-        destaques.add(usuario);
-        destaques.add(usuario);
+        destaques = Repositorio.getInstance().getUsuarios();
         RecyclerView lista_destaques = root.findViewById(R.id.lista_destaques);
         destaquesAdapter = new DestaquesAdapter(getContext(),destaques);
         lista_destaques.setAdapter(destaquesAdapter);

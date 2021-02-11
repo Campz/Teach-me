@@ -2,9 +2,10 @@ package com.example.teach_me.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties({"data","message","success"})
+@JsonIgnoreProperties({"message","success"})
 public class Usuario {
 
+    private String data;
     private String id;
     private String NmUsuario;
     private String Email;
@@ -16,9 +17,9 @@ public class Usuario {
     private String Foto;
     private Instituicao Instituicao;
 
-    public Usuario(String id, String nmUsuario, String email, String login, String senha, String dtNascimento, String avaliacao, String descricao, String foto, Instituicao instituicao) {
+    public Usuario(String id, String NmUsuario, String email, String login, String senha, String dtNascimento, String avaliacao, String descricao, String foto, Instituicao instituicao) {
         this.id = id;
-        this.NmUsuario = nmUsuario;
+        this.NmUsuario = NmUsuario;
         this.Email = email;
         this.Login = login;
         this.Senha = senha;
@@ -33,6 +34,10 @@ public class Usuario {
 
     public String getId() {
         return id;
+    }
+
+    public String getData(){
+        return data;
     }
 
     public void setId(String id) {

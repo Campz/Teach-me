@@ -2,21 +2,21 @@ package com.example.teach_me.models;
 
 public class Disciplina {
 
-    private int cdDisciplina;
+    private String cdDisciplina;
     private String nmDisciplina;
     private Tipo tipo;
 
-    public Disciplina(int cdDisciplina, String nmDisciplina, Tipo tipo) {
+    public Disciplina(String cdDisciplina, String nmDisciplina, Tipo tipo) {
         this.cdDisciplina = cdDisciplina;
         this.nmDisciplina = nmDisciplina;
         this.tipo = tipo;
     }
 
-    public int getCdDisciplina() {
+    public String getCdDisciplina() {
         return cdDisciplina;
     }
 
-    public void setCdDisciplina(int cdDisciplina) {
+    public void setCdDisciplina(String cdDisciplina) {
         this.cdDisciplina = cdDisciplina;
     }
 

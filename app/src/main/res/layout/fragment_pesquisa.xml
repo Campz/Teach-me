@@ -49,7 +49,7 @@
         app:layout_constraintTop_toTopOf="@+id/img_campo_instituicao" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bt_buscar"
         android:layout_width="343dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -101,7 +101,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/bt_buscar" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_categorias"
