@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -73,10 +72,10 @@ public class HomeFragment extends Fragment {
                 call.enqueue(new Callback<Usuario>() {
                     @Override
                     public void onResponse(Call<Usuario> call, Response<Usuario> response) {
-
                         Usuario usu = response.body();
+                        System.out.println(usu.getData().getAvaliacao());
                         Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
-                        txt_professores.setText(usu.getNmUsuario());
+                        txt_professores.setText(usu.getData().getNmUsuario());
                     }
 
                     @Override

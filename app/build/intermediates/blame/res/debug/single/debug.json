@@ -72,12 +72,12 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_circle_white_48dp.xml.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_circle_white_48dp.xml"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_notifications_black_24dp.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_circle_white_48dp.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add_circle_white_48dp.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",

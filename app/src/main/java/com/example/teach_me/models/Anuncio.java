@@ -69,7 +69,7 @@ public class Anuncio {
     public String toString() {
         return "ID: " + getCdAnuncio()
                 + "\nDescrição: " + getDescricao()
-                + "\nProfessor: " + getCdUsuario_Professor().getNmUsuario()
+                + "\nProfessor: " + getCdUsuario_Professor().getData().getNmUsuario()
                 + "\nQTD Alunos: " + getQtdAlunos()
                 + "\nDisciplina: " + getDisciplina().getNmDisciplina()
                 + "\nValor: " + getValor();

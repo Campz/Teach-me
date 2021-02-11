@@ -17,7 +17,7 @@ public class RetrofitClientInstance {
     public RetrofitClientInstance() {
         retrofit = new retrofit2.Retrofit.Builder()
                  .baseUrl(BASE_URL)
-                 .addConverterFactory(JacksonConverterFactory.create())
+                 .addConverterFactory(GsonConverterFactory.create())
                  .build();
 
     }

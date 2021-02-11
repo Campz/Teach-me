@@ -1,5 +1,6 @@
 package com.example.teach_me;
 
+import com.example.teach_me.api.UsuarioData;
 import com.example.teach_me.models.Anuncio;
 import com.example.teach_me.models.Disciplina;
 import com.example.teach_me.models.Tipo;
@@ -26,7 +27,8 @@ public class Repositorio {
     }
 
     public ArrayList<Usuario> getUsuarios(){
-        Usuario usuario = new Usuario("1","Ruan",null,null,null,null,"4.0",null,"https://i.imgur.com/VBPTe69.jpg",null);
+        Usuario usuario = new Usuario();
+        usuario.setData(new UsuarioData("1","Ruan",null,null,null,null,"4.0",null,"https://i.imgur.com/VBPTe69.jpg",null));
         usuarios.add(usuario);
         usuarios.add(usuario);
         usuarios.add(usuario);

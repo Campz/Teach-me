@@ -49,8 +49,8 @@ public class Aula {
     @Override
     public String toString() {
         return "ID: " + getAluno()
-                + "\nAluno: " + getAluno().getNmUsuario()
-                + "\nProfessor: " + getAnuncio().getCdUsuario_Professor().getNmUsuario()
+                + "\nAluno: " + getAluno().getData().getNmUsuario()
+                + "\nProfessor: " + getAnuncio().getCdUsuario_Professor().getData().getNmUsuario()
                 + "\nHorário: " + getHorario();
     }
 }
