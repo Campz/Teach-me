@@ -28,6 +28,8 @@
         android:name=".LoginActivity"
         android:theme="@style/Theme.AppCompat.NoActionBar">
     </activity>
+        <activity android:name=".ResultadosActivity" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
