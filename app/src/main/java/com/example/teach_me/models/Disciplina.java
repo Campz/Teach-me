@@ -1,45 +1,28 @@
 package com.example.teach_me.models;
 
+import com.example.teach_me.api.DisciplinaData;
+import com.example.teach_me.api.UsuarioData;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Disciplina {
 
-    private String cdDisciplina;
-    private String nmDisciplina;
-    private Tipo tipo;
+    @SerializedName("data")
+    @Expose
+    private DisciplinaData data;
 
-    public Disciplina(String cdDisciplina, String nmDisciplina, Tipo tipo) {
-        this.cdDisciplina = cdDisciplina;
-        this.nmDisciplina = nmDisciplina;
-        this.tipo = tipo;
+    public DisciplinaData getData() {
+        return data;
     }
 
-    public String getCdDisciplina() {
-        return cdDisciplina;
-    }
-
-    public void setCdDisciplina(String cdDisciplina) {
-        this.cdDisciplina = cdDisciplina;
-    }
-
-    public String getNmDisciplina() {
-        return nmDisciplina;
-    }
-
-    public void setNmDisciplina(String nmDisciplina) {
-        this.nmDisciplina = nmDisciplina;
-    }
-
-    public Tipo getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(Tipo tipo) {
-        this.tipo = tipo;
+    public void setData(DisciplinaData data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        return "ID: " + getCdDisciplina()
-                + "\nNome: " + getNmDisciplina()
-                + "\nTipo: " + getTipo().getNmTipo();
+        return "ID: " + data.getId()
+                + "\nNome: " + data.getNmDisciplina()
+                + "Tipo: " + data.getCdTipo();
     }
 }

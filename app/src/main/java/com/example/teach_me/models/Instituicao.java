@@ -1,45 +1,28 @@
 package com.example.teach_me.models;
 
+import com.example.teach_me.api.InstituicaoData;
+import com.example.teach_me.api.UsuarioData;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Instituicao {
 
-    private String cdInstituicao;
-    private String nmInstituicao;
-    private String endereco;
+    @SerializedName("data")
+    @Expose
+    private InstituicaoData data;
 
-    public Instituicao(String cdInstituicao, String nmInstituicao, String endereco) {
-        this.cdInstituicao = cdInstituicao;
-        this.nmInstituicao = nmInstituicao;
-        this.endereco = endereco;
+    public InstituicaoData getData() {
+        return data;
     }
 
-    public String getCdInstituicao() {
-        return cdInstituicao;
-    }
-
-    public void setCdInstituicao(String cdInstituicao) {
-        this.cdInstituicao = cdInstituicao;
-    }
-
-    public String getNmInstituicao() {
-        return nmInstituicao;
-    }
-
-    public void setNmInstituicao(String nmInstituicao) {
-        this.nmInstituicao = nmInstituicao;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setData(InstituicaoData data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        return "ID: " + getCdInstituicao()
-                + "\nNome: " + getNmInstituicao()
-                + "\nEndereço: " + getEndereco();
+        return "ID: " + data.getId()
+                + "\nNome: " + data.getNmInstituicao()
+                + "\nEndereço: " + data.getEndereco();
     }
 }

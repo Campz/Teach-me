@@ -57,11 +57,11 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
 
     @Override
     public void onBindViewHolder(@NonNull ResultadosHolder holder, int position) {
-        holder.txt_nmProfessor.setText(resultados.get(position).getCdUsuario_Professor().getData().getNmUsuario());
+       /* holder.txt_nmProfessor.setText(resultados.get(position).getCdUsuario_Professor().getData().getNmUsuario());
         holder.txt_nomeCurso.setText(resultados.get(position).getDisciplina().getNmDisciplina());
         holder.txt_nomeLocal.setText("CEFET-MG");
         holder.txt_preco.setText(resultados.get(position).getValor());
-        holder.txt_avaliacao.setText(resultados.get(position).getCdUsuario_Professor().getData().getAvaliacao());
+        holder.txt_avaliacao.setText(resultados.get(position).getCdUsuario_Professor().getData().getAvaliacao());*/
     }
 
     @Override

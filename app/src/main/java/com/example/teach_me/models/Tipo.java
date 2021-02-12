@@ -1,34 +1,26 @@
 package com.example.teach_me.models;
 
+import com.example.teach_me.api.TipoData;
+import com.example.teach_me.api.UsuarioData;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Tipo {
+    @SerializedName("data")
+    @Expose
+    private TipoData data;
 
-    private String cdTipo;
-    private String nmTipo;
-
-    public Tipo(String cdTipo, String nmTipo) {
-        this.cdTipo = cdTipo;
-        this.nmTipo = nmTipo;
+    public TipoData getData() {
+        return data;
     }
 
-    public String getCdTipo() {
-        return cdTipo;
-    }
-
-    public void setCdTipo(String cdTipo) {
-        this.cdTipo = cdTipo;
-    }
-
-    public String getNmTipo() {
-        return nmTipo;
-    }
-
-    public void setNmTipo(String nmTipo) {
-        this.nmTipo = nmTipo;
+    public void setData(TipoData data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        return "ID: " + getCdTipo()
-                + "\nTipo: " + getNmTipo();
+        return "ID: " + data.getId()
+                + "\nTipo: " + data.getNmInstituicao();
     }
 }

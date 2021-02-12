@@ -1,56 +1,28 @@
 package com.example.teach_me.models;
 
+import com.example.teach_me.api.AulaData;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Aula {
 
-    private int cdAula;
-    private Usuario aluno;
-    private Anuncio anuncio;
-    private String horario;
+    @SerializedName("data")
+    @Expose
+    private AulaData data;
 
-    public Aula(int cdAula, Usuario aluno, Anuncio anuncio, String horario) {
-        this.cdAula = cdAula;
-        this.aluno = aluno;
-        this.anuncio = anuncio;
-        this.horario = horario;
+    public AulaData getData() {
+        return data;
     }
 
-    public int getCdAula() {
-        return cdAula;
-    }
-
-    public void setCdAula(int cdAula) {
-        this.cdAula = cdAula;
-    }
-
-    public Usuario getAluno() {
-        return aluno;
-    }
-
-    public void setAluno(Usuario aluno) {
-        this.aluno = aluno;
-    }
-
-    public Anuncio getAnuncio() {
-        return anuncio;
-    }
-
-    public void setAnuncio(Anuncio anuncio) {
-        this.anuncio = anuncio;
-    }
-
-    public String getHorario() {
-        return horario;
-    }
-
-    public void setHorario(String horario) {
-        this.horario = horario;
+    public void setData(AulaData data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        return "ID: " + getAluno()
-                + "\nAluno: " + getAluno().getData().getNmUsuario()
-                + "\nProfessor: " + getAnuncio().getCdUsuario_Professor().getData().getNmUsuario()
-                + "\nHorário: " + getHorario();
+        return "ID: " + data.getId()
+                + "\nAluno: " + data.getCdUsuarioAluno()
+                + "\nAnúncio: " + data.getCdAnuncio()
+                + "\nHorário: " + data.getHorario();
     }
 }

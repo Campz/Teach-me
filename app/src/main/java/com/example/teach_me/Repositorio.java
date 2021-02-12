@@ -37,9 +37,9 @@ public class Repositorio {
     }
 
     public ArrayList<Anuncio> getAnuncios(){
-        Tipo tipo = new Tipo("1","Técnico");
-        Disciplina disciplina = new Disciplina("1","Informática",tipo);
-        Anuncio anuncio = new Anuncio("1","5","Aulas de informática para uma acefalo",disciplina,getUsuarios().get(0),"80");
+        Tipo tipo = new Tipo();
+        Disciplina disciplina = new Disciplina();
+        Anuncio anuncio = new Anuncio();
         anuncios.add(anuncio);
         anuncios.add(anuncio);
         anuncios.add(anuncio);

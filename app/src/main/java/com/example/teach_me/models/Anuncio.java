@@ -1,77 +1,28 @@
 package com.example.teach_me.models;
 
+import com.example.teach_me.api.AnuncioData;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 public class Anuncio {
-    private String cdAnuncio;
-    private String qtdAlunos;
-    private String descricao;
-    private Disciplina disciplina;
-    private Usuario cdUsuario_Professor;
-    private String valor;
+    @SerializedName("data")
+    @Expose
+    private AnuncioData data;
 
-    public Anuncio(String cdAnuncio, String qtdAlunos, String descricao, Disciplina disciplina, Usuario cdUsuario_Professor, String valor) {
-        this.cdAnuncio = cdAnuncio;
-        this.qtdAlunos = qtdAlunos;
-        this.descricao = descricao;
-        this.disciplina = disciplina;
-        this.cdUsuario_Professor = cdUsuario_Professor;
-        this.valor = valor;
+    public AnuncioData getData() {
+        return data;
     }
-
-    public String getCdAnuncio() {
-        return cdAnuncio;
-    }
-
-    public void setCdAnuncio(String cdAnuncio) {
-        this.cdAnuncio = cdAnuncio;
-    }
-
-    public String getQtdAlunos() {
-        return qtdAlunos;
-    }
-
-    public void setQtdAlunoso(String qtdAlunos) {
-        this.qtdAlunos = qtdAlunos;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public Disciplina getDisciplina() {
-        return disciplina;
-    }
-
-    public void setDisciplina(Disciplina disciplina) {
-        this.disciplina = disciplina;
-    }
-
-    public Usuario getCdUsuario_Professor() {
-        return cdUsuario_Professor;
-    }
-
-    public void setCdUsuario_Professor(Usuario cdUsuario_Professor) {
-        this.cdUsuario_Professor = cdUsuario_Professor;
-    }
-
-    public String getValor() {
-        return valor;
-    }
-
-    public void setValor(String valor) {
-        this.valor = valor;
+    public void setData(AnuncioData data) {
+        this.data = data;
     }
 
     @Override
     public String toString() {
-        return "ID: " + getCdAnuncio()
-                + "\nDescrição: " + getDescricao()
-                + "\nProfessor: " + getCdUsuario_Professor().getData().getNmUsuario()
-                + "\nQTD Alunos: " + getQtdAlunos()
-                + "\nDisciplina: " + getDisciplina().getNmDisciplina()
-                + "\nValor: " + getValor();
+        return "ID: " + data.getId()
+                + "\nDescrição: " + data.getDescricao()
+                + "\nProfessor: " + data.getCdUsuarioProfessor()
+                + "\nQTD Alunos: " + data.getQtdAlunos()
+                + "\nDisciplina: " + data.getCdDisciplina()
+                + "\nValor: " + data.getValor();
     }
 }

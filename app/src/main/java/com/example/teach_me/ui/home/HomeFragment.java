@@ -1,6 +1,7 @@
 package com.example.teach_me.ui.home;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +22,7 @@ import com.example.teach_me.DestaquesAdapter;
 import com.example.teach_me.R;
 import com.example.teach_me.Repositorio;
 import com.example.teach_me.RetrofitClientInstance;
+import com.example.teach_me.models.Tipo;
 import com.example.teach_me.models.Usuario;
 
 import java.util.ArrayList;
@@ -68,18 +70,18 @@ public class HomeFragment extends Fragment {
         bt_buscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call<Usuario> call = new RetrofitClientInstance().getUsuarioService().buscarUsuario("1");
-                call.enqueue(new Callback<Usuario>() {
+                Call<Tipo> call = new RetrofitClientInstance().getTipoService().buscarTipo("1");
+                call.enqueue(new Callback<Tipo>() {
                     @Override
-                    public void onResponse(Call<Usuario> call, Response<Usuario> response) {
-                        Usuario usu = response.body();
-                        System.out.println(usu.getData().getAvaliacao());
+                    public void onResponse(Call<Tipo> call, Response<Tipo> response) {
+                        Tipo tipo = response.body();
+                        System.out.println(tipo.getData().getEndereco());
                         Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
-                        txt_professores.setText(usu.getData().getNmUsuario());
+                        txt_professores.setText(tipo.getData().getNmInstituicao());
                     }
 
                     @Override
-                    public void onFailure(Call<Usuario> call, Throwable t) {
+                    public void onFailure(Call<Tipo> call, Throwable t) {
                         Toast.makeText(root.getContext(), t.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
