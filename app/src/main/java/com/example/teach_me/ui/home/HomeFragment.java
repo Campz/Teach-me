@@ -2,6 +2,7 @@ package com.example.teach_me.ui.home;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.util.LogPrinter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -75,9 +76,8 @@ public class HomeFragment extends Fragment {
                     @Override
                     public void onResponse(Call<Tipo> call, Response<Tipo> response) {
                         Tipo tipo = response.body();
-                        System.out.println(tipo.getData().getEndereco());
                         Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
-                        txt_professores.setText(tipo.getData().getNmInstituicao());
+                        txt_professores.setText(tipo.getData().getNmTipo());
                     }
 
                     @Override

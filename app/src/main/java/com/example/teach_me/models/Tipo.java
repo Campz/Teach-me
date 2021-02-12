@@ -21,6 +21,6 @@ public class Tipo {
     @Override
     public String toString() {
         return "ID: " + data.getId()
-                + "\nTipo: " + data.getNmInstituicao();
+                + "\nTipo: " + data.getNmTipo();
     }
 }

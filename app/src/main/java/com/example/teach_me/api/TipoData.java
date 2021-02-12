@@ -6,12 +6,9 @@ public class TipoData {
     @SerializedName("id")
     @Expose
     private Integer id;
-    @SerializedName("NmInstituicao")
+    @SerializedName("NmTipo")
     @Expose
-    private String nmInstituicao;
-    @SerializedName("Endereco")
-    @Expose
-    private String endereco;
+    private String nmTipo;
 
     public Integer getId() {
         return id;
@@ -21,20 +18,12 @@ public class TipoData {
         this.id = id;
     }
 
-    public String getNmInstituicao() {
-        return nmInstituicao;
+    public String getNmTipo() {
+        return nmTipo;
     }
 
-    public void setNmInstituicao(String nmInstituicao) {
-        this.nmInstituicao = nmInstituicao;
-    }
-
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setNmTipo(String nmTipo) {
+        this.nmTipo = nmTipo;
     }
 
 }
