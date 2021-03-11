@@ -1867,6 +1867,7 @@ id ignoreRequest
 id image
 id img_avaliacao
 id img_avatar
+id img_background
 id img_campo1
 id img_campo2
 id img_campo_disciplina
@@ -1973,6 +1974,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv_aulasRecentes
 id rv_categorias
 id rv_resultados
 id save_non_transition_alpha
@@ -2169,6 +2171,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_perfil
 layout activity_resultados
 layout custom_dialog
 layout design_bottom_navigation_item

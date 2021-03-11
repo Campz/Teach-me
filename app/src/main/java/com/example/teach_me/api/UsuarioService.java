@@ -13,6 +13,6 @@ public interface UsuarioService {
     @GET("usuario/{usuario}")
     Call<Usuario> buscarUsuario(@Path("usuario") String usuario);
 
-    @GET("usuario/{usuario}/")
+    @GET("usuario/{usuario}")
     Call<List<Usuario>> buscarListUsuario(@Path("usuario") String usuario);
 }

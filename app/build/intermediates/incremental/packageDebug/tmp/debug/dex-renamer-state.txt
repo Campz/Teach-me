@@ -1,4 +1,4 @@
-#Fri Feb 12 08:43:44 BRT 2021
-base.0=C\:\\Users\\ruank\\Documents\\GitHub\\Teach-me\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Thu Feb 18 13:46:20 BRST 2021
+base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

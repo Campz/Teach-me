@@ -20,9 +20,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.DestaquesAdapter;
+import com.example.teach_me.MainActivity;
 import com.example.teach_me.R;
 import com.example.teach_me.Repositorio;
+import com.example.teach_me.ResultadosAdapter;
 import com.example.teach_me.RetrofitClientInstance;
+import com.example.teach_me.models.Anuncio;
 import com.example.teach_me.models.Tipo;
 import com.example.teach_me.models.Usuario;
 
@@ -35,7 +38,9 @@ import retrofit2.Response;
 public class HomeFragment extends Fragment {
 
     ArrayList<Usuario> destaques;
+    ArrayList<Anuncio> anuncios;
     DestaquesAdapter destaquesAdapter;
+    ResultadosAdapter anunciosAdapter;
 
     private HomeViewModel homeViewModel;
 
@@ -65,28 +70,35 @@ public class HomeFragment extends Fragment {
         layout.setOrientation(RecyclerView.HORIZONTAL);
         lista_destaques.setLayoutManager(layout);
 
+        anuncios = Repositorio.getInstance().getAnuncios();
+        RecyclerView lista_anuncios = root.findViewById(R.id.rv_aulasRecentes);
+        anunciosAdapter  = new ResultadosAdapter(getContext(),anuncios);
+        lista_anuncios.setAdapter(anunciosAdapter);
+        lista_anuncios.setLayoutManager(new GridLayoutManager(getContext(),2));
+
+
         final TextView txt_professores = root.findViewById(R.id.txt_professores);
 
         Button bt_buscar = root.findViewById(R.id.bt_buscar);
-        bt_buscar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Call<Tipo> call = new RetrofitClientInstance().getTipoService().buscarTipo("1");
-                call.enqueue(new Callback<Tipo>() {
-                    @Override
-                    public void onResponse(Call<Tipo> call, Response<Tipo> response) {
-                        Tipo tipo = response.body();
-                        Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
-                        txt_professores.setText(tipo.getData().getNmTipo());
-                    }
-
-                    @Override
-                    public void onFailure(Call<Tipo> call, Throwable t) {
-                        Toast.makeText(root.getContext(), t.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                });
-            }
-        });
+//        bt_buscar.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Call<Tipo> call = new RetrofitClientInstance().getTipoService().buscarTipo("1");
+//                call.enqueue(new Callback<Tipo>() {
+//                    @Override
+//                    public void onResponse(Call<Tipo> call, Response<Tipo> response) {
+//                        Tipo tipo = response.body();
+//                        Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
+//                        txt_professores.setText(tipo.getData().getNmTipo());
+//                    }
+//
+//                    @Override
+//                    public void onFailure(Call<Tipo> call, Throwable t) {
+//                        Toast.makeText(root.getContext(), t.getMessage(), Toast.LENGTH_SHORT).show();
+//                    }
+//                });
+//            }
+//        });
 
         return root;
     }

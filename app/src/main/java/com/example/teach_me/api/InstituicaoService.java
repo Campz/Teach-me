@@ -1,5 +1,5 @@
 package com.example.teach_me.api;
-import com.example.teach_me.models.Instituicao;
+import com.example.teach_me.model.Instituicao;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

@@ -1,6 +1,6 @@
 package com.example.teach_me.api;
 
-import com.example.teach_me.models.Disciplina;
+import com.example.teach_me.model.Disciplina;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

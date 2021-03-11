@@ -36,6 +36,10 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
         <activity android:name="com.example.teach_me.ResultadosActivity" />
+        <activity
+            android:name="com.example.teach_me.PerfilActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
