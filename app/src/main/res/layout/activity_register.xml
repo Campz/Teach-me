@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    >
+
+    <ImageView
+        android:id="@+id/img_chapeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/img_campo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_chapeu_white" />
+
+    <ImageView
+        android:id="@+id/img_campo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <ImageView
+        android:id="@+id/img_campo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <ImageView
+        android:id="@+id/ic_login"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campo1"
+        app:layout_constraintStart_toStartOf="@+id/img_campo1"
+        app:layout_constraintTop_toTopOf="@+id/img_campo1"
+        app:srcCompat="@drawable/ic_person_white_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/ic_senha"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campo2"
+        app:layout_constraintStart_toStartOf="@+id/img_campo2"
+        app:layout_constraintTop_toTopOf="@+id/img_campo2"
+        app:srcCompat="@drawable/ic_https_white_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/editText_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPersonName|textPassword"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campo2"
+        app:layout_constraintStart_toEndOf="@+id/ic_senha"
+        app:layout_constraintTop_toTopOf="@+id/img_campo2" />
+
+    <EditText
+        android:id="@+id/editText_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campo1"
+        app:layout_constraintStart_toEndOf="@+id/ic_login"
+        app:layout_constraintTop_toTopOf="@+id/img_campo1" />
+
+    <Button
+        android:id="@+id/bt_registrar"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_white"
+        android:text="REGISTRAR"
+        android:textColor="#1D9869"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="472dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

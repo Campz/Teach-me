@@ -116,7 +116,9 @@ public class AppDataBase extends SQLiteOpenHelper {
         }
 
         return listUsuario;
-    }public List<Anuncio> getAllAnuncio(String tabela){
+    }
+
+    public List<Anuncio> getAllAnuncio(String tabela){
         database = getWritableDatabase();
         Anuncio anuncio;
         List<Anuncio> listAnuncio = new ArrayList<>();

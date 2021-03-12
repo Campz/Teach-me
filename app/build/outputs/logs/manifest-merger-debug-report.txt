@@ -13,23 +13,29 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\raf
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f543223d8dd1217edab7f57e00d5e19d\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f8f638b68ca0f29f26949eaab0872a7f\navigation-fragment-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cbc94dc96ef7dc4d021480c4c6978a23\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\5c75bd7951d359a85775620c0170e49e\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f5f514aefab3bab424b829f9c5a8fd3e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\92f8e3eea2413f9234d57f836e040f22\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\aace0d5da73d2c817f12bb96d6698e5c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1ebdab2cccca905a3cd28bb608703327\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f5f514aefab3bab424b829f9c5a8fd3e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\425a3b4cc1de7d50603c82a0fc3e6cf9\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\09d07a0b01ab7d621fbb80cf34417764\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\04b4bee64abcdc941e52d20b7d816c07\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\72816e9f5a8a15be444ab6c74cd0f185\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d10c5db191326413ed7baab3c30ebd6\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\445e3f50296ea649323f9e966091eecc\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\ad12b5d47f95c8d2598703c1b1f7c267\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\0408bc08863151ad5a41361bace418b5\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\bc729c8116a2f8d6433308d522d32805\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e6db2a8ebafb4101960628e4b20a9462\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\18e25bdaeb278667d7aef2960bdb2cf5\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\495dc0f2fa247d616fe68db13bf5e07d\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e6db2a8ebafb4101960628e4b20a9462\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\894e594515e4442846eed88e04967d51\navigation-runtime-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\d76bdbfbc13c44ef68b61971d9cabdc1\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\778c7beafaac0fbb8471cd539ca8541f\navigation-common-2.3.2\AndroidManifest.xml:17:1-24:12
@@ -81,8 +87,16 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rafav\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\92c0dc38ab14236f7b6eba66cf79139b\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cbc94dc96ef7dc4d021480c4c6978a23\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cbc94dc96ef7dc4d021480c4c6978a23\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\04b4bee64abcdc941e52d20b7d816c07\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\04b4bee64abcdc941e52d20b7d816c07\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.3.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c24177ae83091978e5c4ae83bccf2f01\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c24177ae83091978e5c4ae83bccf2f01\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\929ec10604c047a76453df3294ada6ae\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -103,12 +117,12 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.example.teach_me.MainActivity
+activity#view.MainActivity
 ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:17:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -119,22 +133,22 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:27-74
-activity#com.example.teach_me.LoginActivity
+activity#view.LoginActivity
 ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:27:5-30:16
 	android:theme
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:29:9-59
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:28:9-38
-activity#com.example.teach_me.ResultadosActivity
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:31:9-56
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:28:9-42
+activity#view.ResultadosActivity
+ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:31:9-60
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:31:19-53
-activity#com.example.teach_me.PerfilActivity
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:31:19-57
+activity#view.PerfilActivity
 ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:32:9-35:20
 	android:theme
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:34:13-69
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:33:13-43
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:33:13-47
 meta-data#preloaded_fonts
 ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:36:9-38:57
 	android:resource
@@ -163,10 +177,16 @@ MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\rafav\.grad
 MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f8f638b68ca0f29f26949eaab0872a7f\navigation-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cbc94dc96ef7dc4d021480c4c6978a23\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cbc94dc96ef7dc4d021480c4c6978a23\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\5c75bd7951d359a85775620c0170e49e\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\5c75bd7951d359a85775620c0170e49e\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f5f514aefab3bab424b829f9c5a8fd3e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f5f514aefab3bab424b829f9c5a8fd3e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\92f8e3eea2413f9234d57f836e040f22\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\92f8e3eea2413f9234d57f836e040f22\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\aace0d5da73d2c817f12bb96d6698e5c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -175,28 +195,34 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafav\.gradle\caches\tra
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\7d7fd0d2929b90b96150578fa61b2794\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1ebdab2cccca905a3cd28bb608703327\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1ebdab2cccca905a3cd28bb608703327\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f5f514aefab3bab424b829f9c5a8fd3e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f5f514aefab3bab424b829f9c5a8fd3e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\425a3b4cc1de7d50603c82a0fc3e6cf9\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\425a3b4cc1de7d50603c82a0fc3e6cf9\jetified-play-services-auth-api-phone-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\09d07a0b01ab7d621fbb80cf34417764\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\09d07a0b01ab7d621fbb80cf34417764\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\04b4bee64abcdc941e52d20b7d816c07\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\04b4bee64abcdc941e52d20b7d816c07\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\72816e9f5a8a15be444ab6c74cd0f185\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\72816e9f5a8a15be444ab6c74cd0f185\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d10c5db191326413ed7baab3c30ebd6\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d10c5db191326413ed7baab3c30ebd6\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\445e3f50296ea649323f9e966091eecc\transition-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\445e3f50296ea649323f9e966091eecc\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\cff0d1b30776eaeafd152d3c76e2da6a\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\ad12b5d47f95c8d2598703c1b1f7c267\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\ad12b5d47f95c8d2598703c1b1f7c267\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\0408bc08863151ad5a41361bace418b5\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\0408bc08863151ad5a41361bace418b5\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\bc729c8116a2f8d6433308d522d32805\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\bc729c8116a2f8d6433308d522d32805\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e6db2a8ebafb4101960628e4b20a9462\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e6db2a8ebafb4101960628e4b20a9462\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\18e25bdaeb278667d7aef2960bdb2cf5\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\18e25bdaeb278667d7aef2960bdb2cf5\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\495dc0f2fa247d616fe68db13bf5e07d\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\495dc0f2fa247d616fe68db13bf5e07d\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e6db2a8ebafb4101960628e4b20a9462\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e6db2a8ebafb4101960628e4b20a9462\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\894e594515e4442846eed88e04967d51\navigation-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\894e594515e4442846eed88e04967d51\navigation-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\d76bdbfbc13c44ef68b61971d9cabdc1\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -251,14 +277,48 @@ INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\And
 		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
 		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
 		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\e5b1f07f83b45f721d897256f1e1d49e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8af7b62d768f56f7e460e50ea4d36cda\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a58fc5e9e74fb00d40e64fbd86457ba4\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\f986765eaaf2f073dfaa5009816b9135\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\133d3390c58c70ac7467dd72c7251bfe\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities

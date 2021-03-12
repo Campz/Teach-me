@@ -23,7 +23,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.teach_me.MainActivity"
+            android:name="view.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,12 +32,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.teach_me.LoginActivity"
+            android:name="view.LoginActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
-        <activity android:name="com.example.teach_me.ResultadosActivity" />
+        <activity android:name="view.ResultadosActivity" />
         <activity
-            android:name="com.example.teach_me.PerfilActivity"
+            android:name="view.PerfilActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
 
@@ -45,10 +45,35 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.teach_me.com.squareup.picasso"
             android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.example.teach_me.lifecycle-process"
