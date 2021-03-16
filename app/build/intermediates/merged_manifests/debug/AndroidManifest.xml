@@ -22,7 +22,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="view.MainActivity"
+            android:name="com.example.teach_me.view.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,12 +31,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="view.LoginActivity"
+            android:name="com.example.teach_me.view.LoginActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
-        <activity android:name="view.ResultadosActivity" />
+        <activity android:name="com.example.teach_me.view.ResultadosActivity" />
         <activity
-            android:name="view.PerfilActivity"
+            android:name="com.example.teach_me.view.PerfilActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
 

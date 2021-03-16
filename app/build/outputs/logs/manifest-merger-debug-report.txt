@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\d34b248b52831c4ba8fe0e602648511d\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a1ec39e5a37eebee4d1a41e1ef28c58f\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\92c0dc38ab14236f7b6eba66cf79139b\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -58,29 +58,29 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\28efee2bf1e9a77f569846ad27f8a168\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\257179ec940acce9d9b9b9069652d215\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:3:5-35
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:1-41:12
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:1-41:12
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:8:5-39:19
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:8:5-39:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a1ec39e5a37eebee4d1a41e1ef28c58f\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a1ec39e5a37eebee4d1a41e1ef28c58f\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\92c0dc38ab14236f7b6eba66cf79139b\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -106,59 +106,59 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c24177ae83091978e5c4ae83bccf2f01\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:14:9-40
-activity#view.MainActivity
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:16:9-25:20
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.example.teach_me.view.MainActivity
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:18:13-45
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:17:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:27-74
-activity#view.LoginActivity
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:27:5-30:16
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.teach_me.view.LoginActivity
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:27:9-30:20
 	android:theme
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:29:9-59
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:29:9-59
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:28:9-42
-activity#view.ResultadosActivity
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:31:9-60
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:28:9-43
+activity#com.example.teach_me.view.ResultadosActivity
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:31:9-61
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:31:19-57
-activity#view.PerfilActivity
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:32:9-35:20
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:31:19-58
+activity#com.example.teach_me.view.PerfilActivity
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:32:9-35:20
 	android:theme
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:34:13-69
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:34:13-69
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:33:13-47
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:33:13-48
 meta-data#preloaded_fonts
-ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:36:9-38:57
+ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:36:9-38:57
 	android:resource
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:38:13-54
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:38:13-54
 	android:name
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:37:13-43
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml:37:13-43
 uses-sdk
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\d34b248b52831c4ba8fe0e602648511d\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\d34b248b52831c4ba8fe0e602648511d\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\a1ec39e5a37eebee4d1a41e1ef28c58f\material-1.2.1\AndroidManifest.xml:20:5-44
@@ -267,16 +267,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafav\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\c4e2469658fdd8801a5306110b0915fc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\257179ec940acce9d9b9b9069652d215\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\257179ec940acce9d9b9b9069652d215\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		ADDED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
-		INJECTED from D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		ADDED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
+		INJECTED from D:\rafav\Documents\AndroidStudioProjects\TeachMe-Sem-Erro\app\src\main\AndroidManifest.xml
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\1c4a677d2ace6c8f109ace3e104628ed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

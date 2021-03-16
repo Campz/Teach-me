@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\e6db2a8ebafb4101960628e4b20a9462\\media-1.0.0\\res\\values\\values.xml",
@@ -21,6 +21,25 @@
                     }
                 },
                 {
+                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "362"
+                    },
+                    "to": {
+                        "startLines": "1113",
+                        "startColumns": "4",
+                        "startOffsets": "74799",
+                        "endLines": "1118",
+                        "endColumns": "12",
+                        "endOffsets": "75099"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\1ebdab2cccca905a3cd28bb608703327\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -37,23 +56,6 @@
                         "endLines": "64,4688,5969,6058",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5990,312086,394729,399940"
-                    }
-                },
-                {
-                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "90,149",
-                        "endColumns": "57,55",
-                        "endOffsets": "143,200"
-                    },
-                    "to": {
-                        "startLines": "601,602",
-                        "startColumns": "4,4",
-                        "startOffsets": "35562,35620",
-                        "endColumns": "57,55",
-                        "endOffsets": "35615,35671"
                     }
                 },
                 {
@@ -114,20 +116,22 @@
                     }
                 },
                 {
-                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\src\\main\\res\\values\\font_certs.xml",
                     "from": {
-                        "startLines": "4,2,3,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "157,57,105,204,250",
-                        "endColumns": "45,46,50,44,45",
-                        "endOffsets": "198,99,151,244,291"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
                     },
                     "to": {
-                        "startLines": "421,422,423,424,425",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "23329,23375,23422,23473,23518",
-                        "endColumns": "45,46,50,44,45",
-                        "endOffsets": "23370,23417,23468,23513,23559"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -188,6 +192,23 @@
                     }
                 },
                 {
+                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,149",
+                        "endColumns": "57,55",
+                        "endOffsets": "143,200"
+                    },
+                    "to": {
+                        "startLines": "601,602",
+                        "startColumns": "4,4",
+                        "startOffsets": "35562,35620",
+                        "endColumns": "57,55",
+                        "endOffsets": "35615,35671"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\445e3f50296ea649323f9e966091eecc\\transition-1.3.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -205,22 +226,20 @@
                     }
                 },
                 {
-                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "157"
+                        "startLines": "1,4,5,3,2",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "17,174,221,119,64",
+                        "endColumns": "45,45,47,53,53",
+                        "endOffsets": "58,215,264,168,113"
                     },
                     "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "18",
-                        "endColumns": "12",
-                        "endOffsets": "3765"
+                        "startLines": "1014,1093,1094,1095,1096",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "61611,73459,73505,73553,73607",
+                        "endColumns": "45,45,47,53,53",
+                        "endOffsets": "61652,73500,73548,73602,73656"
                     }
                 },
                 {
@@ -317,6 +336,23 @@
                     }
                 },
                 {
+                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "157,57,105,204,250",
+                        "endColumns": "45,46,50,44,45",
+                        "endOffsets": "198,99,151,244,291"
+                    },
+                    "to": {
+                        "startLines": "421,422,423,424,425",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "23329,23375,23422,23473,23518",
+                        "endColumns": "45,46,50,44,45",
+                        "endOffsets": "23370,23417,23468,23513,23559"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\894e594515e4442846eed88e04967d51\\navigation-runtime-2.3.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -372,6 +408,25 @@
                     }
                 },
                 {
+                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\src\\main\\res\\values\\preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "3765"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\cff0d1b30776eaeafd152d3c76e2da6a\\recyclerview-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -407,61 +462,6 @@
                         "endLines": "4849,4856,4867,7138,7143",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "321470,321855,322452,463412,463682"
-                    }
-                },
-                {
-                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "362"
-                    },
-                    "to": {
-                        "startLines": "1113",
-                        "startColumns": "4",
-                        "startOffsets": "74799",
-                        "endLines": "1118",
-                        "endColumns": "12",
-                        "endOffsets": "75099"
-                    }
-                },
-                {
-                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\values\\font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "57,263,1993",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "257,1987,3582"
-                    },
-                    "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
-                    }
-                },
-                {
-                    "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,4,5,3,2",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "17,174,221,119,64",
-                        "endColumns": "45,45,47,53,53",
-                        "endOffsets": "58,215,264,168,113"
-                    },
-                    "to": {
-                        "startLines": "1014,1093,1094,1095,1096",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "61611,73459,73505,73553,73607",
-                        "endColumns": "45,45,47,53,53",
-                        "endOffsets": "61652,73500,73548,73602,73656"
                     }
                 }
             ]

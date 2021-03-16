@@ -11,7 +11,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.R;
-import com.example.teach_me.models.Anuncio;
+import com.example.teach_me.model.Anuncio;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

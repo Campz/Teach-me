@@ -14,7 +14,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.R;
-import com.example.teach_me.models.Usuario;
+import com.example.teach_me.model.Usuario;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -55,17 +55,17 @@ public class DestaquesAdapter extends RecyclerView.Adapter<DestaquesAdapter.Dest
 
     @Override
     public void onBindViewHolder(@NonNull DestaquesHolder holder, final int position) {
-        holder.nmUsuario.setText(destaques.get(position).getData().getNmUsuario());
-        holder.ratingBar.setRating(Float.parseFloat(destaques.get(position).getData().getAvaliacao()));
-        Picasso.get().load(destaques.get(position).getData().getFoto()).into(holder.fotoUsuario);
+        holder.nmUsuario.setText(destaques.get(position).getNmUsuario());
+        holder.ratingBar.setRating(Float.parseFloat(destaques.get(position).getAvaliacao()));
+        Picasso.get().load(destaques.get(position).getFoto()).into(holder.fotoUsuario);
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, PerfilActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.putExtra("NmUsuario",destaques.get(position).getData().getNmUsuario());
-                intent.putExtra("Avaliacao",destaques.get(position).getData().getAvaliacao());
-                intent.putExtra("Foto",destaques.get(position).getData().getFoto());
+                intent.putExtra("NmUsuario",destaques.get(position).getNmUsuario());
+                intent.putExtra("Avaliacao",destaques.get(position).getAvaliacao());
+                intent.putExtra("Foto",destaques.get(position).getFoto());
                 context.startActivity(intent);
             }
         });

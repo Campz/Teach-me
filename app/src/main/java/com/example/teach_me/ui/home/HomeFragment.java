@@ -19,15 +19,16 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.teach_me.DestaquesAdapter;
-import com.example.teach_me.MainActivity;
+import com.example.teach_me.controller.UsuarioController;
+import com.example.teach_me.view.DestaquesAdapter;
+import com.example.teach_me.view.MainActivity;
 import com.example.teach_me.R;
-import com.example.teach_me.Repositorio;
-import com.example.teach_me.ResultadosAdapter;
+import com.example.teach_me.view.Repositorio;
+import com.example.teach_me.view.ResultadosAdapter;
 import com.example.teach_me.RetrofitClientInstance;
-import com.example.teach_me.models.Anuncio;
-import com.example.teach_me.models.Tipo;
-import com.example.teach_me.models.Usuario;
+import com.example.teach_me.model.Anuncio;
+import com.example.teach_me.model.Tipo;
+import com.example.teach_me.model.Usuario;
 
 import java.util.ArrayList;
 
@@ -41,6 +42,7 @@ public class HomeFragment extends Fragment {
     ArrayList<Anuncio> anuncios;
     DestaquesAdapter destaquesAdapter;
     ResultadosAdapter anunciosAdapter;
+    UsuarioController usuarioController;
 
     private HomeViewModel homeViewModel;
 

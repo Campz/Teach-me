@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.teach_me.R;
-import com.example.teach_me.ResultadosActivity;
+import com.example.teach_me.view.ResultadosActivity;
 
 public class PesquisaFragment extends Fragment {
 

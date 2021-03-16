@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.R;
-import com.example.teach_me.models.Anuncio;
+import com.example.teach_me.model.Anuncio;
 
 import java.util.ArrayList;
 
@@ -18,7 +18,7 @@ public class ResultadosActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultados);
-        resultados = Repositorio.getInstance().getAnuncios();
+        //resultados = Repositorio.getInstance().getAnuncios();
         RecyclerView rv_anuncios = findViewById(R.id.rv_resultados);
         ResultadosAdapter resultadosAdapter = new ResultadosAdapter(this,resultados);
         rv_anuncios.setAdapter(resultadosAdapter);

@@ -25,6 +25,4 @@ public class AnuncioDataModel {
 
         return query_criar_tabela;
     }
-
-
 }

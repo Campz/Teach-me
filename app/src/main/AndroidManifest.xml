@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="view.MainActivity"
+            android:name=".view.MainActivity"
             android:label="@string/app_name">
 
             <intent-filter>
@@ -24,13 +24,13 @@
             </intent-filter>
         </activity>
 
-    <activity
-        android:name="view.LoginActivity"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
-    </activity>
-        <activity android:name="view.ResultadosActivity" />
         <activity
-            android:name="view.PerfilActivity"
+        android:name=".view.LoginActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity android:name=".view.ResultadosActivity" />
+        <activity
+            android:name=".view.PerfilActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
         <meta-data

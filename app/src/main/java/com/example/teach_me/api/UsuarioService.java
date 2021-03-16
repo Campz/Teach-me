@@ -1,6 +1,6 @@
 package com.example.teach_me.api;
 
-import com.example.teach_me.models.Usuario;
+import com.example.teach_me.model.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;

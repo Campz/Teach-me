@@ -141,5 +141,4 @@ public class AppDataBase extends SQLiteOpenHelper {
 
         return listAnuncio;
     }
-
 }

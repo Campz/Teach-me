@@ -1,7 +1,7 @@
 package com.example.teach_me.api;
 
-import com.example.teach_me.models.Anuncio;
-import com.example.teach_me.models.Usuario;
+import com.example.teach_me.model.Anuncio;
+import com.example.teach_me.model.Usuario;
 
 import java.util.List;
 

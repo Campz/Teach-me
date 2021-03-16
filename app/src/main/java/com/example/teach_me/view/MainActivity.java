@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.teach_me.R;
+import com.example.teach_me.controller.UsuarioController;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -30,7 +31,10 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-        Repositorio repositorio = Repositorio.getInstance();
+
+        //UsuarioController usuarioController = new UsuarioController(this.getApplicationContext());
+
+        //Repositorio repositorio = Repositorio.getInstance();
 
     }
 
