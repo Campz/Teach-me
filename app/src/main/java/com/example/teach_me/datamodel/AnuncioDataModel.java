@@ -17,9 +17,9 @@ public class AnuncioDataModel {
         query_criar_tabela += "CREATE TABLE " + TABELA + "( ";
         query_criar_tabela += ID + " integer primary key autoincrement, ";
         query_criar_tabela += QTDALUNOS + " text, ";
-        query_criar_tabela += DESCRICAO + " text";
-        query_criar_tabela += CDDISCIPLINA + " text";
-        query_criar_tabela += CDUSUARIOPROFESSOR + " text";
+        query_criar_tabela += DESCRICAO + " text,";
+        query_criar_tabela += CDDISCIPLINA + " text,";
+        query_criar_tabela += CDUSUARIOPROFESSOR + " text,";
         query_criar_tabela += VALOR + " text";
         query_criar_tabela += ")";
 

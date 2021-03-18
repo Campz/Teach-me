@@ -14,8 +14,8 @@ public class AulaDataModel {
         query_criar_tabela += "CREATE TABLE " + TABELA + "( ";
         query_criar_tabela += ID + " integer primary key autoincrement, ";
         query_criar_tabela += CDUSUARIOALUNO + " text, ";
-        query_criar_tabela += CDANUNCIO + " text";
-        query_criar_tabela += HORARIO + " text";
+        query_criar_tabela += CDANUNCIO + " text,";
+        query_criar_tabela += HORARIO + " text,";
         query_criar_tabela += ")";
 
         return query_criar_tabela;

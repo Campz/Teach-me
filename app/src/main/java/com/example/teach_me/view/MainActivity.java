@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
+        UsuarioController usuarioController = new UsuarioController(this.getApplicationContext());
 
-        //UsuarioController usuarioController = new UsuarioController(this.getApplicationContext());
 
         //Repositorio repositorio = Repositorio.getInstance();
 

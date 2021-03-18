@@ -1644,6 +1644,7 @@ drawable ic_caderno_black
 drawable ic_chapeu_black
 drawable ic_chapeu_white
 drawable ic_dashboard_black_24dp
+drawable ic_email_24dp
 drawable ic_estrela
 drawable ic_home_black_24dp
 drawable ic_home_white_24dp

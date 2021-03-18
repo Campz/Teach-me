@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.pesquisa.PesquisaFragment">
+    tools:context=".view.ui.pesquisa.PesquisaFragment">
 
     <ImageView
         android:id="@+id/img_campo_disciplina"

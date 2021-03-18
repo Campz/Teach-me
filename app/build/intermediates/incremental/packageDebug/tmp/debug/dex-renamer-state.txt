@@ -1,4 +1,4 @@
-#Tue Mar 16 19:29:01 BRT 2021
-base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\TeachMe-Sem-Erro\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Thu Mar 18 12:36:10 BRT 2021
+base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

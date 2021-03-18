@@ -11,7 +11,7 @@ public class TipoDataModel {
     public static String criarTabela() {
         query_criar_tabela += "CREATE TABLE " + TABELA + "( ";
         query_criar_tabela += ID + " integer primary key autoincrement, ";
-        query_criar_tabela += NMTIPO + " text, ";
+        query_criar_tabela += NMTIPO + " text ";
         query_criar_tabela += ")";
 
         return query_criar_tabela;
