@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.152" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/bt_novo_anuncio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"

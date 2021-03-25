@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_professor">
+        <item>Ruan Kenned</item>
+        <item>Rafael Campos</item>
+        <item>Arthur Zatta</item>
+        <item>Luiz Sei lá</item>
+        <item>Andressa</item>
+    </string-array>
+</resources>

@@ -11,6 +11,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.R;
+import com.example.teach_me.controller.DisciplinaController;
+import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Anuncio;
 import com.squareup.picasso.Picasso;
 
@@ -19,10 +21,14 @@ import java.util.List;
 public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.ResultadosHolder> {
     private Context context;
     private List<Anuncio> resultados;
+    private UsuarioController usuarioController;
+    private DisciplinaController disciplinaController;
 
     public ResultadosAdapter(Context context, List<Anuncio> resultados){
         this.context = context;
         this.resultados = resultados;
+        usuarioController = new UsuarioController(context);
+        disciplinaController = new DisciplinaController(context);
     }
 
     public static class ResultadosHolder extends RecyclerView.ViewHolder {
@@ -60,11 +66,16 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
     @Override
     public void onBindViewHolder(@NonNull ResultadosHolder holder, int position) {
         Picasso.get().load("https://i.imgur.com/MOVU8Im.jpg").into(holder.img_anuncio);
-       /* holder.txt_nmProfessor.setText(resultados.get(position).getCdUsuario_Professor().getData().getNmUsuario());
-        holder.txt_nomeCurso.setText(resultados.get(position).getDisciplina().getNmDisciplina());
-        holder.txt_nomeLocal.setText("CEFET-MG");
-        holder.txt_preco.setText(resultados.get(position).getValor());
-        holder.txt_avaliacao.setText(resultados.get(position).getCdUsuario_Professor().getData().getAvaliacao());*/
+        try {
+            holder.txt_nmProfessor.setText(usuarioController.getUsuario(resultados.get(position).getCdUsuarioProfessor()).getNmUsuario());
+            holder.txt_avaliacao.setText(usuarioController.getUsuario(resultados.get(position).getCdUsuarioProfessor()).getAvaliacao());
+            holder.txt_nomeCurso.setText(disciplinaController.getDisciplina(resultados.get(position).getCdDisciplina()).getNmDisciplina());
+            holder.txt_nomeLocal.setText("Cefet Timóteo");
+            String preço = "R$" + resultados.get(position).getValor() + "/h";
+            holder.txt_preco.setText(preço);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

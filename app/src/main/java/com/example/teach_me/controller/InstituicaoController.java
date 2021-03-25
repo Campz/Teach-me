@@ -3,11 +3,11 @@ package com.example.teach_me.controller;
 import android.content.ContentValues;
 import android.content.Context;
 
+import java.util.List;
+
 import com.example.teach_me.datamodel.InstituicaoDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Instituicao;
-
-import java.util.List;
 
 public class InstituicaoController extends AppDataBase implements ICRUD<Instituicao> {
 
@@ -41,6 +41,6 @@ public class InstituicaoController extends AppDataBase implements ICRUD<Institui
 
     @Override
     public List<Instituicao> listar() {
-        return null;
+        return getAllInstituicoes(InstituicaoDataModel.TABELA);
     }
 }

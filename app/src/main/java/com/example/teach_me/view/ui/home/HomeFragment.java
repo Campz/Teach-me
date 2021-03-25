@@ -1,5 +1,6 @@
 package com.example.teach_me.view.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,23 +17,40 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.teach_me.controller.AnuncioController;
 import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.view.DestaquesAdapter;
 import com.example.teach_me.R;
+import com.example.teach_me.view.LoginActivity;
+import com.example.teach_me.view.MainActivity;
+import com.example.teach_me.view.NovoAnuncioActivity;
 import com.example.teach_me.view.Repositorio;
 import com.example.teach_me.view.ResultadosAdapter;
 import com.example.teach_me.model.Anuncio;
 import com.example.teach_me.model.Usuario;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class HomeFragment extends Fragment {
 
-    ArrayList<Usuario> destaques;
-    ArrayList<Anuncio> anuncios;
+    View root;
+
+    List<Usuario> destaques;
+    List<Anuncio> anuncios;
+
     DestaquesAdapter destaquesAdapter;
     ResultadosAdapter anunciosAdapter;
+
     UsuarioController usuarioController;
+    AnuncioController anuncioController;
+
+    RecyclerView lista_destaques;
+    RecyclerView lista_anuncios;
+    TextView txt_professores;
+    Button bt_buscar;
+    FloatingActionButton bt_novo_anuncio;
 
     private HomeViewModel homeViewModel;
 
@@ -45,7 +63,7 @@ public class HomeFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
-        final View root = inflater.inflate(R.layout.fragment_home, container, false);
+        root = inflater.inflate(R.layout.fragment_home, container, false);
         //final TextView textView = root.findViewById(R.id.text_home);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
@@ -53,45 +71,44 @@ public class HomeFragment extends Fragment {
         //        textView.setText(s);
             }
         });
+        initComponents();
+        buttonsEvents();
 
-        destaques = Repositorio.getInstance().getUsuarios();
-        RecyclerView lista_destaques = root.findViewById(R.id.lista_destaques);
+        destaques = usuarioController.listar();
+
         destaquesAdapter = new DestaquesAdapter(getContext(),destaques);
         lista_destaques.setAdapter(destaquesAdapter);
         LinearLayoutManager layout = new LinearLayoutManager(getContext());
         layout.setOrientation(RecyclerView.HORIZONTAL);
         lista_destaques.setLayoutManager(layout);
 
-        anuncios = Repositorio.getInstance().getAnuncios();
-        RecyclerView lista_anuncios = root.findViewById(R.id.rv_aulasRecentes);
-        anunciosAdapter  = new ResultadosAdapter(getContext(),anuncios);
-        lista_anuncios.setAdapter(anunciosAdapter);
-        lista_anuncios.setLayoutManager(new GridLayoutManager(getContext(),2));
-
-
-        final TextView txt_professores = root.findViewById(R.id.txt_professores);
-
-        Button bt_buscar = root.findViewById(R.id.bt_buscar);
-//        bt_buscar.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Call<Tipo> call = new RetrofitClientInstance().getTipoService().buscarTipo("1");
-//                call.enqueue(new Callback<Tipo>() {
-//                    @Override
-//                    public void onResponse(Call<Tipo> call, Response<Tipo> response) {
-//                        Tipo tipo = response.body();
-//                        Toast.makeText(root.getContext(), "deu bom", Toast.LENGTH_SHORT).show();
-//                        txt_professores.setText(tipo.getData().getNmTipo());
-//                    }
+//        anuncios = anuncioController.listar();
 //
-//                    @Override
-//                    public void onFailure(Call<Tipo> call, Throwable t) {
-//                        Toast.makeText(root.getContext(), t.getMessage(), Toast.LENGTH_SHORT).show();
-//                    }
-//                });
-//            }
-//        });
+//        anunciosAdapter  = new ResultadosAdapter(getContext(),anuncios);
+//        lista_anuncios.setAdapter(anunciosAdapter);
+//        lista_anuncios.setLayoutManager(new GridLayoutManager(getContext(),2));
 
         return root;
+    }
+
+    private void buttonsEvents() {
+        bt_novo_anuncio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), NovoAnuncioActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void initComponents() {
+        lista_destaques = root.findViewById(R.id.lista_destaques);
+        lista_anuncios = root.findViewById(R.id.rv_aulasRecentes);
+        txt_professores = root.findViewById(R.id.txt_professores);
+        bt_buscar = root.findViewById(R.id.bt_buscar);
+        bt_novo_anuncio = root.findViewById(R.id.bt_novo_anuncio);
+
+        usuarioController = new UsuarioController(getContext());
+        anuncioController = new AnuncioController(getContext());
     }
 }

@@ -28,6 +28,16 @@
         android:name=".view.LoginActivity"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
+
+        <activity
+            android:name=".view.NovoAnuncioActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".view.RegistroActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
         <activity android:name=".view.ResultadosActivity" />
         <activity
             android:name=".view.PerfilActivity"

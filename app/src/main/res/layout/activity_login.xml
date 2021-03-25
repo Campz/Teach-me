@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login"
+    android:transitionName="chapeu"
     >
 
     <ImageView
@@ -156,6 +157,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="12dp"
+        android:clickable="true"
         android:text="Registre-se"
         android:textColor="#FFFFFF"
         android:textSize="16sp"

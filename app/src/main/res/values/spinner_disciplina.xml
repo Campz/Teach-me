@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_disciplina">
+        <item>Cálculo I</item>
+        <item>Cálculo II</item>
+        <item>Cálculo III</item>
+        <item>Cálculo IV</item>
+        <item>Geometria Analítica e Álgebra Vetorail</item>
+        <item>Programação de Computadores I</item>
+        <item>Programação de Computadores II</item>
+        <item>Algoritmos e Estruturas de Dados I</item>
+        <item>Algoritmos e Estruturas de Dados II</item>
+        <item>Física I</item>
+        <item>Física II</item>
+        <item>Física III</item>
+    </string-array>
+</resources>

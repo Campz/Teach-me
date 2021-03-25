@@ -64,6 +64,8 @@ array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
+array spinner_disciplina
+array spinner_professor
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1639,8 +1641,10 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_add_blue_64dp
 drawable ic_add_circle_white_48dp
+drawable ic_back_24
 drawable ic_book_white_24dp
 drawable ic_caderno_black
+drawable ic_calendar_24
 drawable ic_chapeu_black
 drawable ic_chapeu_white
 drawable ic_dashboard_black_24dp
@@ -1660,6 +1664,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_person_black_24dp
 drawable ic_person_white_24dp
+drawable ic_school_24
 drawable ic_search_white_24dp
 drawable img_capa
 drawable img_retangulo_amarelo
@@ -1789,10 +1794,14 @@ id beginning
 id blocking
 id bottom
 id bounce
+id bt_back
 id bt_buscar
+id bt_cadastrarAnuncio
+id bt_cancelar_anuncio
 id bt_facebook
 id bt_google
 id bt_login
+id bt_novo_anuncio
 id bt_registrar
 id buttonPanel
 id cache_measures
@@ -1858,9 +1867,16 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editText_DtNascimento
+id editText_Instituicao
+id editText_anuncio_descricao
+id editText_anuncio_qtAlunos
+id editText_anuncio_valor
 id editText_disciplina
+id editText_email
 id editText_instituicao
 id editText_login
+id editText_nome
 id editText_senha
 id edit_query
 id end
@@ -1879,7 +1895,6 @@ id fitToContents
 id fixed
 id flip
 id floating
-id floatingActionButton
 id forever
 id fragment_container_view_tag
 id ghost_view
@@ -1894,13 +1909,17 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id ic_DtNascimento
+id ic_Instituicao
 id ic_bio
 id ic_curso
 id ic_disciplina
+id ic_email
 id ic_estrela
 id ic_linkedin
 id ic_local
 id ic_login
+id ic_nome
 id ic_senha
 id icon
 id icon_group
@@ -1914,6 +1933,10 @@ id img_avatar
 id img_background
 id img_campo1
 id img_campo2
+id img_campo3
+id img_campo4
+id img_campo5
+id img_campo6
 id img_campo_disciplina
 id img_campo_instituicao
 id img_capa
@@ -2057,6 +2080,8 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner_disciplina
+id spinner_professor
 id spline
 id split_action_bar
 id spread
@@ -2134,6 +2159,7 @@ id txt_nome
 id txt_nomecurso
 id txt_nomelocal
 id txt_nomeprof
+id txt_novo_anuncio
 id txt_ou
 id txt_preco
 id txt_professores
@@ -2218,6 +2244,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_novo_anuncio
 layout activity_perfil
 layout activity_register
 layout activity_resultados
@@ -3256,6 +3283,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+transition explode
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

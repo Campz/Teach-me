@@ -57,7 +57,9 @@ public class DestaquesAdapter extends RecyclerView.Adapter<DestaquesAdapter.Dest
     public void onBindViewHolder(@NonNull DestaquesHolder holder, final int position) {
         holder.nmUsuario.setText(destaques.get(position).getNmUsuario());
         holder.ratingBar.setRating(Float.parseFloat(destaques.get(position).getAvaliacao()));
-        Picasso.get().load(destaques.get(position).getFoto()).into(holder.fotoUsuario);
+        if(destaques.get(position).getFoto() != null){
+             Picasso.get().load(destaques.get(position).getFoto()).into(holder.fotoUsuario);
+        }
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

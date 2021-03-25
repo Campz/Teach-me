@@ -2,11 +2,13 @@ package com.example.teach_me.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
+
+import java.util.List;
+
 import com.example.teach_me.datamodel.AnuncioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Anuncio;
 
-import java.util.List;
 
 public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
 
@@ -46,6 +48,6 @@ public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
 
     @Override
     public List<Anuncio> listar() {
-        return getAllAnuncio(AnuncioDataModel.TABELA);
+        return getAllAnuncios(AnuncioDataModel.TABELA);
     }
 }

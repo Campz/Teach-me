@@ -2,6 +2,7 @@ package com.example.teach_me.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
+
 import com.example.teach_me.datamodel.AulaDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Aula;
@@ -42,6 +43,6 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
 
     @Override
     public List<Aula> listar() {
-        return null;
+        return getAllAulas(AulaDataModel.TABELA);
     }
 }

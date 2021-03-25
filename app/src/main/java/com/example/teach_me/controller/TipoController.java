@@ -3,11 +3,11 @@ package com.example.teach_me.controller;
 import android.content.ContentValues;
 import android.content.Context;
 
+import java.util.List;
+
 import com.example.teach_me.datamodel.TipoDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Tipo;
-
-import java.util.List;
 
 public class TipoController extends AppDataBase implements ICRUD<Tipo> {
 
@@ -39,6 +39,6 @@ public class TipoController extends AppDataBase implements ICRUD<Tipo> {
 
     @Override
     public List<Tipo> listar() {
-        return null;
+        return getAllTipos(TipoDataModel.TABELA);
     }
 }

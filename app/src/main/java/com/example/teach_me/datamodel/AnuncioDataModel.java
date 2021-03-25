@@ -11,15 +11,15 @@ public class AnuncioDataModel {
     public static final String CDUSUARIOPROFESSOR = "cdUsuarioProfessor";
     public static final String VALOR = "valor";
 
-    public static  String query_criar_tabela = "";
+    public static String query_criar_tabela = "";
 
     public static String criarTabela(){
-        query_criar_tabela += "CREATE TABLE " + TABELA + "( ";
+        query_criar_tabela += "CREATE TABLE IF NOT EXISTS " + TABELA + "( ";
         query_criar_tabela += ID + " integer primary key autoincrement, ";
         query_criar_tabela += QTDALUNOS + " text, ";
-        query_criar_tabela += DESCRICAO + " text,";
-        query_criar_tabela += CDDISCIPLINA + " text,";
-        query_criar_tabela += CDUSUARIOPROFESSOR + " text,";
+        query_criar_tabela += DESCRICAO + " text, ";
+        query_criar_tabela += CDDISCIPLINA + " integer, ";
+        query_criar_tabela += CDUSUARIOPROFESSOR + " integer, ";
         query_criar_tabela += VALOR + " text";
         query_criar_tabela += ")";
 

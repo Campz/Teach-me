@@ -3,11 +3,11 @@ package com.example.teach_me.controller;
 import android.content.ContentValues;
 import android.content.Context;
 
+import java.util.List;
+
 import com.example.teach_me.datamodel.UsuarioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Usuario;
-
-import java.util.List;
 
 public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
 
@@ -55,6 +55,10 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
 
     @Override
     public List<Usuario> listar() {
-        return null;
+        return getAllUsuarios(UsuarioDataModel.TABELA);
+    }
+
+    public Usuario getUsuario(Integer id)throws Exception{
+        return getUsuario(UsuarioDataModel.TABELA,id);
     }
 }

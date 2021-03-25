@@ -21,13 +21,18 @@ public class PerfilActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_perfil);
-        img_perfil = findViewById(R.id.img_perfil);
-        txt_NmUsuario = findViewById(R.id.textView);
-        avaliacao = findViewById(R.id.ratingBar_avaliacao);
+        initComponents();
+
         Intent intent = getIntent();
         Picasso.get().load(intent.getExtras().getString("Foto")).into(img_perfil);
         txt_NmUsuario.setText(intent.getExtras().getString("NmUsuario"));
         avaliacao.setRating(Float.parseFloat(intent.getExtras().getString("Avaliacao")));
 
+    }
+
+    private void initComponents() {
+        img_perfil = findViewById(R.id.img_perfil);
+        txt_NmUsuario = findViewById(R.id.textView);
+        avaliacao = findViewById(R.id.ratingBar_avaliacao);
     }
 }

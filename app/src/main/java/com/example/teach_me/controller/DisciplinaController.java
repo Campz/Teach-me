@@ -3,11 +3,11 @@ package com.example.teach_me.controller;
 import android.content.ContentValues;
 import android.content.Context;
 
+import java.util.List;
+
 import com.example.teach_me.datamodel.DisciplinaDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Disciplina;
-
-import java.util.List;
 
 public class DisciplinaController extends AppDataBase implements ICRUD<Disciplina> {
 
@@ -41,6 +41,10 @@ public class DisciplinaController extends AppDataBase implements ICRUD<Disciplin
 
     @Override
     public List<Disciplina> listar() {
-        return null;
+        return getAllDisciplinas(DisciplinaDataModel.TABELA);
+    }
+
+    public Disciplina getDisciplina(Integer id) throws Exception {
+        return getDisciplina(DisciplinaDataModel.TABELA, id);
     }
 }
