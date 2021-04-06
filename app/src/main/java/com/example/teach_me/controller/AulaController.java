@@ -23,6 +23,10 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
         dados.put(AulaDataModel.CDUSUARIOALUNO, o.getCdUsuarioAluno());
         dados.put(AulaDataModel.CDANUNCIO, o.getCdAnuncio());
         dados.put(AulaDataModel.HORARIO, o.getHorario());
+        dados.put(AulaDataModel.TITULO, o.getTitulo());
+        dados.put(AulaDataModel.DESCRICAO, o.getDescricao());
+        dados.put(AulaDataModel.AVALIACAO, o.getAvaliacao());
+        dados.put(AulaDataModel.ISAVALIADO, o.getIsAvaliado());
         return insert(AulaDataModel.TABELA, dados);
     }
 
@@ -33,6 +37,10 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
         dados.put(AulaDataModel.CDUSUARIOALUNO, o.getCdUsuarioAluno());
         dados.put(AulaDataModel.CDANUNCIO, o.getCdAnuncio());
         dados.put(AulaDataModel.HORARIO, o.getHorario());
+        dados.put(AulaDataModel.TITULO, o.getTitulo());
+        dados.put(AulaDataModel.DESCRICAO, o.getDescricao());
+        dados.put(AulaDataModel.AVALIACAO, o.getAvaliacao());
+        dados.put(AulaDataModel.ISAVALIADO, o.getIsAvaliado());
         return update(AulaDataModel.TABELA, dados);
     }
 

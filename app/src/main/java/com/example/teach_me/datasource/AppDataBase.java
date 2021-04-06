@@ -141,6 +141,10 @@ public class AppDataBase extends SQLiteOpenHelper {
                 a = new Aula();
                 a.setId(cursor.getInt(cursor.getColumnIndex(AulaDataModel.ID)));
                 a.setHorario(cursor.getString(cursor.getColumnIndex(AulaDataModel.HORARIO)));
+                a.setTitulo(cursor.getString(cursor.getColumnIndex(AulaDataModel.TITULO)));
+                a.setDescricao(cursor.getString(cursor.getColumnIndex(AulaDataModel.DESCRICAO)));
+                a.setAvaliacao(cursor.getDouble(cursor.getColumnIndex(AulaDataModel.AVALIACAO)));
+                a.setIsAvaliado(cursor.getInt(cursor.getColumnIndex(AulaDataModel.ISAVALIADO)));
                 a.setCdAnuncio(cursor.getInt(cursor.getColumnIndex(AulaDataModel.CDANUNCIO)));
                 a.setCdUsuarioAluno(cursor.getInt(cursor.getColumnIndex(AulaDataModel.CDUSUARIOALUNO)));
                 aulas.add(a);

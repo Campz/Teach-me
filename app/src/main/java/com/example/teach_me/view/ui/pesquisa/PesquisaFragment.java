@@ -159,9 +159,9 @@ public class PesquisaFragment extends Fragment {
                 }
 
                 if(anuncios.size() == 0){
-                    Toast.makeText(root.getContext(), "Nenhum registro encontrado!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "Nenhum registro encontrado!", Toast.LENGTH_LONG).show();
                 }else{
-                    Toast.makeText(root.getContext(), "GGGGGGGGGGGGG!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "GGGGGGGGGGGGG!", Toast.LENGTH_LONG).show();
                 }
             }
         });
