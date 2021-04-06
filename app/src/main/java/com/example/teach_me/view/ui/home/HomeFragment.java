@@ -108,7 +108,7 @@ public class HomeFragment extends Fragment {
         bt_buscar = root.findViewById(R.id.bt_buscar);
         bt_novo_anuncio = root.findViewById(R.id.bt_novo_anuncio);
 
-        usuarioController = new UsuarioController(getContext());
+        usuarioController = UsuarioController.getInstance(getContext());
         anuncioController = new AnuncioController(getContext());
     }
 }

@@ -1,48 +1,44 @@
 com/example/teach_me/api/AulaService.java
  com.example.teach_me.api.AulaService
-com/example/teach_me/view/PerfilActivity.java
- com.example.teach_me.view.PerfilActivity
-com/example/teach_me/view/DestaquesAdapter.java
- com.example.teach_me.view.DestaquesAdapter
- com.example.teach_me.view.DestaquesAdapter$1
- com.example.teach_me.view.DestaquesAdapter$DestaquesHolder
+com/example/teach_me/api/UsuarioService.java
+ com.example.teach_me.api.UsuarioService
+com/example/teach_me/model/Usuario.java
+ com.example.teach_me.model.Usuario
 com/example/teach_me/api/AnuncioService.java
  com.example.teach_me.api.AnuncioService
 com/example/teach_me/view/Repositorio.java
  com.example.teach_me.view.Repositorio
 com/example/teach_me/model/Anuncio.java
  com.example.teach_me.model.Anuncio
-com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
- com.example.teach_me.view.ui.pesquisa.PesquisaFragment
- com.example.teach_me.view.ui.pesquisa.PesquisaFragment$1
+com/example/teach_me/view/ui/perfil/PerfilFragment.java
+ com.example.teach_me.view.ui.perfil.PerfilFragment
 com/example/teach_me/RetrofitClientInstance.java
  com.example.teach_me.RetrofitClientInstance
 com/example/teach_me/model/Tipo.java
  com.example.teach_me.model.Tipo
-com/example/teach_me/view/ui/aulas/AulasViewModel.java
- com.example.teach_me.view.ui.aulas.AulasViewModel
+com/example/teach_me/api/InstituicaoData.java
+ com.example.teach_me.api.InstituicaoData
 com/example/teach_me/api/TipoService.java
  com.example.teach_me.api.TipoService
-com/example/teach_me/view/DatePickerFragment.java
- com.example.teach_me.view.DatePickerFragment
-com/example/teach_me/view/ui/aulas/AulasFragment.java
- com.example.teach_me.view.ui.aulas.AulasFragment
-com/example/teach_me/view/ui/perfil/PerfilFragment.java
- com.example.teach_me.view.ui.perfil.PerfilFragment
-com/example/teach_me/api/InstituicaoService.java
- com.example.teach_me.api.InstituicaoService
-com/example/teach_me/view/ui/pesquisa/PesquisaViewModel.java
- com.example.teach_me.view.ui.pesquisa.PesquisaViewModel
-com/example/teach_me/view/LoginActivity.java
- com.example.teach_me.view.LoginActivity
- com.example.teach_me.view.LoginActivity$1
- com.example.teach_me.view.LoginActivity$2
+com/example/teach_me/view/PerfilActivity.java
+ com.example.teach_me.view.PerfilActivity
 com/example/teach_me/datamodel/UsuarioDataModel.java
  com.example.teach_me.datamodel.UsuarioDataModel
-com/example/teach_me/model/Instituicao.java
- com.example.teach_me.model.Instituicao
+com/example/teach_me/view/ui/aulas/AulasViewModel.java
+ com.example.teach_me.view.ui.aulas.AulasViewModel
+com/example/teach_me/view/DatePickerFragment.java
+ com.example.teach_me.view.DatePickerFragment
+com/example/teach_me/view/ui/pesquisa/PesquisaViewModel.java
+ com.example.teach_me.view.ui.pesquisa.PesquisaViewModel
 com/example/teach_me/api/DisciplinaData.java
  com.example.teach_me.api.DisciplinaData
+com/example/teach_me/view/ui/perfil/PerfilViewModel.java
+ com.example.teach_me.view.ui.perfil.PerfilViewModel
+com/example/teach_me/model/Instituicao.java
+ com.example.teach_me.model.Instituicao
+com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
+ com.example.teach_me.view.ui.pesquisa.PesquisaFragment
+ com.example.teach_me.view.ui.pesquisa.PesquisaFragment$1
 com/example/teach_me/api/UsuarioData.java
  com.example.teach_me.api.UsuarioData
 com/example/teach_me/api/TipoData.java
@@ -51,10 +47,10 @@ com/example/teach_me/datamodel/InstituicaoDataModel.java
  com.example.teach_me.datamodel.InstituicaoDataModel
 com/example/teach_me/datamodel/AulaDataModel.java
  com.example.teach_me.datamodel.AulaDataModel
-com/example/teach_me/view/ui/perfil/PerfilViewModel.java
- com.example.teach_me.view.ui.perfil.PerfilViewModel
-com/example/teach_me/model/Usuario.java
- com.example.teach_me.model.Usuario
+com/example/teach_me/datamodel/DisciplinaDataModel.java
+ com.example.teach_me.datamodel.DisciplinaDataModel
+com/example/teach_me/api/InstituicaoService.java
+ com.example.teach_me.api.InstituicaoService
 com/example/teach_me/model/Aula.java
  com.example.teach_me.model.Aula
 com/example/teach_me/model/Disciplina.java
@@ -63,26 +59,32 @@ com/example/teach_me/controller/ICRUD.java
  com.example.teach_me.controller.ICRUD
 com/example/teach_me/api/DisciplinaService.java
  com.example.teach_me.api.DisciplinaService
+com/example/teach_me/view/ImagemPerfilActivity.java
+ com.example.teach_me.view.ImagemPerfilActivity
+ com.example.teach_me.view.ImagemPerfilActivity$1
 com/example/teach_me/api/AppUltil.java
  com.example.teach_me.api.AppUltil
-com/example/teach_me/datamodel/AnuncioDataModel.java
- com.example.teach_me.datamodel.AnuncioDataModel
+com/example/teach_me/view/ui/aulas/AulasFragment.java
+ com.example.teach_me.view.ui.aulas.AulasFragment
 com/example/teach_me/view/ui/home/HomeViewModel.java
  com.example.teach_me.view.ui.home.HomeViewModel
-com/example/teach_me/api/UsuarioService.java
- com.example.teach_me.api.UsuarioService
+com/example/teach_me/view/DestaquesAdapter.java
+ com.example.teach_me.view.DestaquesAdapter
+ com.example.teach_me.view.DestaquesAdapter$1
+ com.example.teach_me.view.DestaquesAdapter$DestaquesHolder
 com/example/teach_me/api/AulaData.java
  com.example.teach_me.api.AulaData
-com/example/teach_me/api/InstituicaoData.java
- com.example.teach_me.api.InstituicaoData
+com/example/teach_me/datamodel/AnuncioDataModel.java
+ com.example.teach_me.datamodel.AnuncioDataModel
 com/example/teach_me/datamodel/TipoDataModel.java
  com.example.teach_me.datamodel.TipoDataModel
 com/example/teach_me/BuildConfig.java
  com.example.teach_me.BuildConfig
 com/example/teach_me/api/AnuncioData.java
  com.example.teach_me.api.AnuncioData
-com/example/teach_me/datamodel/DisciplinaDataModel.java
- com.example.teach_me.datamodel.DisciplinaDataModel
+com/example/teach_me/view/ResultadosAdapter.java
+ com.example.teach_me.view.ResultadosAdapter
+ com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
 com/example/teach_me/view/RegistroActivity.java
  com.example.teach_me.view.RegistroActivity
  com.example.teach_me.view.RegistroActivity$1
@@ -91,30 +93,32 @@ com/example/teach_me/datasource/AppDataBase.java
  com.example.teach_me.datasource.AppDataBase
 com/example/teach_me/controller/DisciplinaController.java
  com.example.teach_me.controller.DisciplinaController
-com/example/teach_me/controller/TipoController.java
- com.example.teach_me.controller.TipoController
 com/example/teach_me/view/NovoAnuncioActivity.java
  com.example.teach_me.view.NovoAnuncioActivity
  com.example.teach_me.view.NovoAnuncioActivity$1
  com.example.teach_me.view.NovoAnuncioActivity$2
+com/example/teach_me/view/ResultadosActivity.java
+ com.example.teach_me.view.ResultadosActivity
 com/example/teach_me/controller/UsuarioController.java
  com.example.teach_me.controller.UsuarioController
 com/example/teach_me/controller/AnuncioController.java
  com.example.teach_me.controller.AnuncioController
-com/example/teach_me/Repositorio.java
- com.example.teach_me.Repositorio
+com/example/teach_me/view/ui/home/HomeFragment.java
+ com.example.teach_me.view.ui.home.HomeFragment
+ com.example.teach_me.view.ui.home.HomeFragment$1
+ com.example.teach_me.view.ui.home.HomeFragment$2
 com/example/teach_me/controller/AulaController.java
  com.example.teach_me.controller.AulaController
 com/example/teach_me/view/MainActivity.java
  com.example.teach_me.view.MainActivity
 com/example/teach_me/controller/InstituicaoController.java
  com.example.teach_me.controller.InstituicaoController
-com/example/teach_me/view/ResultadosActivity.java
- com.example.teach_me.view.ResultadosActivity
-com/example/teach_me/view/ResultadosAdapter.java
- com.example.teach_me.view.ResultadosAdapter
- com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
-com/example/teach_me/view/ui/home/HomeFragment.java
- com.example.teach_me.view.ui.home.HomeFragment
- com.example.teach_me.view.ui.home.HomeFragment$1
- com.example.teach_me.view.ui.home.HomeFragment$2
+com/example/teach_me/controller/TipoController.java
+ com.example.teach_me.controller.TipoController
+com/example/teach_me/view/LoginActivity.java
+ com.example.teach_me.view.LoginActivity
+ com.example.teach_me.view.LoginActivity$1
+ com.example.teach_me.view.LoginActivity$2
+ com.example.teach_me.view.LoginActivity$3
+com/example/teach_me/Repositorio.java
+ com.example.teach_me.Repositorio

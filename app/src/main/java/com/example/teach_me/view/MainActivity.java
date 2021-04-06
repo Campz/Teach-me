@@ -32,6 +32,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static Usuario usuarioLogado;
+
     TipoController tipoController;
     AulaController aulaController;
     AnuncioController anuncioController;
@@ -72,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             Repositorio.povoamentoDisciplina(disciplinaController);
         Toast.makeText(MainActivity.this, "Importação de DISCIPLINAS", Toast.LENGTH_LONG).show();
 
-        usuarioController = new UsuarioController(this.getApplicationContext());
+        usuarioController = UsuarioController.getInstance(this.getApplicationContext());
         if(usuarioController.listar().size() == 0)
             Repositorio.povoamentoUsuario(usuarioController);
         Toast.makeText(MainActivity.this, "Importação de USUÁRIOS", Toast.LENGTH_LONG).show();

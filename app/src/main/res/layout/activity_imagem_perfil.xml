@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_wave_baixo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_wave_perfilimagem_baixo" />
+
+    <ImageView
+        android:id="@+id/img_wave_cima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitEnd"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_wave_perfilimage_cima" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_upload_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:src="@drawable/ic_upload_image"
+        app:layout_constraintBottom_toTopOf="@+id/bt_confirmar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_adicione" />
+
+    <TextView
+        android:id="@+id/txt_adicione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:fontFamily="@font/champagne_e_limousines"
+        android:text="Adicione uma foto de perfil"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ola" />
+
+    <Button
+        android:id="@+id/bt_confirmar"
+        android:layout_width="195dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_background"
+        android:text="Confirmar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_ola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Olá Usuário!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bt_pular_imagem"
+        android:layout_width="64dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:scaleType="center"
+        app:backgroundTint="#FFFFFF"
+        app:fabCustomSize="80dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="32dp"
+        app:srcCompat="@drawable/ic_arrow_forward_blue_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

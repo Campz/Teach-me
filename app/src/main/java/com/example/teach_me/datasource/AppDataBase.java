@@ -150,7 +150,7 @@ public class AppDataBase extends SQLiteOpenHelper {
         return aulas;
     }
 
-    public Disciplina getDisciplina(String tabela, Integer id) throws Exception {
+    public Disciplina getDisciplinaById(String tabela, Integer id) throws Exception {
         database = getWritableDatabase();
         Disciplina disciplina = null;
         String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".ID = " + id.toString();
@@ -236,7 +236,7 @@ public class AppDataBase extends SQLiteOpenHelper {
         return tipos;
     }
 
-    public Usuario getUsuario(String tabela, Integer id) throws Exception {
+    public Usuario getUsuarioById(String tabela, Integer id) throws Exception {
         database = getWritableDatabase();
         Usuario usuario = null;
         String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".ID = " + id.toString();
@@ -259,7 +259,37 @@ public class AppDataBase extends SQLiteOpenHelper {
             }while(cursor.moveToNext());
         }
         if (usuario == null){
-            throw new Exception("NÃO EXISTE NO BANCO");
+            throw new Exception("USUÁRIO NÃO ENCONTRADO");
+        }else{
+            return usuario;
+        }
+    }
+
+    public Usuario getUsuarioByLogin(String tabela, String login, String senha) throws Exception {
+        database = getWritableDatabase();
+        Usuario usuario = null;
+        String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".LOGIN = '" + login + "' AND " + tabela + ".SENHA = '" + senha+ "'";
+        System.out.println(sql);
+        Cursor cursor;
+        cursor = database.rawQuery(sql,null);
+        if(cursor.moveToFirst()){
+            do{
+                usuario = new Usuario();
+                usuario.setId(cursor.getInt(cursor.getColumnIndex(UsuarioDataModel.ID)));
+                usuario.setNmUsuario(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.NMUSUARIO)));
+                usuario.setEmail(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.EMAIL)));
+                usuario.setLogin(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.LOGIN)));
+                usuario.setSenha(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.SENHA)));
+                usuario.setDtNascimento(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.DTNASCIMENTO)));
+                usuario.setAvaliacao(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.AVALIACAO)));
+                usuario.setDescricao(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.DESCRICAO)));
+                usuario.setFoto(cursor.getString(cursor.getColumnIndex(UsuarioDataModel.FOTO)));
+                usuario.setCdInstituicao(cursor.getInt(cursor.getColumnIndex(UsuarioDataModel.CDINSTITUICAO)));
+
+            }while(cursor.moveToNext());
+        }
+        if (usuario == null){
+            throw new Exception("LOGIN OU SENHA INCORRETA");
         }else{
             return usuario;
         }

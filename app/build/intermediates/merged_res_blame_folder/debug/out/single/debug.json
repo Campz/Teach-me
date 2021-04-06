@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_upload_image.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_upload_image.png"
+    },
+    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_white_24dp.xml.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_home_white_24dp.xml"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_white_24dp.xml.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_search_white_24dp.xml"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\font_champagne_e_limousines.ttf.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\font\\champagne_e_limousines.ttf"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_amarelo.xml.flat",
@@ -42,6 +50,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chapeu_white.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_chapeu_white.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_forward_blue_24.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_arrow_forward_blue_24.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_white.xml.flat",
@@ -148,6 +160,10 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_school_24.xml"
     },
     {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_imagem_perfil.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\activity_imagem_perfil.xml"
+    },
+    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -174,6 +190,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_facebook.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\button_facebook.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wave_perfilimage_cima.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_wave_perfilimage_cima.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_campo_branco.png.flat",
@@ -218,6 +238,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_estrela.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_estrela.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wave_perfilimagem_baixo.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_wave_perfilimagem_baixo.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_background.png.flat",
