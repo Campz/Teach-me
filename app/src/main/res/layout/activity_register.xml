@@ -55,6 +55,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/campo_transparente" />
 
+    <ImageView
+        android:id="@+id/img_campo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/campo_transparente" />
+
     <EditText
         android:id="@+id/editText_login"
         android:layout_width="wrap_content"
@@ -62,7 +73,22 @@
         android:layout_marginStart="16dp"
         android:background="#00FFFFFF"
         android:ems="10"
-        android:hint="Usuario"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campo1"
+        app:layout_constraintStart_toEndOf="@+id/ic_login"
+        app:layout_constraintTop_toTopOf="@+id/img_campo1"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/editText_login3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:hint="Usuário"
         android:inputType="textPersonName"
         android:textColorHint="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="@+id/img_campo1"

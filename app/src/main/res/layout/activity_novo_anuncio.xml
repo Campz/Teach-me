@@ -1,82 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login">
+
+    <ImageView
+        android:id="@+id/img_trans_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_trans_2"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <ImageView
+        android:id="@+id/img_trans_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_trans_1"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <ImageView
+        android:id="@+id/img_trans_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_trans_3"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <ImageView
+        android:id="@+id/img_trans_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_trans_4"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <ImageView
+        android:id="@+id/img_trans_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/campo_transparente" />
 
     <TextView
         android:id="@+id/txt_novo_anuncio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="NOVO ANUNCIO"
+        android:text="NOVO ANÚNCIO"
+        android:textColor="@color/colorWhite"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnCadastrarAnuncio"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_background_white"
+        android:text="CADASTRAR"
+        android:textColor="#1D9869"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCancelarAnuncio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCancelarAnuncio"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/button_background_white"
+        android:text="CANCELAR"
+        android:textColor="#1D9869"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_novo_anuncio">
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Spinner
-            android:id="@+id/spinner_disciplina"
-            android:layout_width="match_parent"
-            android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/editProfessor"
+        android:layout_width="214dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="48dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Professor"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_1"
+        app:layout_constraintEnd_toEndOf="@+id/img_trans_1"
+        app:layout_constraintTop_toTopOf="@+id/img_trans_1" />
 
-        <Spinner
-            android:id="@+id/spinner_professor"
-            android:layout_width="match_parent"
-            android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/imgProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editProfessor"
+        app:layout_constraintEnd_toStartOf="@+id/editProfessor"
+        app:layout_constraintTop_toTopOf="@+id/editProfessor"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_person_white_24dp" />
 
-        <EditText
-            android:id="@+id/editText_anuncio_descricao"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Descrição do anuncio"
-            android:inputType="textPersonName"
-            android:textColorHint="@color/colorWhite"/>
+    <Spinner
+        android:id="@+id/spnDisciplinas"
+        android:layout_width="214dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="44dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_2"
+        app:layout_constraintEnd_toEndOf="@+id/img_trans_2"
+        app:layout_constraintTop_toTopOf="@+id/img_trans_2" />
 
-        <EditText
-            android:id="@+id/editText_anuncio_qtAlunos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="number"
-            android:hint="Quantidade de vagas"
-            android:textColorHint="@color/colorWhite"/>
+    <EditText
+        android:id="@+id/editQtd"
+        android:layout_width="214dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="52dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:hint="Quantidade"
+        android:inputType="numberSigned|number"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_3"
+        app:layout_constraintEnd_toEndOf="@+id/img_trans_3"
+        app:layout_constraintTop_toTopOf="@+id/img_trans_3"
+        app:layout_constraintVertical_bias="0.45" />
 
-        <EditText
-            android:id="@+id/editText_anuncio_valor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Valor"
-            android:inputType="numberDecimal"
-            android:textColorHint="@color/colorWhite" />
+    <ImageView
+        android:id="@+id/imgQtd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editQtd"
+        app:layout_constraintEnd_toStartOf="@+id/editQtd"
+        app:layout_constraintTop_toTopOf="@+id/editQtd"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_group_24" />
 
-        <Button
-            android:id="@+id/bt_cadastrarAnuncio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cadastrar" />
+    <EditText
+        android:id="@+id/editValor"
+        android:layout_width="214dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="52dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:hint="Valor"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_4"
+        app:layout_constraintEnd_toEndOf="@+id/img_trans_4"
+        app:layout_constraintTop_toTopOf="@+id/img_trans_4" />
 
-        <Button
-            android:id="@+id/bt_cancelar_anuncio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="cancelar" />
+    <ImageView
+        android:id="@+id/imgDisciplinas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spnDisciplinas"
+        app:layout_constraintEnd_toStartOf="@+id/spnDisciplinas"
+        app:layout_constraintTop_toTopOf="@+id/spnDisciplinas"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_school_24" />
 
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editValor"
+        app:layout_constraintEnd_toStartOf="@+id/editValor"
+        app:layout_constraintTop_toTopOf="@+id/editValor"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_attach_money_24" />
+
+    <EditText
+        android:id="@+id/editDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:background="#00FFFFFF"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Descrição"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_5"
+        app:layout_constraintEnd_toEndOf="@+id/img_trans_5"
+        app:layout_constraintTop_toTopOf="@+id/img_trans_5"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <ImageView
+        android:id="@+id/imgDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editDescricao"
+        app:layout_constraintEnd_toStartOf="@+id/editDescricao"
+        app:layout_constraintTop_toTopOf="@+id/editDescricao"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_comment_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,16 +16,12 @@ import com.example.teach_me.R;
 import com.example.teach_me.controller.AnuncioController;
 import com.example.teach_me.controller.DisciplinaController;
 import com.example.teach_me.model.Anuncio;
-import com.example.teach_me.model.Disciplina;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class NovoAnuncioActivity extends AppCompatActivity {
 
-    Spinner spinner_disciplina, spinner_professor;
-    EditText txt_descricao, txt_qtAlunos, txt_valor;
-    Button bt_cadastrar, bt_cancelar;
+    Spinner spinner_disciplina;
+    EditText txt_descricao, txt_qtAlunos, txt_valor, txt_professor;
+    Button btnCadastrarAnuncio, btnCancelarAnuncio;
     DisciplinaController disciplinaController;
     AnuncioController anuncioController;
     Anuncio novoAnuncio;
@@ -44,18 +40,18 @@ public class NovoAnuncioActivity extends AppCompatActivity {
         // Apply the adapter to the spinner
         spinner_disciplina.setAdapter(disciplina_adapter);
 
-        ArrayAdapter<CharSequence> professor_adapter = ArrayAdapter.createFromResource(this,
-                R.array.spinner_professor, android.R.layout.simple_spinner_item);
+        //ArrayAdapter<CharSequence> professor_adapter = ArrayAdapter.createFromResource(this,
+               // R.array.spinner_professor, android.R.layout.simple_spinner_item);
         // Specify the layout to use when the list of choices appears
-        professor_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //professor_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner
-        spinner_professor.setAdapter(professor_adapter);
+        //spinner_professor.setAdapter(professor_adapter);
 
     }
 
     private void buttonsEvents() {
         // Cancela o cadastro e volta a tela anterior
-        bt_cancelar.setOnClickListener(new View.OnClickListener() {
+        btnCancelarAnuncio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
@@ -63,7 +59,7 @@ public class NovoAnuncioActivity extends AppCompatActivity {
         });
 
         // Cadastra o novo anuncio
-        bt_cadastrar.setOnClickListener(new View.OnClickListener() {
+        btnCadastrarAnuncio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 boolean isDadosOK = true;
@@ -106,13 +102,13 @@ public class NovoAnuncioActivity extends AppCompatActivity {
     }
 
     private void initComponents() {
-        spinner_disciplina = (Spinner) findViewById(R.id.spinner_disciplina);
-        spinner_professor = (Spinner) findViewById(R.id.spinner_professor);
-        txt_descricao = findViewById(R.id.editText_anuncio_descricao);
-        txt_qtAlunos = findViewById(R.id.editText_anuncio_qtAlunos);
-        txt_valor = findViewById(R.id.editText_anuncio_valor);
-        bt_cadastrar = findViewById(R.id.bt_cadastrarAnuncio);
-        bt_cancelar = findViewById(R.id.bt_cancelar_anuncio);
+        spinner_disciplina = (Spinner) findViewById(R.id.spnDisciplinas);
+        txt_professor = findViewById(R.id.editProfessor);
+        txt_descricao = findViewById(R.id.editDescricao);
+        txt_qtAlunos = findViewById(R.id.editQtd);
+        txt_valor = findViewById(R.id.editValor);
+        btnCadastrarAnuncio = findViewById(R.id.btnCadastrarAnuncio);
+        btnCancelarAnuncio = findViewById(R.id.btnCadastrarAnuncio);
 
         novoAnuncio = new Anuncio();
 
