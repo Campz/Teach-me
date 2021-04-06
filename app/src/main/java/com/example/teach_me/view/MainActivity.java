@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         try {
-            Usuario usuario = usuarioController.getUsuario(1);
+            Usuario usuario = usuarioController.get(1);
             Log.i(AppUltil.TAG, "Usuário: ID: " + usuario.getId() + " - Nome: " + usuario.getNmUsuario());
         } catch (Exception e) {
             e.printStackTrace();

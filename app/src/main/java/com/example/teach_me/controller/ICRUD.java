@@ -11,4 +11,6 @@ public interface ICRUD<T> {
     public boolean deletar(int id);
 
     public List<T> listar();
+
+    public T get(Integer id) throws Exception;
 }

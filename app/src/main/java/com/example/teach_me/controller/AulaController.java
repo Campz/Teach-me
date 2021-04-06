@@ -53,4 +53,9 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
     public List<Aula> listar() {
         return getAllAulas(AulaDataModel.TABELA);
     }
+
+    @Override
+    public Aula get(Integer id) throws Exception {
+        return null;
+    }
 }

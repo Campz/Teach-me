@@ -61,4 +61,9 @@ public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
     public List<Anuncio> listar() {
         return getAllAnuncios(AnuncioDataModel.TABELA);
     }
+
+    @Override
+    public Anuncio get(Integer id) throws Exception {
+        return null;
+    }
 }

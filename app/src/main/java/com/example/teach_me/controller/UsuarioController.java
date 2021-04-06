@@ -68,6 +68,11 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
         return getAllUsuarios(UsuarioDataModel.TABELA);
     }
 
+    @Override
+    public Usuario get(Integer id) throws Exception {
+        return getUsuarioById(UsuarioDataModel.TABELA,id);
+    }
+
     public boolean validaLogin(String login, String senha){
         try{
             setUsuarioLogado(getUsuarioByLogin(UsuarioDataModel.TABELA,login,senha));
@@ -75,10 +80,6 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
         }catch (Exception e){
             return false;
         }
-    }
-
-    public Usuario getUsuario(Integer id)throws Exception{
-        return getUsuarioById(UsuarioDataModel.TABELA,id);
     }
 
     public Usuario getUsuarioLogado(){

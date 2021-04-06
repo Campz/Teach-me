@@ -65,9 +65,11 @@ public class DestaquesAdapter extends RecyclerView.Adapter<DestaquesAdapter.Dest
             public void onClick(View v) {
                 Intent intent = new Intent(context, PerfilActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.putExtra("NmUsuario",destaques.get(position).getNmUsuario());
-                intent.putExtra("Avaliacao",destaques.get(position).getAvaliacao());
-                intent.putExtra("Foto",destaques.get(position).getFoto());
+                intent.putExtra("NmUsuario", destaques.get(position).getNmUsuario());
+                intent.putExtra("Avaliacao", destaques.get(position).getAvaliacao());
+                intent.putExtra("Foto", destaques.get(position).getFoto());
+                intent.putExtra("Biografia", destaques.get(position).getDescricao());
+                intent.putExtra("Instituicao", destaques.get(position).getCdInstituicao());
                 context.startActivity(intent);
             }
         });

@@ -67,9 +67,9 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
     public void onBindViewHolder(@NonNull ResultadosHolder holder, int position) {
         Picasso.get().load("https://i.imgur.com/MOVU8Im.jpg").into(holder.img_anuncio);
         try {
-            holder.txt_nmProfessor.setText(usuarioController.getUsuario(resultados.get(position).getCdUsuarioProfessor()).getNmUsuario());
-            holder.txt_avaliacao.setText(usuarioController.getUsuario(resultados.get(position).getCdUsuarioProfessor()).getAvaliacao());
-            holder.txt_nomeCurso.setText(disciplinaController.getDisciplina(resultados.get(position).getCdDisciplina()).getNmDisciplina());
+            holder.txt_nmProfessor.setText(usuarioController.get(resultados.get(position).getCdUsuarioProfessor()).getNmUsuario());
+            holder.txt_avaliacao.setText(usuarioController.get(resultados.get(position).getCdUsuarioProfessor()).getAvaliacao());
+            holder.txt_nomeCurso.setText(disciplinaController.get(resultados.get(position).getCdDisciplina()).getNmDisciplina());
             holder.txt_nomeLocal.setText("Cefet Timóteo");
             String preço = "R$" + resultados.get(position).getValor() + "/h";
             holder.txt_preco.setText(preço);
