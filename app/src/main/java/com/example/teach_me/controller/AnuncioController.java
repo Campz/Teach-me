@@ -6,6 +6,7 @@ import android.content.Context;
 import java.util.List;
 
 import com.example.teach_me.datamodel.AnuncioDataModel;
+import com.example.teach_me.datamodel.UsuarioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Anuncio;
 
@@ -13,9 +14,19 @@ import com.example.teach_me.model.Anuncio;
 public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
 
     ContentValues dados;
+    private static AnuncioController anuncioController;
 
     public AnuncioController(Context context) {
         super(context);
+    }
+
+    public static AnuncioController getInstance(Context context){
+        if (anuncioController == null){
+            anuncioController = new AnuncioController(context);
+            return anuncioController;
+        }else{
+            return  anuncioController;
+        }
     }
 
     @Override

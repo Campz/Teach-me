@@ -12,9 +12,19 @@ import com.example.teach_me.model.Instituicao;
 public class InstituicaoController extends AppDataBase implements ICRUD<Instituicao> {
 
     ContentValues dados;
+    private static InstituicaoController instituicaoController;
 
     public InstituicaoController(Context context) {
         super(context);
+    }
+
+    public static InstituicaoController getInstance(Context context){
+        if (instituicaoController == null){
+            instituicaoController = new InstituicaoController(context);
+            return instituicaoController;
+        }else{
+            return  instituicaoController;
+        }
     }
 
     @Override
