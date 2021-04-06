@@ -9,6 +9,7 @@ public class Anuncio {
     private Integer cdUsuarioProfessor;
     private String valor;
 
+
     public Integer getId() {
         return id;
     }
