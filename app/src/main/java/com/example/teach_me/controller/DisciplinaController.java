@@ -12,9 +12,20 @@ import com.example.teach_me.model.Disciplina;
 public class DisciplinaController extends AppDataBase implements ICRUD<Disciplina> {
 
     ContentValues dados;
+    private static DisciplinaController disciplinaController;
 
     public DisciplinaController(Context context) {
         super(context);
+    }
+
+
+    public static DisciplinaController getInstance(Context context){
+        if (disciplinaController == null){
+            disciplinaController = new DisciplinaController(context);
+            return disciplinaController;
+        }else{
+            return  disciplinaController;
+        }
     }
 
     @Override
