@@ -193,6 +193,29 @@ public class AppDataBase extends SQLiteOpenHelper {
         return disciplinas;
     }
 
+    public Instituicao getInstituicaoById(String tabela, Integer id) throws Exception {
+
+        database = getWritableDatabase();
+        Instituicao instituicao = null;
+        String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".ID = " + id.toString();
+        Cursor cursor;
+        cursor = database.rawQuery(sql, null);
+
+        if(cursor.moveToFirst()){
+            do{
+                instituicao = new Instituicao();
+                instituicao.setId(cursor.getInt(cursor.getColumnIndex(InstituicaoDataModel.ID)));
+                instituicao.setEndereco(cursor.getString(cursor.getColumnIndex(InstituicaoDataModel.ENDERECO)));
+                instituicao.setNmInstituicao(cursor.getString(cursor.getColumnIndex(InstituicaoDataModel.NMINSTITUICAO)));
+            }while(cursor.moveToNext());
+        }
+        if(instituicao == null){
+            throw  new Exception("NÃO EXISTE NO BANCO");
+        }else {
+            return instituicao;
+        }
+    }
+
     public List<Instituicao> getAllInstituicoes(String tabela){
 
         database = getWritableDatabase();

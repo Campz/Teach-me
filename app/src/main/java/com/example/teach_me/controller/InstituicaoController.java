@@ -6,6 +6,7 @@ import android.content.Context;
 import java.util.List;
 
 import com.example.teach_me.datamodel.InstituicaoDataModel;
+import com.example.teach_me.datamodel.UsuarioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Instituicao;
 
@@ -42,5 +43,10 @@ public class InstituicaoController extends AppDataBase implements ICRUD<Institui
     @Override
     public List<Instituicao> listar() {
         return getAllInstituicoes(InstituicaoDataModel.TABELA);
+    }
+
+    @Override
+    public Instituicao get(Integer id) throws Exception {
+        return getInstituicaoById(InstituicaoDataModel.TABELA,id);
     }
 }

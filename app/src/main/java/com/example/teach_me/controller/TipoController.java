@@ -41,4 +41,9 @@ public class TipoController extends AppDataBase implements ICRUD<Tipo> {
     public List<Tipo> listar() {
         return getAllTipos(TipoDataModel.TABELA);
     }
+
+    @Override
+    public Tipo get(Integer id) throws Exception {
+        return null;
+    }
 }

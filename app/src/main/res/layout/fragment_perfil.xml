@@ -28,19 +28,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/img_perfil"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_marginTop="68dp"
-                android:scaleType="fitXY"
+
                 android:src="@drawable/ruan_foto"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/img_capa" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/txt_nomePerfil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Ruan Kenned"
@@ -51,7 +51,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/img_perfil" />
 
             <RatingBar
-                android:id="@+id/ratingBar_avaliacao"
+                android:id="@+id/avaliacaoPerfil"
                 style="@style/Widget.AppCompat.RatingBar.Small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_nomePerfil" />
 
             <TextView
                 android:id="@+id/txt_idade"
@@ -72,7 +72,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ratingBar_avaliacao" />
+                app:layout_constraintTop_toBottomOf="@+id/avaliacaoPerfil" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_info"
@@ -171,12 +171,10 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_bio"
                 android:layout_width="0dp"
-                android:layout_height="120dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginLeft="12dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="12dp"
-                android:layout_marginRight="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
@@ -198,7 +196,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/txt_biografiaTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -209,6 +207,20 @@
                         android:textStyle="bold"
                         app:layout_constraintStart_toEndOf="@+id/ic_bio"
                         app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/txt_biografiaPerfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txt_biografiaTitle"
+                        app:layout_constraintVertical_bias="0.365" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
 
