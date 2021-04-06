@@ -32,16 +32,23 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.2'
     implementation 'androidx.navigation:navigation-ui:2.3.2'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    // Imagem Circular
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
     // Google Authentication
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
-
+    // SQLite
     implementation "androidx.sqlite:sqlite:2.1.0"
-
-    // Dependencias do retrofit
+    // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
     implementation 'com.squareup.retrofit2:converter-jackson:2.3.0'
+    // Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+    // Biblioteca para imagem da galeria/camera
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.12'

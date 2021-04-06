@@ -45,6 +45,6 @@ public class DisciplinaController extends AppDataBase implements ICRUD<Disciplin
     }
 
     public Disciplina getDisciplina(Integer id) throws Exception {
-        return getDisciplina(DisciplinaDataModel.TABELA, id);
+        return getDisciplinaById(DisciplinaDataModel.TABELA, id);
     }
 }

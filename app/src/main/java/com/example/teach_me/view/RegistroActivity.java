@@ -1,6 +1,7 @@
 package com.example.teach_me.view;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.text.TextUtils;
@@ -101,6 +102,9 @@ public class RegistroActivity extends AppCompatActivity {
                     Log.e("log_add_usuario","onClick: Dados incorretos...");
                 }
 
+                Intent intent = new Intent(RegistroActivity.this, ImagemPerfilActivity.class);
+                startActivity(intent);
+
             }
         });
         //
@@ -117,7 +121,7 @@ public class RegistroActivity extends AppCompatActivity {
         bt_registrar = findViewById(R.id.bt_registrar);
 
         novoUsuario = new Usuario();
-        usuarioController = new UsuarioController(this);
+        usuarioController = UsuarioController.getInstance(this);
     }
 
 }

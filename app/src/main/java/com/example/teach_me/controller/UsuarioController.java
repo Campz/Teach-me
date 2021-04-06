@@ -2,19 +2,29 @@ package com.example.teach_me.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
-
 import java.util.List;
-
 import com.example.teach_me.datamodel.UsuarioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
 import com.example.teach_me.model.Usuario;
 
 public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
 
-    ContentValues dados;
+    private static UsuarioController usuarioController;
+    private ContentValues dados;
+    private Usuario usuarioLogado;
 
-    public UsuarioController(Context context) {
+    private UsuarioController(Context context) {
         super(context);
+        usuarioLogado = null;
+    }
+
+    public static UsuarioController getInstance(Context context){
+        if (usuarioController == null){
+            usuarioController = new UsuarioController(context);
+            return usuarioController;
+        }else{
+            return  usuarioController;
+        }
     }
 
     @Override
@@ -58,7 +68,24 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
         return getAllUsuarios(UsuarioDataModel.TABELA);
     }
 
+    public boolean validaLogin(String login, String senha){
+        try{
+            setUsuarioLogado(getUsuarioByLogin(UsuarioDataModel.TABELA,login,senha));
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+    }
+
     public Usuario getUsuario(Integer id)throws Exception{
-        return getUsuario(UsuarioDataModel.TABELA,id);
+        return getUsuarioById(UsuarioDataModel.TABELA,id);
+    }
+
+    public Usuario getUsuarioLogado(){
+        return usuarioLogado;
+    }
+
+    public void setUsuarioLogado(Usuario usuario){
+        this.usuarioLogado = usuario;
     }
 }
