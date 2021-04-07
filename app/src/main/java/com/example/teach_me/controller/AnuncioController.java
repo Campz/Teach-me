@@ -64,6 +64,6 @@ public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
 
     @Override
     public Anuncio get(Integer id) throws Exception {
-        return null;
+        return getAnuncioById(AnuncioDataModel.TABELA,id);
     }
 }

@@ -125,6 +125,33 @@ public class AppDataBase extends SQLiteOpenHelper {
 
         return anuncios;
     }
+    public Anuncio getAnuncioById(String tabela, Integer id) throws Exception {
+
+        database = getWritableDatabase();
+        Anuncio anuncio = null;
+        String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".ID = " + id.toString();
+        Cursor cursor;
+
+        cursor = database.rawQuery(sql, null);
+
+        if(cursor.moveToFirst()){
+            do{
+                anuncio = new Anuncio();
+                anuncio.setId(cursor.getInt(cursor.getColumnIndex(AnuncioDataModel.ID)));
+                anuncio.setQtdAlunos(cursor.getInt(cursor.getColumnIndex(AnuncioDataModel.QTDALUNOS)));
+                anuncio.setDescricao(cursor.getString(cursor.getColumnIndex(AnuncioDataModel.DESCRICAO)));
+                anuncio.setCdDisciplina(cursor.getInt(cursor.getColumnIndex(AnuncioDataModel.CDDISCIPLINA)));
+                anuncio.setCdUsuarioProfessor(cursor.getInt(cursor.getColumnIndex(AnuncioDataModel.CDUSUARIOPROFESSOR)));
+                anuncio.setValor(cursor.getString(cursor.getColumnIndex(AnuncioDataModel.VALOR)));
+            }while(cursor.moveToNext());
+        }
+
+        if (anuncio == null){
+            throw new Exception("NÃO EXISTE NO BANCO");
+        }else{
+            return anuncio;
+        }
+    }
 
     public List<Aula> getAllAulas(String tabela){
 
@@ -152,6 +179,35 @@ public class AppDataBase extends SQLiteOpenHelper {
         }
 
         return aulas;
+    }
+    public Aula getAulaById(String tabela, Integer id) throws Exception {
+
+        database = getWritableDatabase();
+        Aula aula = null;
+        String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".ID = " + id.toString();
+        Cursor cursor;
+
+        cursor = database.rawQuery(sql, null);
+
+        if(cursor.moveToFirst()){
+            do{
+                aula = new Aula();
+                aula.setId(cursor.getInt(cursor.getColumnIndex(AulaDataModel.ID)));
+                aula.setHorario(cursor.getString(cursor.getColumnIndex(AulaDataModel.HORARIO)));
+                aula.setTitulo(cursor.getString(cursor.getColumnIndex(AulaDataModel.TITULO)));
+                aula.setDescricao(cursor.getString(cursor.getColumnIndex(AulaDataModel.DESCRICAO)));
+                aula.setAvaliacao(cursor.getDouble(cursor.getColumnIndex(AulaDataModel.AVALIACAO)));
+                aula.setIsAvaliado(cursor.getInt(cursor.getColumnIndex(AulaDataModel.ISAVALIADO)));
+                aula.setCdAnuncio(cursor.getInt(cursor.getColumnIndex(AulaDataModel.CDANUNCIO)));
+                aula.setCdUsuarioAluno(cursor.getInt(cursor.getColumnIndex(AulaDataModel.CDUSUARIOALUNO)));
+
+            }while(cursor.moveToNext());
+        }
+        if (aula == null){
+            throw new Exception("NÃO EXISTE NO BANCO");
+        }else{
+            return aula;
+        }
     }
 
     public Disciplina getDisciplinaById(String tabela, Integer id) throws Exception {
@@ -261,6 +317,29 @@ public class AppDataBase extends SQLiteOpenHelper {
             }while(cursor.moveToNext());
         }
         return tipos;
+    }
+
+    public Tipo getTipoById(String tabela, Integer id) throws Exception {
+
+        database = getWritableDatabase();
+        Tipo tipo = null;
+        String sql = "SELECT * FROM " + tabela + " WHERE " + tabela + ".ID = " + id.toString();
+        Cursor cursor;
+
+        cursor = database.rawQuery(sql, null);
+
+        if(cursor.moveToFirst()){
+            do{
+                tipo = new Tipo();
+                tipo.setId(cursor.getInt(cursor.getColumnIndex(TipoDataModel.ID)));
+                tipo.setNmTipo(cursor.getString(cursor.getColumnIndex(TipoDataModel.NMTIPO)));
+            }while(cursor.moveToNext());
+        }
+        if (tipo == null){
+            throw new Exception("USUÁRIO NÃO ENCONTRADO");
+        }else{
+            return tipo;
+        }
     }
 
     public Usuario getUsuarioById(String tabela, Integer id) throws Exception {

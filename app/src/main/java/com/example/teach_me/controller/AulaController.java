@@ -56,6 +56,6 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
 
     @Override
     public Aula get(Integer id) throws Exception {
-        return null;
+        return getAulaById(AulaDataModel.TABELA, id);
     }
 }

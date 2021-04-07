@@ -12,6 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0b61e7c8-6845-4c4d-b7f5-ca81cfad6c7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/controller/AnuncioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/controller/AnuncioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/controller/AulaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/controller/AulaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/controller/TipoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/controller/TipoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/datasource/AppDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/teach_me/datasource/AppDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aulas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_aulas.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +97,9 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.teach_me.view" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\res\values" />
     </key>
@@ -235,6 +243,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617666497971" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1617761151865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1617761151865" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1617761264767">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617761264767" />
     <state x="616" y="172" width="670" height="676" key="search.everywhere.popup" timestamp="1616170915217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
