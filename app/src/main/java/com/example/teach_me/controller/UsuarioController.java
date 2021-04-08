@@ -2,6 +2,15 @@ package com.example.teach_me.controller;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.icu.text.SimpleDateFormat;
+import android.os.Build;
+
+import androidx.annotation.RequiresApi;
+
+import java.text.ParseException;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 import com.example.teach_me.datamodel.UsuarioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
@@ -88,5 +97,24 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
 
     public void setUsuarioLogado(Usuario usuario){
         this.usuarioLogado = usuario;
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.N)
+    public int calculaIdade(String data){
+
+        //1999-12-17
+        String dtStart = data;
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Date date = format.parse(dtStart);
+            int ano = date.getYear();
+            Date d = new Date();
+            int ano2 =d.getYear();
+            return ano - ano2;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        return 0;
     }
 }
