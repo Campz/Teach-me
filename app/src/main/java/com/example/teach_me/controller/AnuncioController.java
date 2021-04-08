@@ -16,7 +16,7 @@ public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
     ContentValues dados;
     private static AnuncioController anuncioController;
 
-    public AnuncioController(Context context) {
+    private AnuncioController(Context context) {
         super(context);
     }
 

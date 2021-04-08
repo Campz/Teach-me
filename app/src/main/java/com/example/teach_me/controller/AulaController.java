@@ -13,8 +13,19 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
 
     ContentValues dados;
 
-    public AulaController(Context context) {
+    private static AulaController aulaController;
+
+    private AulaController(Context context) {
         super(context);
+    }
+
+    public static AulaController getInstance(Context context){
+        if (aulaController == null){
+            aulaController = new AulaController(context);
+            return aulaController;
+        }else{
+            return  aulaController;
+        }
     }
 
     @Override

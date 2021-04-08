@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             Repositorio.povoamentoTipo(tipoController);
         Toast.makeText(MainActivity.this, "Importação de TIPOS", Toast.LENGTH_LONG).show();
 
-        instituicaoController = new InstituicaoController(this.getApplicationContext());
+        instituicaoController = InstituicaoController.getInstance(this.getApplicationContext());
         if(instituicaoController.listar().size() == 0)
             Repositorio.povoamentoInstituicao(instituicaoController);
         Toast.makeText(MainActivity.this, "Importação de INSTITUIÇÕES", Toast.LENGTH_LONG).show();
@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity {
             Repositorio.povoamentoUsuario(usuarioController);
         Toast.makeText(MainActivity.this, "Importação de USUÁRIOS", Toast.LENGTH_LONG).show();
 
-        anuncioController = new AnuncioController(this.getApplicationContext());
+        anuncioController = AnuncioController.getInstance(this.getApplicationContext());
         if(anuncioController.listar().size() == 0)
             Repositorio.povoamentoAnuncio(anuncioController);
         Toast.makeText(MainActivity.this, "Importação de AÚNUNCIOS", Toast.LENGTH_LONG).show();
 
-        aulaController = new AulaController(this.getApplicationContext());
+        aulaController = AulaController.getInstance(this.getApplicationContext());
         if(aulaController.listar().size() == 0)
             Repositorio.povoamentoAula(aulaController);
         Toast.makeText(MainActivity.this, "Importação de AULAS", Toast.LENGTH_LONG).show();

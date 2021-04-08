@@ -15,7 +15,7 @@ public class InstituicaoController extends AppDataBase implements ICRUD<Institui
     ContentValues dados;
     private static InstituicaoController instituicaoController;
 
-    public InstituicaoController(Context context) {
+    private InstituicaoController(Context context) {
         super(context);
     }
 
