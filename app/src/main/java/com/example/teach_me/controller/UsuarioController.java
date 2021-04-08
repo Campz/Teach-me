@@ -91,6 +91,10 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
         }
     }
 
+    public boolean isLogado(){
+        return this.usuarioLogado != null;
+    }
+
     public Usuario getUsuarioLogado(){
         return usuarioLogado;
     }

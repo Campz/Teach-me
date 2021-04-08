@@ -1642,6 +1642,8 @@ drawable button_background
 drawable button_background_amarelo
 drawable button_background_azul
 drawable button_background_verde
+drawable button_background_verde_r10
+drawable button_background_vermelho
 drawable button_background_white
 drawable button_facebook
 drawable button_google
@@ -1848,12 +1850,14 @@ id bounce
 id bt_back
 id bt_buscar
 id bt_confirmar
+id bt_editarPerfil
 id bt_facebook
 id bt_google
 id bt_login
 id bt_novo_anuncio
 id bt_pular_imagem
 id bt_registrar
+id bt_sair
 id btnCadastrarAnuncio
 id btnCancelarAnuncio
 id buttonPanel
@@ -1900,6 +1904,7 @@ id custom
 id customPanel
 id cut
 id cv_anuncio
+id cv_aula
 id dark
 id date_picker_actions
 id decelerate
@@ -2140,6 +2145,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar

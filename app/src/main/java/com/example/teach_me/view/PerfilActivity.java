@@ -45,6 +45,6 @@ public class PerfilActivity extends AppCompatActivity {
         avaliacao = findViewById(R.id.avaliacaoPerfil);
         txt_biografia = findViewById(R.id.txt_biografiaPerfil);
         txt_instituicao = findViewById(R.id.txt_nmLocal);
-        instituicaoController = new InstituicaoController(this);
+        instituicaoController = InstituicaoController.getInstance(this);
     }
 }
