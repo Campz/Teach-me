@@ -186,7 +186,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:id="@+id/ic_bio"
+                        android:id="@+id/ic_descricao"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginStart="10dp"
@@ -197,7 +197,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
-                        android:id="@+id/txt_biografiaTitle"
+                        android:id="@+id/lblDescricao"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
@@ -206,7 +206,7 @@
                         android:text="Biografia"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/ic_bio"
+                        app:layout_constraintStart_toEndOf="@+id/ic_descricao"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>

@@ -20,8 +20,8 @@ com/example/teach_me/Repositorio.java
  com.example.teach_me.Repositorio
 com/example/teach_me/api/TipoService.java
  com.example.teach_me.api.TipoService
-com/example/teach_me/api/InstituicaoService.java
- com.example.teach_me.api.InstituicaoService
+com/example/teach_me/view/PerfilActivity.java
+ com.example.teach_me.view.PerfilActivity
 com/example/teach_me/datasource/AppDataBase.java
  com.example.teach_me.datasource.AppDataBase
 com/example/teach_me/controller/DisciplinaController.java
@@ -32,10 +32,16 @@ com/example/teach_me/view/NovoAnuncioActivity.java
  com.example.teach_me.view.NovoAnuncioActivity$2
 com/example/teach_me/view/ui/pesquisa/PesquisaViewModel.java
  com.example.teach_me.view.ui.pesquisa.PesquisaViewModel
+com/example/teach_me/view/AulasAdapter.java
+ com.example.teach_me.view.AulasAdapter
+ com.example.teach_me.view.AulasAdapter$1
+ com.example.teach_me.view.AulasAdapter$AulasHolder
 com/example/teach_me/controller/AnuncioController.java
  com.example.teach_me.controller.AnuncioController
-com/example/teach_me/datamodel/UsuarioDataModel.java
- com.example.teach_me.datamodel.UsuarioDataModel
+com/example/teach_me/view/ui/home/HomeFragment.java
+ com.example.teach_me.view.ui.home.HomeFragment
+ com.example.teach_me.view.ui.home.HomeFragment$1
+ com.example.teach_me.view.ui.home.HomeFragment$2
 com/example/teach_me/model/Instituicao.java
  com.example.teach_me.model.Instituicao
 com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
@@ -73,11 +79,10 @@ com/example/teach_me/view/ui/aulas/AulasFragment.java
  com.example.teach_me.view.ui.aulas.AulasFragment
 com/example/teach_me/view/ui/home/HomeViewModel.java
  com.example.teach_me.view.ui.home.HomeViewModel
-com/example/teach_me/view/LoginActivity.java
- com.example.teach_me.view.LoginActivity
- com.example.teach_me.view.LoginActivity$1
- com.example.teach_me.view.LoginActivity$2
- com.example.teach_me.view.LoginActivity$3
+com/example/teach_me/view/DestaquesAdapter.java
+ com.example.teach_me.view.DestaquesAdapter
+ com.example.teach_me.view.DestaquesAdapter$1
+ com.example.teach_me.view.DestaquesAdapter$DestaquesHolder
 com/example/teach_me/api/AulaData.java
  com.example.teach_me.api.AulaData
 com/example/teach_me/controller/AulaController.java
@@ -112,13 +117,14 @@ com/example/teach_me/controller/InstituicaoController.java
  com.example.teach_me.controller.InstituicaoController
 com/example/teach_me/view/DatePickerFragment.java
  com.example.teach_me.view.DatePickerFragment
-com/example/teach_me/view/PerfilActivity.java
- com.example.teach_me.view.PerfilActivity
-com/example/teach_me/view/ui/home/HomeFragment.java
- com.example.teach_me.view.ui.home.HomeFragment
- com.example.teach_me.view.ui.home.HomeFragment$1
- com.example.teach_me.view.ui.home.HomeFragment$2
-com/example/teach_me/view/DestaquesAdapter.java
- com.example.teach_me.view.DestaquesAdapter
- com.example.teach_me.view.DestaquesAdapter$1
- com.example.teach_me.view.DestaquesAdapter$DestaquesHolder
+com/example/teach_me/view/LoginActivity.java
+ com.example.teach_me.view.LoginActivity
+ com.example.teach_me.view.LoginActivity$1
+ com.example.teach_me.view.LoginActivity$2
+ com.example.teach_me.view.LoginActivity$3
+com/example/teach_me/datamodel/UsuarioDataModel.java
+ com.example.teach_me.datamodel.UsuarioDataModel
+com/example/teach_me/api/InstituicaoService.java
+ com.example.teach_me.api.InstituicaoService
+com/example/teach_me/view/AnuncioActivity.java
+ com.example.teach_me.view.AnuncioActivity

@@ -1971,6 +1971,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideline
 id hideable
 id home
 id homeAsUp
@@ -2016,6 +2017,7 @@ id img_chapeu
 id img_perfil
 id img_preco
 id img_professor
+id img_professorAula
 id img_trans_1
 id img_trans_2
 id img_trans_3
@@ -2116,6 +2118,8 @@ id progress_horizontal
 id radio
 id ratingBar
 id ratio
+id rc_aulasMinistradas
+id rc_minhasAulas
 id rectangle
 id rectangles
 id reverseSawtooth
@@ -2226,14 +2230,18 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txt_adicione
+id txt_aulasMinistradas
 id txt_avaliacao
 id txt_biografiaPerfil
 id txt_biografiaTitle
+id txt_disciplinaAula
 id txt_disciplinas
 id txt_ecolha_disciplina
 id txt_esqueci
+id txt_horarioAula
 id txt_idade
 id txt_linkedin
+id txt_minhasAulas
 id txt_naopossui
 id txt_nmCurso
 id txt_nmLocal
@@ -2246,6 +2254,7 @@ id txt_novo_anuncio
 id txt_ola
 id txt_ou
 id txt_preco
+id txt_professorAula
 id txt_professores
 id txt_pular
 id txt_registrar
@@ -2326,6 +2335,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_anuncio
 layout activity_imagem_perfil
 layout activity_login
 layout activity_main
@@ -2356,6 +2366,7 @@ layout fragment_home
 layout fragment_perfil
 layout fragment_pesquisa
 layout item_anuncios
+layout item_aulas
 layout item_destaques
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
