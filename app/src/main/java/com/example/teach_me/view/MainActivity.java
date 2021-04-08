@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
 
         // ********************************** POVOAMENTO **************************************************** \\
-        tipoController = new TipoController(this.getApplicationContext());
+        tipoController = TipoController.getInstance(this.getApplicationContext());
         if(tipoController.listar().size() == 0)
             Repositorio.povoamentoTipo(tipoController);
         Toast.makeText(MainActivity.this, "Importação de TIPOS", Toast.LENGTH_LONG).show();
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             Repositorio.povoamentoInstituicao(instituicaoController);
         Toast.makeText(MainActivity.this, "Importação de INSTITUIÇÕES", Toast.LENGTH_LONG).show();
 
-        disciplinaController = new DisciplinaController(this.getApplicationContext());
+        disciplinaController = DisciplinaController.getInstance(this.getApplicationContext());
         if(disciplinaController.listar().size() == 0)
             Repositorio.povoamentoDisciplina(disciplinaController);
         Toast.makeText(MainActivity.this, "Importação de DISCIPLINAS", Toast.LENGTH_LONG).show();

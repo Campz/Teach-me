@@ -23,10 +23,8 @@ public class AnuncioController extends AppDataBase implements ICRUD<Anuncio> {
     public static AnuncioController getInstance(Context context){
         if (anuncioController == null){
             anuncioController = new AnuncioController(context);
-            return anuncioController;
-        }else{
-            return  anuncioController;
         }
+        return anuncioController;
     }
 
     @Override

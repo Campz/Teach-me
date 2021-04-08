@@ -92,12 +92,12 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ruan_foto.png.flat",
-        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ruan_foto.png"
-    },
-    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_comment_24.xml.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_comment_24.xml"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ruan_foto.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ruan_foto.png"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -188,6 +188,10 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_person_white_24dp.xml"
     },
     {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_aulas.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\item_aulas.xml"
+    },
+    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_login.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\background_login.png"
     },
@@ -240,6 +244,10 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\button_google.png"
     },
     {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_vermelho.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\button_background_vermelho.xml"
+    },
+    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle_white_48dp.xml.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_add_circle_white_48dp.xml"
     },
@@ -256,6 +264,10 @@
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_wave_perfilimagem_baixo.xml"
     },
     {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_verde_r10.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\button_background_verde_r10.xml"
+    },
+    {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_background.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\main_background.png"
     },
@@ -270,6 +282,10 @@
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_caderno_black.png.flat",
         "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_caderno_black.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_anuncio.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\activity_anuncio.xml"
     },
     {
         "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_black_24dp.xml.flat",

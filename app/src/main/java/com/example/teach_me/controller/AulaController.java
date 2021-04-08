@@ -12,7 +12,6 @@ import java.util.List;
 public class AulaController extends AppDataBase implements ICRUD<Aula> {
 
     ContentValues dados;
-
     private static AulaController aulaController;
 
     private AulaController(Context context) {
@@ -22,10 +21,8 @@ public class AulaController extends AppDataBase implements ICRUD<Aula> {
     public static AulaController getInstance(Context context){
         if (aulaController == null){
             aulaController = new AulaController(context);
-            return aulaController;
-        }else{
-            return  aulaController;
         }
+        return aulaController;
     }
 
     @Override

@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.teach_me.R;
 import com.example.teach_me.controller.AnuncioController;
 import com.example.teach_me.controller.DisciplinaController;
+import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Anuncio;
 
 public class NovoAnuncioActivity extends AppCompatActivity {
@@ -24,6 +25,7 @@ public class NovoAnuncioActivity extends AppCompatActivity {
     Button btnCadastrarAnuncio, btnCancelarAnuncio;
     DisciplinaController disciplinaController;
     AnuncioController anuncioController;
+    UsuarioController usuarioController;
     Anuncio novoAnuncio;
 
     @Override
@@ -87,7 +89,7 @@ public class NovoAnuncioActivity extends AppCompatActivity {
                     novoAnuncio.setDescricao(txt_descricao.getText().toString());
                     novoAnuncio.setQtdAlunos(Integer.getInteger(txt_qtAlunos.getText().toString()));
                     novoAnuncio.setValor(txt_valor.getText().toString());
-                    novoAnuncio.setCdUsuarioProfessor(5);
+                    novoAnuncio.setCdUsuarioProfessor(usuarioController.getUsuarioLogado().getId());
                     novoAnuncio.setCdDisciplina(7);
 
                     anuncioController.incluir(novoAnuncio);
@@ -108,11 +110,12 @@ public class NovoAnuncioActivity extends AppCompatActivity {
         txt_qtAlunos = findViewById(R.id.editQtd);
         txt_valor = findViewById(R.id.editValor);
         btnCadastrarAnuncio = findViewById(R.id.btnCadastrarAnuncio);
-        btnCancelarAnuncio = findViewById(R.id.btnCadastrarAnuncio);
+        btnCancelarAnuncio = findViewById(R.id.btnCancelarAnuncio);
 
         novoAnuncio = new Anuncio();
 
-        disciplinaController = new DisciplinaController(this);
-        anuncioController = new AnuncioController(this);
+        disciplinaController = DisciplinaController.getInstance(this);
+        anuncioController = AnuncioController.getInstance(this);
+        usuarioController = UsuarioController.getInstance(this);
     }
 }

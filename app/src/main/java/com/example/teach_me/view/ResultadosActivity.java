@@ -21,7 +21,7 @@ public class ResultadosActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultados);
-        anuncioController = new AnuncioController(this);
+        anuncioController = AnuncioController.getInstance(this);
         resultados = anuncioController.listar();
         RecyclerView rv_anuncios = findViewById(R.id.rv_resultados);
         ResultadosAdapter resultadosAdapter = new ResultadosAdapter(this,resultados);

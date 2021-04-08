@@ -12,9 +12,17 @@ import com.example.teach_me.model.Tipo;
 public class TipoController extends AppDataBase implements ICRUD<Tipo> {
 
     ContentValues dados;
+    private static TipoController tipoController;
 
-    public TipoController(Context context) {
+    private TipoController(Context context) {
         super(context);
+    }
+
+    public static TipoController getInstance(Context context){
+        if (tipoController == null){
+            tipoController = new TipoController(context);
+        }
+        return tipoController;
     }
 
     @Override

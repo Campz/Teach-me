@@ -28,7 +28,7 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
         this.context = context;
         this.resultados = resultados;
         usuarioController = UsuarioController.getInstance(context);
-        disciplinaController = new DisciplinaController(context);
+        disciplinaController = DisciplinaController.getInstance(context);
     }
 
     public static class ResultadosHolder extends RecyclerView.ViewHolder {

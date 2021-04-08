@@ -14,7 +14,7 @@ public class DisciplinaController extends AppDataBase implements ICRUD<Disciplin
     ContentValues dados;
     private static DisciplinaController disciplinaController;
 
-    public DisciplinaController(Context context) {
+    private DisciplinaController(Context context) {
         super(context);
     }
 
@@ -22,10 +22,8 @@ public class DisciplinaController extends AppDataBase implements ICRUD<Disciplin
     public static DisciplinaController getInstance(Context context){
         if (disciplinaController == null){
             disciplinaController = new DisciplinaController(context);
-            return disciplinaController;
-        }else{
-            return  disciplinaController;
         }
+        return disciplinaController;
     }
 
     @Override
