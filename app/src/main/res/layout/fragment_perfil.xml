@@ -13,7 +13,6 @@
         android:id="@+id/bt_sair"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
         android:layout_marginBottom="80dp"
         android:background="@drawable/button_background_vermelho"
         android:text="Sair"
@@ -32,6 +31,7 @@
         android:text="Editar Perfil"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/bt_sair"
         app:layout_constraintStart_toStartOf="parent" />
@@ -127,11 +127,11 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginStart="10dp"
-                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="8dp"
                         android:src="@drawable/ic_chapeu_black"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ic_baseline_mail_outline_24" />
 
                     <TextView
                         android:id="@+id/txt_nmCurso"

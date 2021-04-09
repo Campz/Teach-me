@@ -40,6 +40,12 @@ public class ImagemPerfilActivity extends AppCompatActivity {
                 CropImage.activity().start(ImagemPerfilActivity.this);
             }
         });
+        bt_pular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     @Override

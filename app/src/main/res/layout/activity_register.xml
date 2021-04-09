@@ -112,21 +112,6 @@
         app:layout_constraintTop_toTopOf="@+id/img_campo1"
         app:layout_constraintVertical_bias="0.619" />
 
-    <EditText
-        android:id="@+id/editText_login3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:background="#00FFFFFF"
-        android:ems="10"
-        android:hint="Usuário"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/colorWhite"
-        app:layout_constraintBottom_toBottomOf="@+id/img_campo1"
-        app:layout_constraintStart_toEndOf="@+id/ic_login"
-        app:layout_constraintTop_toTopOf="@+id/img_campo1"
-        app:layout_constraintVertical_bias="0.619" />
-
     <ImageView
         android:id="@+id/ic_login"
         android:layout_width="30dp"

@@ -1693,6 +1693,7 @@ drawable ic_baseline_block_24
 drawable ic_baseline_chevron_left_24
 drawable ic_baseline_delete_24
 drawable ic_baseline_group_24
+drawable ic_baseline_mail_outline_24
 drawable ic_book_white_24dp
 drawable ic_caderno_black
 drawable ic_calendar_24
@@ -1964,7 +1965,6 @@ id easeIn
 id easeInOut
 id easeOut
 id editDescricao
-id editProfessor
 id editQtd
 id editTextDescAvaliacao
 id editTextNotaAvaliacaco
@@ -1974,7 +1974,6 @@ id editText_disciplina
 id editText_email
 id editText_instituicao
 id editText_login
-id editText_login3
 id editText_nome
 id editText_senha
 id editValor
@@ -1996,7 +1995,6 @@ id fitToContents
 id fixed
 id flip
 id floating
-id floatingActionButton2
 id forever
 id fragment_container_view_tag
 id ghost_view
@@ -2037,7 +2035,6 @@ id imageView
 id imgDescricao
 id imgDisciplinas
 id imgDisciplinas2
-id imgProfessor
 id imgQtd
 id imgValor
 id img_avaliacao
@@ -2063,7 +2060,6 @@ id img_preco
 id img_professor
 id img_professorAula
 id img_trans_
-id img_trans_1
 id img_trans_2
 id img_trans_3
 id img_trans_4

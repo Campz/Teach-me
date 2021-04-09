@@ -15,6 +15,7 @@ import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,17 +27,12 @@ import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Disciplina;
 import com.example.teach_me.model.Instituicao;
 import com.example.teach_me.model.Usuario;
-
-<<<<<<< Updated upstream
-import java.text.DateFormat;
 import java.util.Calendar;
-
-public class RegistroActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
-=======
 import java.util.List;
 
-public class RegistroActivity extends AppCompatActivity {
->>>>>>> Stashed changes
+import java.text.DateFormat;
+
+public class RegistroActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     TextView txt_usuario, txt_senha, txt_email, txt_nome, txt_dtNascimento;
     Spinner spnInst;
@@ -120,13 +116,15 @@ public class RegistroActivity extends AppCompatActivity {
                     novoUsuario.setCdInstituicao(i.getId());
                     usuarioController.incluir(novoUsuario);
                     Log.i("log_add_usuario","onClick: Dados corretos...");
+                    //Intent intent = new Intent(RegistroActivity.this, ImagemPerfilActivity.class);
+                    //startActivity(intent);
+                    Toast.makeText(RegistroActivity.this, "Registrado com sucesso!", Toast.LENGTH_LONG).show();
+                    finish();
                 }else{
                     // Notifica o usuário para corrigir os erros
                     Log.e("log_add_usuario","onClick: Dados incorretos...");
                 }
 
-                Intent intent = new Intent(RegistroActivity.this, ImagemPerfilActivity.class);
-                startActivity(intent);
 
             }
         });

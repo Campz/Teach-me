@@ -148,6 +148,14 @@ public class AulaMinistradaActivity extends AppCompatActivity {
     }
 
     private void buttonsEvents(){
+
+        bt_deletarAnuncio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(AulaMinistradaActivity.this, "Impossível apagar: Há alunos matriculados!", Toast.LENGTH_LONG).show();
+            }
+        });
+
         bt_enviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -184,6 +192,7 @@ public class AulaMinistradaActivity extends AppCompatActivity {
                     aula.setAvaliacao(nota);
                     aula.setDescricao(txt_descricao.getText().toString());
                     aulaController.alterar(aula);
+
                     Toast.makeText(AulaMinistradaActivity.this, "Avaliação enviada com sucesso!", Toast.LENGTH_LONG).show();
                     bt_enviar.setEnabled(false);
                 }

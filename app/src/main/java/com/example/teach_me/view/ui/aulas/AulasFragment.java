@@ -51,6 +51,7 @@ public class AulasFragment extends Fragment {
         root = inflater.inflate(R.layout.fragment_aulas, container, false);
         initComponents();
         // Se existir algum usuário logado
+        aulas = aulaController.listar();
         if(usuarioController.isLogado()) {
             // Pega a lista de aulas em que o usuário logado está cadastrado e ministra
             for (Aula aula : aulas) {
@@ -94,7 +95,7 @@ public class AulasFragment extends Fragment {
         rv_minhasAulas = root.findViewById(R.id.rc_minhasAulas);
         rv_aulasMinistradas = root.findViewById(R.id.rc_aulasMinistradas);
         aulaController = AulaController.getInstance(getContext());
-        aulas = aulaController.listar();
+        aulas = new ArrayList<>();
         minhasAulas = new ArrayList<>();
         aulasMinistradas = new ArrayList<>();
         usuarioController = UsuarioController.getInstance(getContext());

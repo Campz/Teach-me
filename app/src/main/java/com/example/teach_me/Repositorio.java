@@ -228,7 +228,7 @@ public class Repositorio {
         anuncio.setDescricao("Intensivo de revisão para prova");
         anuncio.setQtdAlunos(5);
         anuncio.setCdUsuarioProfessor(1);
-        anuncio.setValor("25,00");
+        anuncio.setValor("25");
         anuncioController.incluir(anuncio);
 
         //2
@@ -237,7 +237,7 @@ public class Repositorio {
         anuncio.setDescricao("Resolução de exercícios e reforço de teoria");
         anuncio.setQtdAlunos(2);
         anuncio.setCdUsuarioProfessor(2);
-        anuncio.setValor("20,00");
+        anuncio.setValor("20");
         anuncioController.incluir(anuncio);
 
         //4
@@ -246,7 +246,7 @@ public class Repositorio {
         anuncio.setDescricao("Monitoria particular");
         anuncio.setQtdAlunos(3);
         anuncio.setCdUsuarioProfessor(1);
-        anuncio.setValor("30,00");
+        anuncio.setValor("30");
         anuncioController.incluir(anuncio);
     }
 
@@ -257,7 +257,7 @@ public class Repositorio {
         aula = new Aula();
         aula.setCdAnuncio(1);
         aula.setCdUsuarioAluno(3);
-        aula.setHorario("23M34");
+        aula.setHorario("Segunda, Quinta, de 16h às 17h");
         aula.setTitulo("Ótimo!");
         aula.setAvaliacao(5);
         aula.setDescricao("Ruan é um ótimo professor, com uma boa didática e atenciosidade.");
@@ -268,14 +268,14 @@ public class Repositorio {
         aula = new Aula();
         aula.setCdAnuncio(2);
         aula.setCdUsuarioAluno(4);
-        aula.setHorario("56T12");
+        aula.setHorario("Terça, Quinta, de 10h às 11h");
         aulaController.incluir(aula);
 
         //3
         aula = new Aula();
         aula.setCdAnuncio(1);
         aula.setCdUsuarioAluno(2);
-        aula.setHorario("23T12");
+        aula.setHorario("Quinta, Sexta, de 13h às 14h");
         aula.setTitulo("Muito bom!");
         aula.setAvaliacao(3);
         aula.setDescricao("Ruan me surpreendeu, um excelente professor. Nota 3");

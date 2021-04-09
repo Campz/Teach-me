@@ -21,11 +21,11 @@
         android:id="@+id/img_trans_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_trans_1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_novo_anuncio"
         app:srcCompat="@drawable/campo_transparente" />
 
     <ImageView
@@ -50,22 +50,11 @@
         app:layout_constraintTop_toBottomOf="@+id/img_trans_4"
         app:srcCompat="@drawable/campo_transparente" />
 
-    <ImageView
-        android:id="@+id/img_trans_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/campo_transparente" />
-
     <TextView
         android:id="@+id/txt_novo_anuncio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="64dp"
         android:text="NOVO ANÚNCIO"
         android:textColor="@color/colorWhite"
         android:textSize="30sp"
@@ -102,32 +91,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/editProfessor"
-        android:layout_width="214dp"
-        android:layout_height="25dp"
-        android:layout_marginEnd="48dp"
-        android:background="#00FFFFFF"
-        android:ems="10"
-        android:enabled="false"
-        android:hint="Professor"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/colorWhite"
-        app:layout_constraintBottom_toBottomOf="@+id/img_trans_1"
-        app:layout_constraintEnd_toEndOf="@+id/img_trans_1"
-        app:layout_constraintTop_toTopOf="@+id/img_trans_1" />
-
-    <ImageView
-        android:id="@+id/imgProfessor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/editProfessor"
-        app:layout_constraintEnd_toStartOf="@+id/editProfessor"
-        app:layout_constraintTop_toTopOf="@+id/editProfessor"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_person_white_24dp" />
 
     <Spinner
         android:id="@+id/spnDisciplinas"
@@ -227,17 +190,6 @@
         app:layout_constraintTop_toTopOf="@+id/editDescricao"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_comment_24" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
-        android:layout_width="83dp"
-        android:layout_height="74dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/button_background" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"

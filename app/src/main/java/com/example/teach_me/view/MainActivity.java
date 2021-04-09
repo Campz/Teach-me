@@ -62,32 +62,32 @@ public class MainActivity extends AppCompatActivity {
         tipoController = TipoController.getInstance(this.getApplicationContext());
         if(tipoController.listar().size() == 0)
             Repositorio.povoamentoTipo(tipoController);
-        Toast.makeText(MainActivity.this, "Importação de TIPOS", Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "Importação de TIPOS", Toast.LENGTH_LONG).show();
 
         instituicaoController = InstituicaoController.getInstance(this.getApplicationContext());
         if(instituicaoController.listar().size() == 0)
             Repositorio.povoamentoInstituicao(instituicaoController);
-        Toast.makeText(MainActivity.this, "Importação de INSTITUIÇÕES", Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "Importação de INSTITUIÇÕES", Toast.LENGTH_LONG).show();
 
         disciplinaController = DisciplinaController.getInstance(this.getApplicationContext());
         if(disciplinaController.listar().size() == 0)
             Repositorio.povoamentoDisciplina(disciplinaController);
-        Toast.makeText(MainActivity.this, "Importação de DISCIPLINAS", Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "Importação de DISCIPLINAS", Toast.LENGTH_LONG).show();
 
         usuarioController = UsuarioController.getInstance(this.getApplicationContext());
         if(usuarioController.listar().size() == 0)
             Repositorio.povoamentoUsuario(usuarioController);
-        Toast.makeText(MainActivity.this, "Importação de USUÁRIOS", Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "Importação de USUÁRIOS", Toast.LENGTH_LONG).show();
 
         anuncioController = AnuncioController.getInstance(this.getApplicationContext());
         if(anuncioController.listar().size() == 0)
             Repositorio.povoamentoAnuncio(anuncioController);
-        Toast.makeText(MainActivity.this, "Importação de AÚNUNCIOS", Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "Importação de AÚNUNCIOS", Toast.LENGTH_LONG).show();
 
         aulaController = AulaController.getInstance(this.getApplicationContext());
         if(aulaController.listar().size() == 0)
             Repositorio.povoamentoAula(aulaController);
-        Toast.makeText(MainActivity.this, "Importação de AULAS", Toast.LENGTH_LONG).show();
+//        Toast.makeText(MainActivity.this, "Importação de AULAS", Toast.LENGTH_LONG).show();
         // ****************************************************************************************************** \\
 
         // teste de listagem

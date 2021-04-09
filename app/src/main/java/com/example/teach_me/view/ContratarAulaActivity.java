@@ -143,7 +143,7 @@ public class ContratarAulaActivity extends AppCompatActivity {
                         Toast.makeText(ContratarAulaActivity.this, "Você não pode se matricular na sua própria aula!", Toast.LENGTH_LONG).show();
                         finish();
                     }else{
-                        if(verificaQtdVagas()) {
+                        //if(verificaQtdVagas()) {
                             if(verificaInstituicao()){
                                 Aula aula;
                                 aula = new Aula();
@@ -158,10 +158,10 @@ public class ContratarAulaActivity extends AppCompatActivity {
                                 Toast.makeText(ContratarAulaActivity.this, "Instituição diferente!", Toast.LENGTH_LONG).show();
                                 finish();
                             }
-                        }else{
-                            Toast.makeText(ContratarAulaActivity.this, "Turma cheia!", Toast.LENGTH_LONG).show();
-                            finish();
-                        }
+                       // }else{
+//                            Toast.makeText(ContratarAulaActivity.this, "Turma cheia!", Toast.LENGTH_LONG).show();
+//                            finish();
+                       // }
 
                     }
                 }

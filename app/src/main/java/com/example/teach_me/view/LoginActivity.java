@@ -36,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         initComponents();
         buttonsEvents();
+        txt_pular.setVisibility(View.INVISIBLE);
     }
 
     private void buttonsEvents(){

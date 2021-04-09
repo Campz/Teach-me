@@ -94,6 +94,7 @@ public class NovoAnuncioActivity extends AppCompatActivity {
                     anuncioController.incluir(novoAnuncio);
                     Log.i("log_add_usuario","onClick: Dados corretos...");
                     Toast.makeText(NovoAnuncioActivity.this, "Anúncio criado com sucesso!", Toast.LENGTH_LONG).show();
+                    finish();
                 }else{
                     // Deu ruim
                     Log.e("log_add_usuario","onClick: Dados incorretos...");
@@ -105,7 +106,6 @@ public class NovoAnuncioActivity extends AppCompatActivity {
 
     private void initComponents() {
         spinner_disciplina = (Spinner) findViewById(R.id.spnDisciplinas);
-        txt_professor = findViewById(R.id.editProfessor);
         txt_descricao = findViewById(R.id.editDescricao);
         txt_qtAlunos = findViewById(R.id.editQtd);
         txt_valor = findViewById(R.id.editValor);

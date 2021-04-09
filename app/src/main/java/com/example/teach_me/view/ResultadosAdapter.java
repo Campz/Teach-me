@@ -82,9 +82,6 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
             holder.txt_avaliacao.setText(usuarioReferente.getAvaliacao());
             holder.txt_nomeCurso.setText(disciplinaReferente.getNmDisciplina());
             holder.txt_nomeLocal.setText("Cefet Timóteo");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
         final String preço = "R$" + resultados.get(position).getValor() + "/h";
         holder.txt_preco.setText(preço);
         holder.cv_anuncio.setOnClickListener(new View.OnClickListener() {
@@ -92,12 +89,15 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
             public void onClick(View v) {
                 Intent intent = new Intent(context, AnuncioActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.putExtra("Professor", usuarioReferente.getId().toString());
+                intent.putExtra("Professor", usuarioReferente.getId());
                 intent.putExtra("idAnuncio", resultados.get(position).getId().toString());
                 intent.putExtra("Valor",preço);
                 context.startActivity(intent);
             }
         });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

@@ -1,21 +1,7 @@
 com/example/teach_me/api/AulaService.java
  com.example.teach_me.api.AulaService
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-com/example/teach_me/view/AulasAdapter.java
- com.example.teach_me.view.AulasAdapter
- com.example.teach_me.view.AulasAdapter$1
- com.example.teach_me.view.AulasAdapter$AulasHolder
-=======
 com/example/teach_me/view/ResultadosActivity.java
  com.example.teach_me.view.ResultadosActivity
->>>>>>> Stashed changes
-=======
-com/example/teach_me/view/AnuncioActivity.java
- com.example.teach_me.view.AnuncioActivity
- com.example.teach_me.view.AnuncioActivity$1
- com.example.teach_me.view.AnuncioActivity$2
->>>>>>> Stashed changes
 com/example/teach_me/controller/UsuarioController.java
  com.example.teach_me.controller.UsuarioController
 com/example/teach_me/api/AnuncioService.java
@@ -62,20 +48,9 @@ com/example/teach_me/model/Instituicao.java
 com/example/teach_me/view/MatriculadosAdapter.java
  com.example.teach_me.view.MatriculadosAdapter
  com.example.teach_me.view.MatriculadosAdapter$MatriculadosHolder
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-com/example/teach_me/view/AulaMinistradaActivity.java
- com.example.teach_me.view.AulaMinistradaActivity
- com.example.teach_me.view.AulaMinistradaActivity$1
-=======
 com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
  com.example.teach_me.view.ui.pesquisa.PesquisaFragment
  com.example.teach_me.view.ui.pesquisa.PesquisaFragment$1
->>>>>>> Stashed changes
-=======
-com/example/teach_me/api/InstituicaoService.java
- com.example.teach_me.api.InstituicaoService
->>>>>>> Stashed changes
 com/example/teach_me/api/UsuarioData.java
  com.example.teach_me.api.UsuarioData
 com/example/teach_me/api/TipoData.java
@@ -83,33 +58,21 @@ com/example/teach_me/api/TipoData.java
 com/example/teach_me/view/AulaMinistradaActivity.java
  com.example.teach_me.view.AulaMinistradaActivity
  com.example.teach_me.view.AulaMinistradaActivity$1
+ com.example.teach_me.view.AulaMinistradaActivity$2
 com/example/teach_me/datamodel/InstituicaoDataModel.java
  com.example.teach_me.datamodel.InstituicaoDataModel
 com/example/teach_me/datamodel/AulaDataModel.java
  com.example.teach_me.datamodel.AulaDataModel
-<<<<<<< Updated upstream
-com/example/teach_me/datamodel/UsuarioDataModel.java
- com.example.teach_me.datamodel.UsuarioDataModel
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 com/example/teach_me/view/ResultadosAdapter.java
  com.example.teach_me.view.ResultadosAdapter
  com.example.teach_me.view.ResultadosAdapter$1
  com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 com/example/teach_me/view/RegistroActivity.java
  com.example.teach_me.view.RegistroActivity
  com.example.teach_me.view.RegistroActivity$1
  com.example.teach_me.view.RegistroActivity$2
  com.example.teach_me.view.RegistroActivity$3
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+ com.example.teach_me.view.RegistroActivity$4
 com/example/teach_me/model/Aula.java
  com.example.teach_me.model.Aula
 com/example/teach_me/model/Disciplina.java
@@ -121,6 +84,7 @@ com/example/teach_me/api/DisciplinaService.java
 com/example/teach_me/view/ImagemPerfilActivity.java
  com.example.teach_me.view.ImagemPerfilActivity
  com.example.teach_me.view.ImagemPerfilActivity$1
+ com.example.teach_me.view.ImagemPerfilActivity$2
 com/example/teach_me/api/AppUltil.java
  com.example.teach_me.api.AppUltil
 com/example/teach_me/view/ui/aulas/AulasFragment.java
@@ -179,9 +143,6 @@ com/example/teach_me/view/LoginActivity.java
  com.example.teach_me.view.LoginActivity$1
  com.example.teach_me.view.LoginActivity$2
  com.example.teach_me.view.LoginActivity$3
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
 com/example/teach_me/datamodel/UsuarioDataModel.java
  com.example.teach_me.datamodel.UsuarioDataModel
 com/example/teach_me/api/InstituicaoService.java
@@ -190,15 +151,3 @@ com/example/teach_me/view/AnuncioActivity.java
  com.example.teach_me.view.AnuncioActivity
  com.example.teach_me.view.AnuncioActivity$1
  com.example.teach_me.view.AnuncioActivity$2
->>>>>>> Stashed changes
-=======
-com/example/teach_me/view/ResultadosActivity.java
- com.example.teach_me.view.ResultadosActivity
-com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
- com.example.teach_me.view.ui.pesquisa.PesquisaFragment
- com.example.teach_me.view.ui.pesquisa.PesquisaFragment$1
-com/example/teach_me/view/ResultadosAdapter.java
- com.example.teach_me.view.ResultadosAdapter
- com.example.teach_me.view.ResultadosAdapter$1
- com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
->>>>>>> Stashed changes

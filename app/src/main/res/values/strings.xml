@@ -12,19 +12,19 @@
         <item>Sexta-feira</item>
     </string-array>
     <string-array name="horario_array">
-        <item>De 7h às 8h</item>
-        <item>De 8h às 9h</item>
-        <item>De 9h às 10h</item>
-        <item>De 10h às 11h</item>
-        <item>De 11h às 12h</item>
-        <item>De 13h às 14h</item>
-        <item>De 14h às 15h</item>
-        <item>De 15h às 16h</item>
-        <item>De 16h às 17h</item>
-        <item>De 17h às 18h</item>
-        <item>De 18h às 19h</item>
-        <item>De 19h às 20h</item>
-        <item>De 20h às 21h</item>
-        <item>De 21h às 22h</item>
+        <item>de 7h às 8h</item>
+        <item>de 8h às 9h</item>
+        <item>de 9h às 10h</item>
+        <item>de 10h às 11h</item>
+        <item>de 11h às 12h</item>
+        <item>de 13h às 14h</item>
+        <item>de 14h às 15h</item>
+        <item>de 15h às 16h</item>
+        <item>de 16h às 17h</item>
+        <item>de 17h às 18h</item>
+        <item>de 18h às 19h</item>
+        <item>de 19h às 20h</item>
+        <item>de 20h às 21h</item>
+        <item>de 21h às 22h</item>
     </string-array>
 </resources>

@@ -60,12 +60,12 @@ public class AnuncioActivity extends AppCompatActivity {
         initComponents();
 
         // Pega o id do professor e do anúncio
-        int idUsuario = Integer.parseInt(intent.getExtras().getString("Professor"));
+        int idUsuario = intent.getExtras().getInt("Professor");
         int idAnuncio = Integer.parseInt(intent.getExtras().getString("idAnuncio"));
 
         // Busca o usuário autor do anuncio
         try {
-            professor = usuarioController.get(idUsuario);
+            professor = usuarioController.get(intent.getExtras().getInt("Professor"));
             anuncio = anuncioController.get(idAnuncio);
             disciplina = disciplinaController.get(anuncio.getCdDisciplina());
         } catch (Exception e) {

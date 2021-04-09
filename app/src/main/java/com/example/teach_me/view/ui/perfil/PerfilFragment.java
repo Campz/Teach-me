@@ -1,8 +1,10 @@
 package com.example.teach_me.view.ui.perfil;
 
+import androidx.annotation.RequiresApi;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -35,13 +37,14 @@ public class PerfilFragment extends Fragment {
 
     CircleImageView img_perfil;
     RatingBar avaliacaoPerfil;
-    TextView txt_nomePerfil, txt_idade, txt_curso, txt_instituicao, txt_biografia;
+    TextView txt_nomePerfil, txt_idade, txt_curso, txt_instituicao, txt_biografia, txt_email;
     Button bt_sair;
 
     public static PerfilFragment newInstance() {
         return new PerfilFragment();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         root = inflater.inflate(R.layout.fragment_perfil, container, false);
@@ -53,6 +56,7 @@ public class PerfilFragment extends Fragment {
             Picasso.get().load(usuarioLogado.getFoto()).into(img_perfil);
             avaliacaoPerfil.setRating(Float.parseFloat(usuarioLogado.getAvaliacao()));
             txt_nomePerfil.setText(usuarioLogado.getNmUsuario());
+            txt_email.setText(usuarioLogado.getEmail());
             try {
                 txt_instituicao.setText(instituicaoController.get(usuarioLogado.getCdInstituicao()).getNmInstituicao());
             } catch (Exception e) {
@@ -86,9 +90,9 @@ public class PerfilFragment extends Fragment {
         avaliacaoPerfil = root.findViewById(R.id.avaliacaoPerfil);
         txt_nomePerfil = root.findViewById(R.id.txt_nomePerfil);
         txt_idade = root.findViewById(R.id.txt_idade);
-        txt_curso = root.findViewById(R.id.txt_nmCurso);
         txt_instituicao = root.findViewById(R.id.txt_nmLocal);
         txt_biografia = root.findViewById(R.id.txt_biografiaPerfil);
+        txt_email = root.findViewById(R.id.txt_nmCurso);
         bt_sair = root.findViewById(R.id.bt_sair);
         usuarioController = UsuarioController.getInstance(getContext());
         instituicaoController = InstituicaoController.getInstance(getContext());
