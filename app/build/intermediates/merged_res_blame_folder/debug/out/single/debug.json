@@ -112,8 +112,17 @@
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\layout\\fragment_pesquisa.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_retangulo_verde.png.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\img_retangulo_verde.png"
+=======
+        "merged": "D:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_usuario_sem_foto.png.flat",
+        "source": "D:\\rafav\\Documents\\Teach-me\\app\\src\\main\\res\\drawable\\usuario_sem_foto.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_attach_money_preto_24.xml.flat",
+        "source": "D:\\rafav\\Documents\\Teach-me\\app\\src\\main\\res\\drawable\\ic_baseline_attach_money_preto_24.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_verde_r10.xml.flat",

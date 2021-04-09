@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #Fri Apr 09 12:22:00 BRT 2021
+=======
+#Fri Apr 09 12:57:14 BRT 2021
+>>>>>>> Stashed changes
 base.0=D\:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 =======
 #Fri Apr 09 13:36:44 BRT 2021

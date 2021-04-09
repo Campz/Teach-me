@@ -1762,6 +1762,7 @@ drawable student_vector
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable usuario_sem_foto
 drawable wave_azul_baixo_main
 drawable wave_azul_topo
 font alfa_slab_one

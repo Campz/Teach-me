@@ -1761,8 +1761,9 @@ int drawable student_vector 0x7f0800de
 int drawable test_custom_background 0x7f0800df
 int drawable tooltip_frame_dark 0x7f0800e0
 int drawable tooltip_frame_light 0x7f0800e1
-int drawable wave_azul_baixo_main 0x7f0800e2
-int drawable wave_azul_topo 0x7f0800e3
+int drawable usuario_sem_foto 0x7f0800e2
+int drawable wave_azul_baixo_main 0x7f0800e3
+int drawable wave_azul_topo 0x7f0800e4
 int font alfa_slab_one 0x7f090000
 int font archivo_black 0x7f090001
 int font champagne_e_limousines 0x7f090002

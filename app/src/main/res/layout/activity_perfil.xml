@@ -30,13 +30,14 @@
 
             <ImageView
                 android:id="@+id/img_perfil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_marginTop="68dp"
                 android:src="@drawable/ruan_foto"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/img_capa" />
+                app:layout_constraintTop_toTopOf="@+id/img_capa"
+                app:srcCompat="@drawable/usuario_sem_foto" />
 
             <TextView
                 android:id="@+id/txt_nomePerfil"

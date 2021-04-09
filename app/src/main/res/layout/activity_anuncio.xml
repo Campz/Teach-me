@@ -126,7 +126,7 @@
                     android:layout_height="150dp"
                     android:layout_marginStart="4dp"
                     android:paddingEnd="10dp"
-                    android:src="@drawable/ruan_foto"
+                    android:src="@drawable/usuario_sem_foto"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/layout1"
                     app:layout_constraintTop_toTopOf="parent"
