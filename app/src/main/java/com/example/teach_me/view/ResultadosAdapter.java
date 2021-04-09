@@ -92,7 +92,7 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
             public void onClick(View v) {
                 Intent intent = new Intent(context, AnuncioActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.putExtra("Professor", resultados.get(position).getId().toString());
+                intent.putExtra("Professor", usuarioReferente.getId().toString());
                 intent.putExtra("idAnuncio", resultados.get(position).getId().toString());
                 intent.putExtra("Valor",preço);
                 context.startActivity(intent);

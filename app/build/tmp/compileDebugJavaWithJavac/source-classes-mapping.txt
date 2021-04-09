@@ -1,8 +1,9 @@
 com/example/teach_me/api/AulaService.java
  com.example.teach_me.api.AulaService
-com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
- com.example.teach_me.view.ui.pesquisa.PesquisaFragment
- com.example.teach_me.view.ui.pesquisa.PesquisaFragment$1
+com/example/teach_me/view/AulasAdapter.java
+ com.example.teach_me.view.AulasAdapter
+ com.example.teach_me.view.AulasAdapter$1
+ com.example.teach_me.view.AulasAdapter$AulasHolder
 com/example/teach_me/controller/UsuarioController.java
  com.example.teach_me.controller.UsuarioController
 com/example/teach_me/api/AnuncioService.java
@@ -49,10 +50,9 @@ com/example/teach_me/model/Instituicao.java
 com/example/teach_me/view/MatriculadosAdapter.java
  com.example.teach_me.view.MatriculadosAdapter
  com.example.teach_me.view.MatriculadosAdapter$MatriculadosHolder
-com/example/teach_me/view/ResultadosAdapter.java
- com.example.teach_me.view.ResultadosAdapter
- com.example.teach_me.view.ResultadosAdapter$1
- com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
+com/example/teach_me/view/AulaMinistradaActivity.java
+ com.example.teach_me.view.AulaMinistradaActivity
+ com.example.teach_me.view.AulaMinistradaActivity$1
 com/example/teach_me/api/UsuarioData.java
  com.example.teach_me.api.UsuarioData
 com/example/teach_me/api/TipoData.java
@@ -65,10 +65,10 @@ com/example/teach_me/datamodel/AulaDataModel.java
  com.example.teach_me.datamodel.AulaDataModel
 com/example/teach_me/datamodel/UsuarioDataModel.java
  com.example.teach_me.datamodel.UsuarioDataModel
-com/example/teach_me/view/RegistroActivity.java
- com.example.teach_me.view.RegistroActivity
- com.example.teach_me.view.RegistroActivity$1
- com.example.teach_me.view.RegistroActivity$2
+com/example/teach_me/view/ResultadosAdapter.java
+ com.example.teach_me.view.ResultadosAdapter
+ com.example.teach_me.view.ResultadosAdapter$1
+ com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
 com/example/teach_me/model/Aula.java
  com.example.teach_me.model.Aula
 com/example/teach_me/model/Disciplina.java
@@ -133,17 +133,18 @@ com/example/teach_me/controller/InstituicaoController.java
  com.example.teach_me.controller.InstituicaoController
 com/example/teach_me/view/DatePickerFragment.java
  com.example.teach_me.view.DatePickerFragment
+com/example/teach_me/view/ui/pesquisa/PesquisaFragment.java
+ com.example.teach_me.view.ui.pesquisa.PesquisaFragment
+ com.example.teach_me.view.ui.pesquisa.PesquisaFragment$1
+com/example/teach_me/view/ResultadosActivity.java
+ com.example.teach_me.view.ResultadosActivity
+com/example/teach_me/view/RegistroActivity.java
+ com.example.teach_me.view.RegistroActivity
+ com.example.teach_me.view.RegistroActivity$1
+ com.example.teach_me.view.RegistroActivity$2
+ com.example.teach_me.view.RegistroActivity$3
 com/example/teach_me/view/LoginActivity.java
  com.example.teach_me.view.LoginActivity
  com.example.teach_me.view.LoginActivity$1
  com.example.teach_me.view.LoginActivity$2
  com.example.teach_me.view.LoginActivity$3
-com/example/teach_me/view/ResultadosActivity.java
- com.example.teach_me.view.ResultadosActivity
-com/example/teach_me/view/AulasAdapter.java
- com.example.teach_me.view.AulasAdapter
- com.example.teach_me.view.AulasAdapter$1
- com.example.teach_me.view.AulasAdapter$AulasHolder
-com/example/teach_me/view/AulaMinistradaActivity.java
- com.example.teach_me.view.AulaMinistradaActivity
- com.example.teach_me.view.AulaMinistradaActivity$1

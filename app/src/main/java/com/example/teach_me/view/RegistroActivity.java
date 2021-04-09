@@ -1,6 +1,7 @@
 package com.example.teach_me.view;
 
 import android.app.Activity;
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
@@ -8,17 +9,22 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 
 import com.example.teach_me.R;
 import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Usuario;
 
-public class RegistroActivity extends AppCompatActivity {
+import java.text.DateFormat;
+import java.util.Calendar;
+
+public class RegistroActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     TextView txt_usuario, txt_senha, txt_email, txt_nome, txt_dtNascimento, txt_instituicao;
     ImageView bt_back;
@@ -107,7 +113,38 @@ public class RegistroActivity extends AppCompatActivity {
 
             }
         });
+        txt_dtNascimento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DialogFragment datePicker = new DatePickerFragment();
+                datePicker.show(getSupportFragmentManager(),"date picker");
+            }
+        });
         //
+    }
+
+    @Override
+    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.YEAR,year);
+        c.set(Calendar.MONTH,month);
+        c.set(Calendar.DAY_OF_MONTH,dayOfMonth);
+
+        String ano, mes, dia;
+        if(c.get(Calendar.MONTH) < 10){
+            mes = "0" + String.valueOf(c.get(Calendar.MONTH)+1);
+        }else{
+            mes = String.valueOf(c.get(Calendar.MONTH));
+        }
+        if (c.get(Calendar.DAY_OF_MONTH) < 10){
+            dia = "0" + String.valueOf(c.get(Calendar.DAY_OF_MONTH));
+        }else{
+            dia = String.valueOf(c.get(Calendar.DAY_OF_MONTH));
+        }
+        ano = String.valueOf(c.get(Calendar.YEAR));
+
+        String dataString = ano+"-"+mes+"-"+dia;
+        txt_dtNascimento.setText(dataString);
     }
 
     private void initComponents() {
