@@ -5,24 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login"
-    android:transitionName="chapeu"
-    >
+    android:transitionName="chapeu">
+
+    <ImageView
+        android:id="@+id/imgDisciplinas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_"
+        app:layout_constraintEnd_toEndOf="@+id/img_trans_"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="@+id/img_trans_"
+        app:srcCompat="@drawable/ic_school_24" />
+
+    <ImageView
+        android:id="@+id/img_trans_"
+        android:layout_width="312dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_campo5"
+        app:srcCompat="@drawable/campo_transparente" />
+
+    <Spinner
+        android:id="@+id/spnInstituicao"
+        android:layout_width="214dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="@+id/img_trans_"
+        app:layout_constraintStart_toEndOf="@+id/imgDisciplinas2"
+        app:layout_constraintTop_toTopOf="@+id/img_trans_"
+        app:layout_constraintVertical_bias="0.388" />
 
     <Button
         android:id="@+id/bt_registrar"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
         android:background="@drawable/button_background_white"
         android:text="REGISTRAR"
         android:textColor="#1D9869"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_campo6"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/bt_back"
@@ -250,40 +281,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_campo4"
         app:srcCompat="@drawable/campo_transparente" />
-
-    <EditText
-        android:id="@+id/editText_Instituicao"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:background="#00FFFFFF"
-        android:ems="10"
-        android:hint="Instituição"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/colorWhite"
-        app:layout_constraintBottom_toBottomOf="@+id/img_campo6"
-        app:layout_constraintStart_toEndOf="@+id/ic_Instituicao"
-        app:layout_constraintTop_toTopOf="@+id/img_campo6" />
-
-    <ImageView
-        android:id="@+id/img_campo6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_campo5"
-        app:srcCompat="@drawable/campo_transparente" />
-
-    <ImageView
-        android:id="@+id/ic_Instituicao"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/img_campo6"
-        app:layout_constraintStart_toStartOf="@+id/img_campo6"
-        app:layout_constraintTop_toTopOf="@+id/img_campo6"
-        app:srcCompat="@drawable/ic_school_24"
-        tools:ignore="VectorDrawableCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

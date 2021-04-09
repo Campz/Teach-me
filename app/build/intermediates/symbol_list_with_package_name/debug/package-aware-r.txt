@@ -1969,7 +1969,6 @@ id editTextDescAvaliacao
 id editTextNotaAvaliacaco
 id editTextTituloAvaliacao
 id editText_DtNascimento
-id editText_Instituicao
 id editText_disciplina
 id editText_email
 id editText_instituicao
@@ -2013,7 +2012,6 @@ id home
 id homeAsUp
 id honorRequest
 id ic_DtNascimento
-id ic_Instituicao
 id ic_curso
 id ic_descricao
 id ic_disciplina
@@ -2037,6 +2035,7 @@ id image
 id imageView
 id imgDescricao
 id imgDisciplinas
+id imgDisciplinas2
 id imgProfessor
 id imgQtd
 id imgValor
@@ -2049,7 +2048,6 @@ id img_campo2
 id img_campo3
 id img_campo4
 id img_campo5
-id img_campo6
 id img_campoD
 id img_campoD2
 id img_campoD3
@@ -2063,6 +2061,7 @@ id img_perfil
 id img_preco
 id img_professor
 id img_professorAula
+id img_trans_
 id img_trans_1
 id img_trans_2
 id img_trans_3
@@ -2226,6 +2225,7 @@ id spinnerDia
 id spline
 id split_action_bar
 id spnDisciplinas
+id spnInstituicao
 id spread
 id spread_inside
 id square

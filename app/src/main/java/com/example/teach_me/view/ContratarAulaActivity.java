@@ -24,6 +24,8 @@ import com.example.teach_me.model.Aula;
 import com.example.teach_me.model.Disciplina;
 import com.example.teach_me.model.Usuario;
 
+import java.util.List;
+
 public class ContratarAulaActivity extends AppCompatActivity {
 
     TextView txt_nmDisciplina, txt_nmProfessor, txt_Valor;
@@ -132,16 +134,134 @@ public class ContratarAulaActivity extends AppCompatActivity {
                     horario += "Sexta, ";
                 }
                 horario += horarioSelecionado + ".";
-                Aula aula;
-                aula = new Aula();
-                aula.setCdAnuncio(idAnuncio);
-                aula.setCdUsuarioAluno(usuarioController.getUsuarioLogado().getId()); // pega a id do usuario logado
-                aula.setHorario(horario);
-                aula.setIsAvaliado(0);
-                aulaController.incluir(aula);
-                Toast.makeText(ContratarAulaActivity.this, "Aula contratada com sucesso!", Toast.LENGTH_LONG).show();
-                finish();
+
+                if(verificaContratacao()) {
+                    Toast.makeText(ContratarAulaActivity.this, "Você já contratou esta aula!", Toast.LENGTH_LONG).show();
+                    finish();
+                }else{
+                    if(verificaSeEstaMatriculandoNaPropriaAula()){
+                        Toast.makeText(ContratarAulaActivity.this, "Você não pode se matricular na sua própria aula!", Toast.LENGTH_LONG).show();
+                        finish();
+                    }else{
+                        if(verificaQtdVagas()) {
+                            if(verificaInstituicao()){
+                                Aula aula;
+                                aula = new Aula();
+                                aula.setCdAnuncio(idAnuncio);
+                                aula.setCdUsuarioAluno(usuarioController.getUsuarioLogado().getId()); // pega a id do usuario logado
+                                aula.setHorario(horario);
+                                aula.setIsAvaliado(0);
+                                aulaController.incluir(aula);
+                                Toast.makeText(ContratarAulaActivity.this, "Aula contratada com sucesso!", Toast.LENGTH_LONG).show();
+                                finish();
+                            }else{
+                                Toast.makeText(ContratarAulaActivity.this, "Instituição diferente!", Toast.LENGTH_LONG).show();
+                                finish();
+                            }
+                        }else{
+                            Toast.makeText(ContratarAulaActivity.this, "Turma cheia!", Toast.LENGTH_LONG).show();
+                            finish();
+                        }
+
+                    }
+                }
             }
         });
+    }
+
+    private boolean verificaContratacao(){
+        Usuario aluno = usuarioController.getUsuarioLogado();
+        List<Aula> aulas = aulaController.listar();
+        boolean contratado = false;
+
+        for(Aula a: aulas){
+            if(a.getCdUsuarioAluno() == aluno.getId() && a.getCdAnuncio() == idAnuncio){
+                contratado = true;
+                break;
+            }
+        }
+        return contratado;
+    }
+
+    private boolean verificaSeEstaMatriculandoNaPropriaAula(){
+        Usuario aluno = usuarioController.getUsuarioLogado();
+        List<Anuncio> anuncios = anuncioController.listar();
+        Anuncio anuncio = new Anuncio();
+        boolean alunoProfessor = false;
+
+        //Pega o anúncio pelo id
+        for(Anuncio a : anuncios){
+            if(a.getId() == idAnuncio){
+                anuncio = a;
+                break;
+            }
+        }
+
+        if(anuncio.getCdUsuarioProfessor() == aluno.getId())
+            alunoProfessor = true;
+
+        return alunoProfessor;
+    }
+
+    private boolean verificaQtdVagas(){
+        List<Aula> aulas = aulaController.listar();
+        List<Anuncio> anuncios = anuncioController.listar();
+        Anuncio anuncio = new Anuncio();
+
+        boolean temVaga = true;
+        int qtdVagas = 0;
+        int qtdVagasOcupadas = 0;
+
+        //Pega o anúncio pelo id
+        for(Anuncio a : anuncios){
+            if(a.getId() == idAnuncio){
+                qtdVagas = a.getQtdAlunos();
+                break;
+            }
+        }
+
+        for(Aula a: aulas){
+            if(a.getCdAnuncio() == idAnuncio){
+                qtdVagasOcupadas++;
+            }
+        }
+
+        if(qtdVagasOcupadas >= qtdVagas)
+            temVaga = false;
+        else
+            temVaga = true;
+
+        return temVaga;
+    }
+
+    private boolean verificaInstituicao(){
+        Usuario aluno = usuarioController.getUsuarioLogado();
+        List<Anuncio> anuncios = anuncioController.listar();
+        List<Usuario> usuarios = usuarioController.listar();
+        Usuario professor = new Usuario();
+        Anuncio anuncio = new Anuncio();
+
+        boolean mesmaInst = false;
+
+        //Pega o anúncio pelo id
+        for(Anuncio a : anuncios){
+            if(a.getId() == idAnuncio){
+                anuncio = a;
+                break;
+            }
+        }
+
+        for(Usuario u : usuarios){
+            if(u.getId() == anuncio.getCdUsuarioProfessor()){
+                professor = u;
+                break;
+            }
+        }
+
+        if(professor.getCdInstituicao() == aluno.getCdInstituicao()){
+            mesmaInst = true;
+        }
+
+        return mesmaInst;
     }
 }

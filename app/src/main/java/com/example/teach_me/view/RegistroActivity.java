@@ -8,9 +8,12 @@ import android.os.PersistableBundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -18,19 +21,31 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
 import com.example.teach_me.R;
+import com.example.teach_me.controller.InstituicaoController;
 import com.example.teach_me.controller.UsuarioController;
+import com.example.teach_me.model.Disciplina;
+import com.example.teach_me.model.Instituicao;
 import com.example.teach_me.model.Usuario;
 
+<<<<<<< Updated upstream
 import java.text.DateFormat;
 import java.util.Calendar;
 
 public class RegistroActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+=======
+import java.util.List;
 
-    TextView txt_usuario, txt_senha, txt_email, txt_nome, txt_dtNascimento, txt_instituicao;
+public class RegistroActivity extends AppCompatActivity {
+>>>>>>> Stashed changes
+
+    TextView txt_usuario, txt_senha, txt_email, txt_nome, txt_dtNascimento;
+    Spinner spnInst;
     ImageView bt_back;
     Button bt_registrar;
     Usuario novoUsuario;
+
     UsuarioController usuarioController;
+    InstituicaoController instituicaoController;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -85,10 +100,10 @@ public class RegistroActivity extends AppCompatActivity implements DatePickerDia
                     txt_dtNascimento.requestFocus();
                 }
 
-                if(TextUtils.isEmpty(txt_instituicao.getText())){
+                if(spnInst == null && spnInst.getSelectedItem() == null ){
                     isDadosOK = false;
-                    txt_instituicao.setError("Digite o nome da instituição");
-                    txt_instituicao.requestFocus();
+                    ((TextView)spnInst.getSelectedView()).setError("Selecione uma instituição");
+                    spnInst.requestFocus();
                 }
 
                 if(isDadosOK){
@@ -101,6 +116,8 @@ public class RegistroActivity extends AppCompatActivity implements DatePickerDia
                     novoUsuario.setAvaliacao("0");
                     novoUsuario.setDescricao("");
                     novoUsuario.setFoto(null);
+                    Instituicao i = (Instituicao) spnInst.getSelectedItem();
+                    novoUsuario.setCdInstituicao(i.getId());
                     usuarioController.incluir(novoUsuario);
                     Log.i("log_add_usuario","onClick: Dados corretos...");
                 }else{
@@ -153,12 +170,46 @@ public class RegistroActivity extends AppCompatActivity implements DatePickerDia
         txt_email = findViewById(R.id.editText_email);
         txt_nome = findViewById(R.id.editText_nome);
         txt_dtNascimento = findViewById(R.id.editText_DtNascimento);
-        txt_instituicao = findViewById(R.id.editText_Instituicao);
+        spnInst = findViewById(R.id.spnInstituicao);
         bt_back = findViewById(R.id.bt_back);
         bt_registrar = findViewById(R.id.bt_registrar);
 
         novoUsuario = new Usuario();
         usuarioController = UsuarioController.getInstance(this);
+        instituicaoController = InstituicaoController.getInstance(this);
+
+        //Preenche o Spinner
+        List<Instituicao> instituicoes = instituicaoController.listar();
+        ArrayAdapter<Instituicao> dataAdapter = new ArrayAdapter<Instituicao>(this,
+                android.R.layout.simple_spinner_item, instituicoes);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnInst.setAdapter(dataAdapter);
+
+        spnInst.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Instituicao i = (Instituicao) parent.getSelectedItem();
+                displayInstData(i);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+    }
+
+    public void getSelectedInst(View v){
+        Instituicao i = (Instituicao) spnInst.getSelectedItem();
+        displayInstData(i);
+    }
+
+    private void displayInstData(Instituicao i){
+        String nmInstituicao = i.getNmInstituicao();
+        int id = i.getId();
+        String endereco = i.getEndereco();
+
+        String instData = "Instituição: " + nmInstituicao;
     }
 
 }

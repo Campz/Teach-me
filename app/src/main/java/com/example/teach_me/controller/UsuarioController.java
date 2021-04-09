@@ -14,6 +14,7 @@ import java.util.GregorianCalendar;
 import java.util.List;
 import com.example.teach_me.datamodel.UsuarioDataModel;
 import com.example.teach_me.datasource.AppDataBase;
+import com.example.teach_me.model.Aula;
 import com.example.teach_me.model.Usuario;
 
 public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
@@ -120,5 +121,28 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
         }
 
         return 0;
+    }
+
+    public double getValorAvaliacao(int idUsuario, AulaController aulaController){
+
+        double soma = 0;
+        int qtdAval = 0;
+
+        List<Aula> aulas = aulaController.listar();
+
+        for (Aula a : aulas){
+            //pega as aulas daquele id
+            if(a.getCdUsuarioAluno() == idUsuario){
+                //Pega os valores de todas as avaliações
+                if(a.getIsAvaliado() == 1){
+                    soma = soma + a.getAvaliacao();
+                    qtdAval++;
+                }
+            }
+        }
+
+        double resultado = soma/qtdAval;
+
+        return resultado;
     }
 }
