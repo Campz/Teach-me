@@ -114,7 +114,7 @@ public class UsuarioController extends AppDataBase implements ICRUD<Usuario> {
             int ano = date.getYear();
             Date d = new Date();
             int ano2 =d.getYear();
-            return ano - ano2;
+            return ano2 - ano;
         } catch (ParseException e) {
             e.printStackTrace();
         }

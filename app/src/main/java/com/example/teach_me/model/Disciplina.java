@@ -32,8 +32,6 @@ public class Disciplina {
 
     @Override
     public String toString() {
-        return "ID: " + getId()
-                + "\nNome: " + getNmDisciplina()
-                + "Tipo: " + getCdTipo();
+        return getNmDisciplina();
     }
 }

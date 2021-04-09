@@ -76,7 +76,7 @@ public class AnuncioActivity extends AppCompatActivity {
         txtNome = findViewById(R.id.txtProfessor);
         txtQtdAval = findViewById(R.id.txtQtdAval);
         txtPreco = findViewById(R.id.txtValorAnuncio);
-        txtDescricao = findViewById(R.id.txtDescricao);
+        txtDescricao = findViewById(R.id.txt_descricaoAnuncio);
         btnPerfil = findViewById(R.id.btnPerfil);
         btnContratar = findViewById(R.id.btnContratar);
         rbAvaliacao = findViewById(R.id.avaliacaoPerfil);

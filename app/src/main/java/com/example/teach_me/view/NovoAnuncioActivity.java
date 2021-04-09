@@ -4,10 +4,12 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,6 +19,10 @@ import com.example.teach_me.controller.AnuncioController;
 import com.example.teach_me.controller.DisciplinaController;
 import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Anuncio;
+import com.example.teach_me.model.Disciplina;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class NovoAnuncioActivity extends AppCompatActivity {
 
@@ -35,20 +41,12 @@ public class NovoAnuncioActivity extends AppCompatActivity {
         initComponents();
         buttonsEvents();
 
-        ArrayAdapter<CharSequence> disciplina_adapter = ArrayAdapter.createFromResource(this,
+        /*ArrayAdapter<CharSequence> disciplina_adapter = ArrayAdapter.createFromResource(this,
                 R.array.spinner_disciplina, android.R.layout.simple_spinner_item);
         // Specify the layout to use when the list of choices appears
         disciplina_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner
-        spinner_disciplina.setAdapter(disciplina_adapter);
-
-        //ArrayAdapter<CharSequence> professor_adapter = ArrayAdapter.createFromResource(this,
-               // R.array.spinner_professor, android.R.layout.simple_spinner_item);
-        // Specify the layout to use when the list of choices appears
-        //professor_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        // Apply the adapter to the spinner
-        //spinner_professor.setAdapter(professor_adapter);
-
+        spinner_disciplina.setAdapter(disciplina_adapter);*/
     }
 
     private void buttonsEvents() {
@@ -84,13 +82,20 @@ public class NovoAnuncioActivity extends AppCompatActivity {
                     txt_valor.requestFocus();
                 }
 
+                if(spinner_disciplina == null && spinner_disciplina.getSelectedItem() ==null ){
+                    isDadosOK = false;
+                    ((TextView)spinner_disciplina.getSelectedView()).setError("Selecione uma disciplina");
+                    spinner_disciplina.requestFocus();
+                }
+
                 if(isDadosOK){
                     // Deu Bom
                     novoAnuncio.setDescricao(txt_descricao.getText().toString());
                     novoAnuncio.setQtdAlunos(Integer.getInteger(txt_qtAlunos.getText().toString()));
                     novoAnuncio.setValor(txt_valor.getText().toString());
                     novoAnuncio.setCdUsuarioProfessor(usuarioController.getUsuarioLogado().getId());
-                    novoAnuncio.setCdDisciplina(7);
+                    Disciplina d = (Disciplina) spinner_disciplina.getSelectedItem();
+                    novoAnuncio.setCdDisciplina(d.getId());
 
                     anuncioController.incluir(novoAnuncio);
                     Log.i("log_add_usuario","onClick: Dados corretos...");
@@ -117,5 +122,38 @@ public class NovoAnuncioActivity extends AppCompatActivity {
         disciplinaController = DisciplinaController.getInstance(this);
         anuncioController = AnuncioController.getInstance(this);
         usuarioController = UsuarioController.getInstance(this);
+
+        //Preenche o Spinner
+        List<Disciplina> disciplinas = disciplinaController.listar();
+        ArrayAdapter<Disciplina> dataAdapter = new ArrayAdapter<Disciplina>(this,
+                android.R.layout.simple_spinner_item, disciplinas);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_disciplina.setAdapter(dataAdapter);
+
+        spinner_disciplina.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Disciplina d = (Disciplina) parent.getSelectedItem();
+                displayDisciplinaData(d);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+    }
+
+    public void getSelectedDisciplina(View v){
+        Disciplina disciplina = (Disciplina) spinner_disciplina.getSelectedItem();
+        displayDisciplinaData(disciplina);
+    }
+
+    private void displayDisciplinaData(Disciplina d){
+        String nmDisciplina = d.getNmDisciplina();
+        int id = d.getId();
+        int idTipo = d.getCdTipo();
+
+        String disciplinaDta = "Disciplina: " + nmDisciplina;
     }
 }
