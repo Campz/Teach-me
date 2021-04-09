@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_wave_perfilimage_cima">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bt_voltarAulaMinistrada"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/img_usuarioAulaMinistrada"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ruan_foto" />
+
+                <TextView
+                    android:id="@+id/txt_disciplinaAulaMinistrada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Disciplina"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/img_usuarioAulaMinistrada"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/txt_instituicaoAulaMinistrada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto"
+                    android:text=" Instituição"
+                    android:textSize="18sp"
+                    app:drawableStartCompat="@drawable/ic_local"
+                    app:layout_constraintStart_toEndOf="@+id/img_usuarioAulaMinistrada"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_disciplinaAulaMinistrada" />
+
+                <TextView
+                    android:id="@+id/txt_valorAulaMinistrada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="Valor"
+                    android:textSize="18sp"
+                    app:drawableStartCompat="@drawable/ic_baseline_attach_money_preto_24"
+                    app:layout_constraintStart_toEndOf="@+id/img_usuarioAulaMinistrada"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_instituicaoAulaMinistrada" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text=" Alunos Matriculados"
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                app:drawableStartCompat="@drawable/ic_baseline_group_24" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycleAlunosMatriculados"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/layout_avaliarProfessor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text=" Avaliar Professor"
+                    android:textSize="24sp"
+                    app:drawableStartCompat="@drawable/ic_estrela" />
+
+                <EditText
+                    android:id="@+id/editTextTituloAvaliacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/button_transparente_r10"
+                    android:ems="10"
+                    android:hint="Título"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp" />
+
+                <EditText
+                    android:id="@+id/editTextNotaAvaliacaco"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/button_transparente_r10"
+                    android:ems="10"
+                    android:hint="Nota de 1 a 5"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp" />
+
+                <EditText
+                    android:id="@+id/editTextDescAvaliacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/button_transparente_r10"
+                    android:ems="10"
+                    android:hint="Descrição"
+                    android:inputType="textPersonName"
+                    android:paddingStart="15dp" />
+
+                <Button
+                    android:id="@+id/bt_enviarAvaliacao"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_background_verde_r10"
+                    android:text="Enviar"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bt_deletarAnuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

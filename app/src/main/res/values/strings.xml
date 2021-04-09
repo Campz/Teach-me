@@ -12,20 +12,19 @@
         <item>Sexta-feira</item>
     </string-array>
     <string-array name="horario_array">
-        <item>M1 – 7H</item>
-        <item>M2 – 8H</item>
-        <item>M3 – 9H</item>
-        <item>M4 – 10H</item>
-        <item>M5 – 11H</item>
-        <item>T1 – 13H</item>
-        <item>T2 – 14H</item>
-        <item>T3 – 15H</item>
-        <item>T4 – 16H</item>
-        <item>T5 – 17H</item>
-        <item>N1 – 18H</item>
-        <item>N2 – 19H</item>
-        <item>N3 – 20H</item>
-        <item>N4 – 21H</item>
-        <item>N5 – 22H</item>
+        <item>De 7h às 8h</item>
+        <item>De 8h às 9h</item>
+        <item>De 9h às 10h</item>
+        <item>De 10h às 11h</item>
+        <item>De 11h às 12h</item>
+        <item>De 13h às 14h</item>
+        <item>De 14h às 15h</item>
+        <item>De 15h às 16h</item>
+        <item>De 16h às 17h</item>
+        <item>De 17h às 18h</item>
+        <item>De 18h às 19h</item>
+        <item>De 19h às 20h</item>
+        <item>De 20h às 21h</item>
+        <item>De 21h às 22h</item>
     </string-array>
 </resources>

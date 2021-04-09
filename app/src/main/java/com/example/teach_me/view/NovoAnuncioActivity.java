@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -99,6 +100,7 @@ public class NovoAnuncioActivity extends AppCompatActivity {
 
                     anuncioController.incluir(novoAnuncio);
                     Log.i("log_add_usuario","onClick: Dados corretos...");
+                    Toast.makeText(NovoAnuncioActivity.this, "Anúncio criado com sucesso!", Toast.LENGTH_LONG).show();
                 }else{
                     // Deu ruim
                     Log.e("log_add_usuario","onClick: Dados incorretos...");

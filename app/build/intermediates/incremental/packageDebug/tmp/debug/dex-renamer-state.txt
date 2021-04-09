@@ -1,18 +1,7 @@
-<<<<<<< Updated upstream
-#Wed Apr 07 19:32:34 BRT 2021
-path.3=classes.dex
-path.2=classes.dex
-=======
-#Thu Apr 08 22:32:24 BRT 2021
-base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
->>>>>>> Stashed changes
+#Fri Apr 09 04:21:44 BRT 2021
+base.0=D\:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
-path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-base.2=C\:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
-base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "D:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\43a6a036a3f5d938781e50da94e46de8\\jetified-android-image-cropper-2.8.0\\res\\values-ko\\values-ko.xml",

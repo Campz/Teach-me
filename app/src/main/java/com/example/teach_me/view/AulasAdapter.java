@@ -1,6 +1,7 @@
 package com.example.teach_me.view;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -76,31 +77,27 @@ public class AulasAdapter extends RecyclerView.Adapter<AulasAdapter.AulasHolder>
             anuncioReferente = anuncioController.get(aulas.get(position).getCdAnuncio());
             disciplinaReferente = disciplinaController.get(anuncioReferente.getCdDisciplina());
             usuarioReferente = usuarioController.get(anuncioReferente.getCdUsuarioProfessor());
+            holder.nmDisciplina.setText(disciplinaReferente.getNmDisciplina());
+            String aux = "Professor: " + usuarioReferente.getNmUsuario();
+            holder.nmProfessor.setText(aux);
+            aux = "Horário: " + aulas.get(position).getHorario();
+            holder.horario.setText(aux);
+
+            if(usuarioReferente.getFoto() != null){
+                Picasso.get().load(usuarioReferente.getFoto()).into(holder.fotoUsuario);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
-        holder.nmDisciplina.setText(disciplinaReferente.getNmDisciplina());
-        String aux = "Professor: " + usuarioReferente.getNmUsuario();
-        holder.nmProfessor.setText(aux);
-        aux = "Horário: " + aulas.get(position).getHorario();
-        holder.horario.setText(aux);
-
-        if(usuarioReferente.getFoto() != null){
-             Picasso.get().load(usuarioReferente.getFoto()).into(holder.fotoUsuario);
-        }
-//        holder.cardView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(context, PerfilActivity.class);
-//                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                intent.putExtra("NmUsuario", destaques.get(position).getNmUsuario());
-//                intent.putExtra("Avaliacao", destaques.get(position).getAvaliacao());
-//                intent.putExtra("Foto", destaques.get(position).getFoto());
-//                intent.putExtra("Biografia", destaques.get(position).getDescricao());
-//                intent.putExtra("Instituicao", destaques.get(position).getCdInstituicao());
-//                context.startActivity(intent);
-//            }
-//        });
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, AulaMinistradaActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.putExtra("Aula", aulas.get(position).getId());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

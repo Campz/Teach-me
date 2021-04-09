@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "D:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\aa7e71911ad4fcf6ea7004a6a29563ba\\navigation-ui-2.3.2\\res\\values-ar\\values-ar.xml",

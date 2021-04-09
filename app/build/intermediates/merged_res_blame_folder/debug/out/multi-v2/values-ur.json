@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
+            "outputFile": "D:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ur\\values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\96e9b00c18c649398bc632d4c4d7a83e\\jetified-play-services-basement-17.1.1\\res\\values-ur\\values.xml",

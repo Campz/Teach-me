@@ -38,18 +38,14 @@ public class HomeFragment extends Fragment {
     View root;
 
     List<Usuario> destaques;
-    List<Anuncio> anuncios;
 
     DestaquesAdapter destaquesAdapter;
-    ResultadosAdapter anunciosAdapter;
 
     UsuarioController usuarioController;
     AnuncioController anuncioController;
 
     RecyclerView lista_destaques;
-    RecyclerView lista_anuncios;
     TextView txt_professores;
-    Button bt_buscar;
     FloatingActionButton bt_novo_anuncio;
 
     private HomeViewModel homeViewModel;
@@ -103,9 +99,7 @@ public class HomeFragment extends Fragment {
 
     private void initComponents() {
         lista_destaques = root.findViewById(R.id.lista_destaques);
-        lista_anuncios = root.findViewById(R.id.rv_aulasRecentes);
         txt_professores = root.findViewById(R.id.txt_professores);
-        bt_buscar = root.findViewById(R.id.bt_buscar);
         bt_novo_anuncio = root.findViewById(R.id.bt_novo_anuncio);
 
         usuarioController = UsuarioController.getInstance(getContext());

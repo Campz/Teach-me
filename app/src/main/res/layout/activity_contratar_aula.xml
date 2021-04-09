@@ -29,6 +29,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/lblhorarioAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/champagne_e_limousines"
+        android:text="Horário"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_campoD2" />
+
+    <TextView
         android:id="@+id/txt_disciplinaHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,6 +74,26 @@
         app:layout_constraintVertical_bias="0.629"
         app:srcCompat="@drawable/ic_caderno_black" />
 
+    <ImageView
+        android:id="@+id/ic_professorAula"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_wave_topo"
+        app:layout_constraintStart_toStartOf="@+id/img_campoD2"
+        app:layout_constraintTop_toTopOf="@+id/img_campoD2"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ic_valorAula"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campoD3"
+        app:layout_constraintStart_toStartOf="@+id/img_campoD3"
+        app:layout_constraintTop_toTopOf="@+id/img_campoD3"
+        app:srcCompat="@drawable/ic_baseline_attach_money_preto_24" />
+
     <TextView
         android:id="@+id/txt_nmDisciplinaAula"
         android:layout_width="wrap_content"
@@ -74,6 +106,28 @@
         app:layout_constraintTop_toTopOf="@+id/img_campoD" />
 
     <TextView
+        android:id="@+id/txt_nmProfessorAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Professor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_wave_topo"
+        app:layout_constraintStart_toEndOf="@+id/ic_professorAula"
+        app:layout_constraintTop_toTopOf="@+id/img_campoD2" />
+
+    <TextView
+        android:id="@+id/txt_valorAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Valor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_campoD3"
+        app:layout_constraintStart_toEndOf="@+id/ic_valorAula"
+        app:layout_constraintTop_toTopOf="@+id/img_campoD3" />
+
+    <TextView
         android:id="@+id/txt_professorHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -82,6 +136,17 @@
         app:layout_constraintBottom_toTopOf="@+id/img_campoD2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_valorHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Valor"
+        app:layout_constraintBottom_toTopOf="@+id/img_campoD3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -95,14 +160,104 @@
         app:layout_constraintTop_toBottomOf="@+id/img_campoD"
         app:srcCompat="@drawable/button_transparente_r10" />
 
+    <ImageView
+        android:id="@+id/img_campoD3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_campoD2"
+        app:srcCompat="@drawable/button_transparente_r10" />
+
     <Spinner
         android:id="@+id/spinnerDia"
         android:layout_width="320dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="292dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblhorarioAula" />
+
+    <CheckBox
+        android:id="@+id/checkSeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Segunda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDia" />
+
+    <CheckBox
+        android:id="@+id/checkTer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Terça"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toEndOf="@+id/checkSeg"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDia" />
+
+    <CheckBox
+        android:id="@+id/checkQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Quarta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toEndOf="@+id/checkTer"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerDia" />
+
+    <CheckBox
+        android:id="@+id/checkQui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Quinta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkSeg" />
+
+    <CheckBox
+        android:id="@+id/checkSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sexta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toEndOf="@+id/checkQui"
+        app:layout_constraintTop_toBottomOf="@+id/checkQua" />
+
+    <ImageButton
+        android:id="@+id/img_confirmaAula"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:srcCompat="@drawable/ic_check_24" />
+
+    <ImageButton
+        android:id="@+id/img_cancelarAula"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_block_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

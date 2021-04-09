@@ -3,7 +3,9 @@
     android:id="@+id/cv_avalicao"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
     android:padding="10dp">
 
     <LinearLayout

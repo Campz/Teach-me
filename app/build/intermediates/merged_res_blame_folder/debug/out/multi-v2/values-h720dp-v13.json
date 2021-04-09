@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "D:\\rafav\\Documents\\Teach-me\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rafav\\.gradle\\caches\\transforms-2\\files-2.1\\44b21666f861b2b454523071d69d07d7\\appcompat-1.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",

@@ -38,6 +38,7 @@ public class AnuncioActivity extends AppCompatActivity {
     Anuncio anuncio;
     Usuario professor;
     Disciplina disciplina;
+    String valor;
     List<Usuario> usuarios;
     List<Aula> aulas;
     List<Aula> avaliacoes;
@@ -73,7 +74,8 @@ public class AnuncioActivity extends AppCompatActivity {
 
         // Preenche os campos do anúncio
         txtNome.setText(professor.getNmUsuario());
-        txtPreco.setText(intent.getExtras().getString("Valor"));
+        valor = intent.getExtras().getString("Valor");
+        txtPreco.setText(valor);
         rbAvaliacao.setRating(Float.parseFloat(professor.getAvaliacao()));
         txtDisciplina.setText(disciplina.getNmDisciplina());
         txtDescricao.setText(anuncio.getDescricao());
@@ -145,14 +147,18 @@ public class AnuncioActivity extends AppCompatActivity {
         btnContratar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Aula aula;
 
-                aula = new Aula();
-                aula.setCdAnuncio(idAnun);
-                aula.setCdUsuarioAluno(usuarioController.getUsuarioLogado().getId()); // pega a id do usuario logado
-                aula.setHorario("23M34"); // ???????????
-                aula.setIsAvaliado(0);
-                aulaController.incluir(aula);
+                Intent telaContratarAula = new Intent(AnuncioActivity.this, ContratarAulaActivity.class);
+                telaContratarAula.putExtra("idAnuncio",String.valueOf(idAnun));
+                telaContratarAula.putExtra("Valor",valor);
+                startActivity(telaContratarAula);
+//                Aula aula;
+//                aula = new Aula();
+//                aula.setCdAnuncio(idAnun);
+//                aula.setCdUsuarioAluno(usuarioController.getUsuarioLogado().getId()); // pega a id do usuario logado
+//                aula.setHorario("23M34"); // ???????????
+//                aula.setIsAvaliado(0);
+//                aulaController.incluir(aula);
             }
         });
     }

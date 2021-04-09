@@ -4,30 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".view.ui.home.HomeFragment">
 
     <ImageView
         android:id="@+id/img_background"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitStart"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
         android:src="@drawable/main_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/bt_buscar"
-        android:layout_width="164dp"
-        android:layout_height="34dp"
-        android:background="@drawable/button_background"
-        android:text="Buscar Aula"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/bt_novo_anuncio"
@@ -51,44 +38,53 @@
         android:id="@+id/txt_professores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/roboto"
-        android:text="PROFESSORES DESTAQUES"
+        android:text=" PROFESSORES DESTAQUES"
         android:textSize="18sp"
+        app:drawableStartCompat="@drawable/ic_chapeu_black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bt_buscar" />
-
-    <TextView
-        android:id="@+id/txt_disciplinas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        android:text="DISCIPLINAS MAIS PROCURADAS"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_professores" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_aulasRecentes"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_disciplinas" />
+        app:layout_constraintTop_toBottomOf="@+id/img_background" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lista_destaques"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/txt_disciplinas"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_professores"
-        app:layout_constraintVertical_bias="0.279" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_professores" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/student_vector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_students_vector" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="escolha o professor ideal para você!"
+        android:textAlignment="textEnd"
+        android:textColor="#435571"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lista_destaques" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

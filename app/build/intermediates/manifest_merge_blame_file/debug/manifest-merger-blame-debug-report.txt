@@ -6,319 +6,183 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml
+8-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml
+9-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
 10
 11    <!-- Permissões do aplicativo -->
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:6:22-64
+12-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:7:22-77
+13-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
-14-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:8:5-79
-14-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:8:22-77
+14-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:8:22-77
 15
 16    <application
-<<<<<<< Updated upstream
-16-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:10:5-62:19
-=======
-16-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:10:5-67:19
->>>>>>> Stashed changes
+16-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:10:5-72:19
 17        android:allowBackup="true"
-17-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:11:9-35
+17-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.3.1] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.3.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:12:9-43
+20-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:12:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:13:9-41
+21-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:13:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:14:9-54
+22-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:14:9-54
 23        android:supportsRtl="true"
-<<<<<<< Updated upstream
-23-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:15:9-35
-24        android:theme="@style/AppTheme" >
-24-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:16:9-40
-25        <activity
-25-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:18:9-25:20
-26            android:name="com.example.teach_me.view.MainActivity"
-26-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:19:13-46
-27            android:label="@string/app_name" >
-27-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:20:13-45
-28            <intent-filter>
-28-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:21:13-24:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:22:17-69
-29-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:22:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:23:17-77
-31-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:23:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:27:9-30:20
-35            android:name="com.example.teach_me.view.LoginActivity"
-35-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:28:13-47
-36            android:theme="@style/Theme.AppCompat.NoActionBar" >
-36-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:29:13-63
-37        </activity>
-38        <activity
-38-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:32:9-35:20
-39            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-39-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:33:13-76
-40            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-40-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:34:13-69
-41        </activity>
-42        <activity
-42-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:37:9-40:20
-43            android:name="com.example.teach_me.view.ImagemPerfilActivity"
-43-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:38:13-54
-44            android:theme="@style/Theme.AppCompat.NoActionBar" >
-44-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:39:13-63
-45        </activity>
-46        <activity
-46-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:42:9-45:20
-47            android:name="com.example.teach_me.view.RegistroActivity"
-47-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:43:13-50
-48            android:theme="@style/Theme.AppCompat.NoActionBar" >
-48-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:44:13-63
-49        </activity>
-50        <activity
-50-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:47:9-50:20
-51            android:name="com.example.teach_me.view.NovoAnuncioActivity"
-51-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:48:13-53
-52            android:theme="@style/Theme.AppCompat.NoActionBar" >
-52-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:49:13-63
-53        </activity>
-54        <activity android:name="com.example.teach_me.view.ResultadosActivity" />
-54-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:52:9-61
-54-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:52:19-58
-55        <activity
-55-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:54:9-57:20
-56            android:name="com.example.teach_me.view.PerfilActivity"
-56-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:55:13-48
-57            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-57-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:56:13-69
-58        </activity>
-59
-60        <meta-data
-60-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:59:9-61:57
-61            android:name="preloaded_fonts"
-61-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:60:13-43
-62            android:resource="@array/preloaded_fonts" />
-62-->C:\Users\Dorizo\Documents\Ruan_Estudos\Teach-me\app\src\main\AndroidManifest.xml:61:13-54
-63
-64        <activity
-64-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
-65            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-65-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
-66            android:excludeFromRecents="true"
-66-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
-67            android:exported="false"
-67-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
-68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-68-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
-69        <!--
-70            Service handling Google Sign-In user revocation. For apps that do not integrate with
-71            Google Sign-In, this service will never be started.
-72        -->
-73        <service
-73-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
-74            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-74-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
-75            android:exported="true"
-75-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
-76            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-76-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
-77            android:visibleToInstantApps="true" />
-77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
-78
-79        <provider
-79-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\2c48a65cec66fd1fd5c7a611f506c2ce\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-80            android:name="com.squareup.picasso.PicassoProvider"
-80-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\2c48a65cec66fd1fd5c7a611f506c2ce\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-81            android:authorities="com.example.teach_me.com.squareup.picasso"
-81-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\2c48a65cec66fd1fd5c7a611f506c2ce\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-82            android:exported="false" />
-82-->[com.squareup.picasso:picasso:2.71828] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\2c48a65cec66fd1fd5c7a611f506c2ce\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-83
-84        <activity
-84-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-85-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-88
-89        <meta-data
-89-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-92
-93        <provider
-93-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-94            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-94-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-95            android:authorities="com.example.teach_me.lifecycle-process"
-95-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-96            android:exported="false"
-96-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-97            android:multiprocess="true" />
-97-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Dorizo\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-98    </application>
-99
-100</manifest>
-=======
-23-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:15:9-35
+23-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:15:9-35
 24        android:testOnly="true"
 25        android:theme="@style/AppTheme" >
-25-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:16:9-40
+25-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:16:9-40
 26        <activity
-26-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:18:9-25:20
+26-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:18:9-25:20
 27            android:name="com.example.teach_me.view.MainActivity"
-27-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:19:13-46
+27-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:19:13-46
 28            android:label="@string/app_name" >
-28-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:20:13-45
+28-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:20:13-45
 29            <intent-filter>
-29-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:21:13-24:29
+29-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:21:13-24:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:22:17-69
-30-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:22:25-66
+30-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:22:17-69
+30-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:22:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:17-77
-32-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:23:27-74
+32-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:23:17-77
+32-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:23:27-74
 33            </intent-filter>
 34        </activity>
 35        <activity
-35-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:27:9-30:20
+35-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:27:9-30:20
 36            android:name="com.example.teach_me.view.LoginActivity"
-36-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:28:13-47
+36-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:28:13-47
 37            android:theme="@style/Theme.AppCompat.NoActionBar" >
-37-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:29:13-63
+37-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:29:13-63
 38        </activity>
 39        <activity
-39-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:32:9-35:20
+39-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:32:9-35:20
 40            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-40-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:33:13-76
+40-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:33:13-76
 41            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-41-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:34:13-69
+41-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:34:13-69
 42        </activity>
 43        <activity
-43-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:37:9-40:20
+43-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:37:9-40:20
 44            android:name="com.example.teach_me.view.ImagemPerfilActivity"
-44-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:38:13-54
+44-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:38:13-54
 45            android:theme="@style/Theme.AppCompat.NoActionBar" >
-45-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:39:13-63
+45-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:39:13-63
 46        </activity>
 47        <activity
-47-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:42:9-45:20
+47-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:42:9-45:20
 48            android:name="com.example.teach_me.view.RegistroActivity"
-48-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:43:13-50
+48-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:43:13-50
 49            android:theme="@style/Theme.AppCompat.NoActionBar" >
-49-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:44:13-63
+49-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:44:13-63
 50        </activity>
 51        <activity
-51-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:47:9-50:20
+51-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:47:9-50:20
 52            android:name="com.example.teach_me.view.NovoAnuncioActivity"
-52-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:48:13-53
+52-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:48:13-53
 53            android:theme="@style/Theme.AppCompat.NoActionBar" >
-53-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:49:13-63
+53-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:49:13-63
 54        </activity>
 55        <activity android:name="com.example.teach_me.view.ResultadosActivity" />
-55-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:52:9-61
-55-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:52:19-58
+55-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:52:9-61
+55-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:52:19-58
 56        <activity
-56-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:54:9-57:20
+56-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:54:9-57:20
 57            android:name="com.example.teach_me.view.PerfilActivity"
-57-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:55:13-48
+57-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:55:13-48
 58            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-58-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:56:13-69
+58-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:56:13-69
 59        </activity>
 60        <activity
-60-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:59:9-62:20
+60-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:59:9-62:20
 61            android:name="com.example.teach_me.view.AnuncioActivity"
-61-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:60:13-49
+61-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:60:13-49
 62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-62-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:61:13-69
+62-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:61:13-69
 63        </activity>
-64
-65        <meta-data
-65-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:64:9-66:57
-66            android:name="preloaded_fonts"
-66-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:65:13-43
-67            android:resource="@array/preloaded_fonts" />
-67-->D:\rafav\Documents\AndroidStudioProjects\Teach-me\app\src\main\AndroidManifest.xml:66:13-54
+64        <activity
+64-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:64:9-67:20
+65            android:name="com.example.teach_me.view.ContratarAulaActivity"
+65-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:65:13-55
+66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+66-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:66:13-69
+67        </activity>
 68
-69        <activity
-69-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
-70            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-70-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
-71            android:excludeFromRecents="true"
-71-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
-72            android:exported="false"
-72-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
-73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-73-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
-74        <!--
-75            Service handling Google Sign-In user revocation. For apps that do not integrate with
-76            Google Sign-In, this service will never be started.
-77        -->
-78        <service
-78-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
-79            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-79-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
-80            android:exported="true"
-80-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
-81            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-81-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
-82            android:visibleToInstantApps="true" />
-82-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
-83
-84        <provider
-84-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-85            android:name="com.squareup.picasso.PicassoProvider"
-85-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-86            android:authorities="com.example.teach_me.com.squareup.picasso"
-86-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-87            android:exported="false" />
-87-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-88
-89        <activity
-89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-91            android:exported="false"
-91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-92-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-93
-94        <meta-data
-94-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-95            android:name="com.google.android.gms.version"
-95-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-96            android:value="@integer/google_play_services_version" />
-96-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+69        <meta-data
+69-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:69:9-71:57
+70            android:name="preloaded_fonts"
+70-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:70:13-43
+71            android:resource="@array/preloaded_fonts" />
+71-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:71:13-54
+72
+73        <activity
+73-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+74            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+74-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+75            android:excludeFromRecents="true"
+75-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+78        <!--
+79            Service handling Google Sign-In user revocation. For apps that do not integrate with
+80            Google Sign-In, this service will never be started.
+81        -->
+82        <service
+82-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+83            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+83-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+84            android:exported="true"
+84-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+85            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+85-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+86            android:visibleToInstantApps="true" />
+86-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+87
+88        <provider
+88-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+89            android:name="com.squareup.picasso.PicassoProvider"
+89-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+90            android:authorities="com.example.teach_me.com.squareup.picasso"
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+91            android:exported="false" />
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 97
-98        <provider
-98-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-99            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-99-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-100            android:authorities="com.example.teach_me.lifecycle-process"
-100-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-101            android:exported="false"
-101-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-102            android:multiprocess="true" />
-102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-103    </application>
-104
-105</manifest>
->>>>>>> Stashed changes
+98        <meta-data
+98-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+99            android:name="com.google.android.gms.version"
+99-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+101
+102        <provider
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+103            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+104            android:authorities="com.example.teach_me.lifecycle-process"
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+105            android:exported="false"
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+106            android:multiprocess="true" />
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+107    </application>
+108
+109</manifest>

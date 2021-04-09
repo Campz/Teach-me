@@ -11,6 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/scroll"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_delete" />
@@ -33,7 +36,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/layout1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:padding="15dp">
@@ -42,7 +45,6 @@
                     android:id="@+id/btnContratar"
                     android:layout_width="176dp"
                     android:layout_height="30dp"
-                    android:layout_marginStart="8dp"
                     android:background="@drawable/button_background"
                     android:text="Contratar"
                     android:textAllCaps="false"
@@ -122,11 +124,13 @@
                     android:id="@+id/img_perfil"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
+                    android:layout_marginStart="4dp"
                     android:paddingEnd="10dp"
                     android:src="@drawable/ruan_foto"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/layout1"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.466" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -170,8 +174,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
-                android:text="Avaliações"
-                android:textSize="24sp" />
+                android:text=" Avaliações"
+                android:textSize="24sp"
+                app:drawableStartCompat="@drawable/ic_estrela" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleAvaliacoes"
