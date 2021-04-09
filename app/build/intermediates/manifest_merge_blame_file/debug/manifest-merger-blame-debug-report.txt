@@ -22,7 +22,7 @@
 14-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:8:22-77
 15
 16    <application
-16-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:10:5-72:19
+16-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:10:5-76:19
 17        android:allowBackup="true"
 17-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -115,74 +115,81 @@
 66            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
 66-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:66:13-69
 67        </activity>
-68
-69        <meta-data
-69-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:69:9-71:57
-70            android:name="preloaded_fonts"
-70-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:70:13-43
-71            android:resource="@array/preloaded_fonts" />
-71-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:71:13-54
+68        <activity
+68-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:69:9-72:20
+69            android:name="com.example.teach_me.view.AulaMinistradaActivity"
+69-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:70:13-56
+70            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+70-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:71:13-69
+71        </activity>
 72
-73        <activity
-73-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
-74            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-74-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
-75            android:excludeFromRecents="true"
-75-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
-76            android:exported="false"
-76-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
-77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
-78        <!--
-79            Service handling Google Sign-In user revocation. For apps that do not integrate with
-80            Google Sign-In, this service will never be started.
-81        -->
-82        <service
-82-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
-83            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-83-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
-84            android:exported="true"
-84-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
-85            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-85-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
-86            android:visibleToInstantApps="true" />
-86-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
-87
-88        <provider
-88-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-89            android:name="com.squareup.picasso.PicassoProvider"
-89-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-90            android:authorities="com.example.teach_me.com.squareup.picasso"
-90-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-91            android:exported="false" />
-91-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-92
-93        <activity
-93-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-94-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-95            android:exported="false"
-95-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-97
-98        <meta-data
-98-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-99            android:name="com.google.android.gms.version"
-99-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-100            android:value="@integer/google_play_services_version" />
-100-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+73        <meta-data
+73-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:73:9-75:57
+74            android:name="preloaded_fonts"
+74-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:74:13-43
+75            android:resource="@array/preloaded_fonts" />
+75-->D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:75:13-54
+76
+77        <activity
+77-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+78            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+78-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+79            android:excludeFromRecents="true"
+79-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+82        <!--
+83            Service handling Google Sign-In user revocation. For apps that do not integrate with
+84            Google Sign-In, this service will never be started.
+85        -->
+86        <service
+86-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+87            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+87-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+88            android:exported="true"
+88-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+89            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+89-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+90            android:visibleToInstantApps="true" />
+90-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\32a0b80a9bbebcbea4d7a0ba776b71f1\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+91
+92        <provider
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+93            android:name="com.squareup.picasso.PicassoProvider"
+93-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+94            android:authorities="com.example.teach_me.com.squareup.picasso"
+94-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+95            android:exported="false" />
+95-->[com.squareup.picasso:picasso:2.71828] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\8d7edcdb507436cc7af050cf73ed9e2c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\19bb7d12044c6f0cb2642e38525e9ca9\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 101
-102        <provider
-102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-103            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-104            android:authorities="com.example.teach_me.lifecycle-process"
-104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-105            android:exported="false"
-105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-106            android:multiprocess="true" />
-106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-107    </application>
-108
-109</manifest>
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\96e9b00c18c649398bc632d4c4d7a83e\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+105
+106        <provider
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+107            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+108            android:authorities="com.example.teach_me.lifecycle-process"
+108-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+109            android:exported="false"
+109-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+110            android:multiprocess="true" />
+110-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\07affe4d4ee75ee78ff2e4c9dedbaa4e\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+111    </application>
+112
+113</manifest>

@@ -1690,6 +1690,9 @@ drawable ic_back_24
 drawable ic_baseline_attach_money_24
 drawable ic_baseline_attach_money_preto_24
 drawable ic_baseline_block_24
+drawable ic_baseline_chevron_left_24
+drawable ic_baseline_delete_24
+drawable ic_baseline_group_24
 drawable ic_book_white_24dp
 drawable ic_caderno_black
 drawable ic_calendar_24
@@ -1863,7 +1866,9 @@ id bounce
 id bt_back
 id bt_buscar
 id bt_confirmar
+id bt_deletarAnuncio
 id bt_editarPerfil
+id bt_enviarAvaliacao
 id bt_facebook
 id bt_google
 id bt_login
@@ -1872,6 +1877,7 @@ id bt_pular_imagem
 id bt_registrar
 id bt_sair
 id bt_sairAnuncio
+id bt_voltarAulaMinistrada
 id btnCadastrarAnuncio
 id btnCancelarAnuncio
 id btnContratar
@@ -1959,6 +1965,9 @@ id easeOut
 id editDescricao
 id editProfessor
 id editQtd
+id editTextDescAvaliacao
+id editTextNotaAvaliacaco
+id editTextTituloAvaliacao
 id editText_DtNascimento
 id editText_Instituicao
 id editText_disciplina
@@ -2060,6 +2069,7 @@ id img_trans_3
 id img_trans_4
 id img_trans_5
 id img_upload_image
+id img_usuarioAulaMinistrada
 id img_usuarioAvaliacao
 id img_wave_baixo
 id img_wave_cima
@@ -2074,6 +2084,7 @@ id labeled
 id largeLabel
 id layout
 id layout1
+id layout_avaliarProfessor
 id lblAvaliacoes
 id lblDescricao
 id lblhorarioAula
@@ -2165,6 +2176,7 @@ id rc_aulasMinistradas
 id rc_minhasAulas
 id rectangle
 id rectangles
+id recycleAlunosMatriculados
 id recycleAvaliacoes
 id reverseSawtooth
 id right
@@ -2251,6 +2263,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
+id textView6
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2287,11 +2301,14 @@ id txt_descricaoAnuncio
 id txt_descricaoAvaliacao
 id txt_disciplinaAnuncio
 id txt_disciplinaAula
+id txt_disciplinaAulaMinistrada
 id txt_disciplinaHint
 id txt_ecolha_disciplina
 id txt_esqueci
+id txt_horario
 id txt_horarioAula
 id txt_idade
+id txt_instituicaoAulaMinistrada
 id txt_linkedin
 id txt_minhasAulas
 id txt_naopossui
@@ -2316,6 +2333,7 @@ id txt_registrar
 id txt_resultados
 id txt_tituloAvaliacao
 id txt_valorAula
+id txt_valorAulaMinistrada
 id txt_valorHint
 id unchecked
 id uniform
@@ -2394,6 +2412,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_anuncio
+layout activity_aula_ministrada
 layout activity_contratar_aula
 layout activity_imagem_perfil
 layout activity_login
@@ -2428,6 +2447,7 @@ layout item_anuncios
 layout item_aulas
 layout item_avaliacao
 layout item_destaques
+layout item_matriculados
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

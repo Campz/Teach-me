@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
+ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\aa7e71911ad4fcf6ea7004a6a29563ba\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\7e5b6cf970b6ee458e94f0de4554e685\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -61,20 +61,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
+INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
 	package
 		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
 		INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
-		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
 		INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
-		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:1-78:12
 		INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:2:11-69
@@ -91,7 +91,7 @@ ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:8:5-79
 	android:name
 		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:10:5-72:19
+ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:10:5-76:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\7e5b6cf970b6ee458e94f0de4554e685\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\7e5b6cf970b6ee458e94f0de4554e685\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\rafav\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -198,12 +198,18 @@ ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:64:9-67:
 		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:66:13-69
 	android:name
 		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:65:13-55
-meta-data#preloaded_fonts
-ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:69:9-71:57
-	android:resource
-		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:71:13-54
+activity#com.example.teach_me.view.AulaMinistradaActivity
+ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:69:9-72:20
+	android:theme
+		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:71:13-69
 	android:name
-		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:70:13-43
+		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:70:13-56
+meta-data#preloaded_fonts
+ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:73:9-75:57
+	android:resource
+		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:75:13-54
+	android:name
+		ADDED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml:74:13-43
 uses-sdk
 INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\rafav\Documents\Teach-me\app\src\main\AndroidManifest.xml

@@ -77,14 +77,14 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
         try {
             usuarioReferente = usuarioController.get(resultados.get(position).getCdUsuarioProfessor());
             disciplinaReferente = disciplinaController.get(resultados.get(position).getCdDisciplina());
+            Picasso.get().load(usuarioReferente.getFoto()).into(holder.img_anuncio);
+            holder.txt_nmProfessor.setText(usuarioReferente.getNmUsuario());
+            holder.txt_avaliacao.setText(usuarioReferente.getAvaliacao());
+            holder.txt_nomeCurso.setText(disciplinaReferente.getNmDisciplina());
+            holder.txt_nomeLocal.setText("Cefet Timóteo");
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Picasso.get().load(usuarioReferente.getFoto()).into(holder.img_anuncio);
-        holder.txt_nmProfessor.setText(usuarioReferente.getNmUsuario());
-        holder.txt_avaliacao.setText(usuarioReferente.getAvaliacao());
-        holder.txt_nomeCurso.setText(disciplinaReferente.getNmDisciplina());
-        holder.txt_nomeLocal.setText("Cefet Timóteo");
         final String preço = "R$" + resultados.get(position).getValor() + "/h";
         holder.txt_preco.setText(preço);
         holder.cv_anuncio.setOnClickListener(new View.OnClickListener() {

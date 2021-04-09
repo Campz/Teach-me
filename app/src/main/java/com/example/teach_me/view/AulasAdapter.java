@@ -94,7 +94,7 @@ public class AulasAdapter extends RecyclerView.Adapter<AulasAdapter.AulasHolder>
             public void onClick(View v) {
                 Intent intent = new Intent(context, AulaMinistradaActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.putExtra("Aula", aulas.get(position).getId());
+                intent.putExtra("Aula", aulas.get(position).getId().toString());
                 context.startActivity(intent);
             }
         });
