@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         List<Aula> aulas = aulaController.listar();
         for (int i = 0; i < aulas.size(); i++) {
             Log.e(AppUltil.TAG, "********");
-            Log.i(AppUltil.TAG, "Aula: ID: " + aulas.get(i).getId() + " - Horário: " + aulas.get(i).getHorario());
+            Log.i(AppUltil.TAG, "Aula: ID: " + aulas.get(i).getId() + " - Horário: " + aulas.get(i).getHorario() + "Avaliacao: "+ aulas.get(i).getTitulo());
         }
 
         try {

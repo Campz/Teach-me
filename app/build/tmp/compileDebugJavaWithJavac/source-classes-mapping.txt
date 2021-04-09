@@ -55,9 +55,8 @@ com/example/teach_me/datamodel/InstituicaoDataModel.java
  com.example.teach_me.datamodel.InstituicaoDataModel
 com/example/teach_me/datamodel/AulaDataModel.java
  com.example.teach_me.datamodel.AulaDataModel
-com/example/teach_me/view/ResultadosAdapter.java
- com.example.teach_me.view.ResultadosAdapter
- com.example.teach_me.view.ResultadosAdapter$ResultadosHolder
+com/example/teach_me/view/MainActivity.java
+ com.example.teach_me.view.MainActivity
 com/example/teach_me/view/RegistroActivity.java
  com.example.teach_me.view.RegistroActivity
  com.example.teach_me.view.RegistroActivity$1
@@ -99,20 +98,28 @@ com/example/teach_me/api/InstituicaoData.java
  com.example.teach_me.api.InstituicaoData
 com/example/teach_me/view/ui/aulas/AulasViewModel.java
  com.example.teach_me.view.ui.aulas.AulasViewModel
+<<<<<<< Updated upstream
 com/example/teach_me/view/ui/perfil/PerfilFragment.java
  com.example.teach_me.view.ui.perfil.PerfilFragment
+=======
+com/example/teach_me/datamodel/UsuarioDataModel.java
+ com.example.teach_me.datamodel.UsuarioDataModel
+>>>>>>> Stashed changes
 com/example/teach_me/api/UsuarioService.java
  com.example.teach_me.api.UsuarioService
 com/example/teach_me/view/ui/perfil/PerfilViewModel.java
  com.example.teach_me.view.ui.perfil.PerfilViewModel
 com/example/teach_me/datamodel/AnuncioDataModel.java
  com.example.teach_me.datamodel.AnuncioDataModel
-com/example/teach_me/view/MainActivity.java
- com.example.teach_me.view.MainActivity
+com/example/teach_me/view/ui/perfil/PerfilFragment.java
+ com.example.teach_me.view.ui.perfil.PerfilFragment
+ com.example.teach_me.view.ui.perfil.PerfilFragment$1
 com/example/teach_me/api/DisciplinaData.java
  com.example.teach_me.api.DisciplinaData
 com/example/teach_me/model/Usuario.java
  com.example.teach_me.model.Usuario
+com/example/teach_me/api/InstituicaoService.java
+ com.example.teach_me.api.InstituicaoService
 com/example/teach_me/controller/InstituicaoController.java
  com.example.teach_me.controller.InstituicaoController
 com/example/teach_me/view/DatePickerFragment.java
@@ -122,9 +129,14 @@ com/example/teach_me/view/LoginActivity.java
  com.example.teach_me.view.LoginActivity$1
  com.example.teach_me.view.LoginActivity$2
  com.example.teach_me.view.LoginActivity$3
-com/example/teach_me/datamodel/UsuarioDataModel.java
- com.example.teach_me.datamodel.UsuarioDataModel
-com/example/teach_me/api/InstituicaoService.java
- com.example.teach_me.api.InstituicaoService
+com/example/teach_me/view/AvaliacaoAdapter.java
+ com.example.teach_me.view.AvaliacaoAdapter
+ com.example.teach_me.view.AvaliacaoAdapter$AvaliacaoHolder
 com/example/teach_me/view/AnuncioActivity.java
  com.example.teach_me.view.AnuncioActivity
+ com.example.teach_me.view.AnuncioActivity$1
+ com.example.teach_me.view.AnuncioActivity$2
+com/example/teach_me/view/ResultadosAdapter.java
+ com.example.teach_me.view.ResultadosAdapter
+ com.example.teach_me.view.ResultadosAdapter$1
+ com.example.teach_me.view.ResultadosAdapter$ResultadosHolder

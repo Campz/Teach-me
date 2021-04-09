@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cv_anuncio"
-    android:layout_width="195dp"
-    android:layout_height="253dp"
-    android:layout_margin="10dp">
+    android:layout_width="210dp"
+    android:layout_height="280dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +16,9 @@
         <ImageView
             android:id="@+id/img_professor"
             android:layout_width="match_parent"
-            android:layout_height="133dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
@@ -86,7 +89,7 @@
 
             <ImageView
                 android:id="@+id/img_preco"
-                android:layout_width="76dp"
+                android:layout_width="85dp"
                 android:layout_height="30dp"
                 android:layout_marginBottom="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -110,10 +113,9 @@
 
             <ImageView
                 android:id="@+id/img_avaliacao"
-                android:layout_width="76dp"
+                android:layout_width="85dp"
                 android:layout_height="30dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginBottom="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -134,8 +136,7 @@
                 android:id="@+id/txt_avaliacao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginBottom="6dp"
                 android:text="5"
                 android:textColor="#ED8A19"

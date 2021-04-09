@@ -30,6 +30,9 @@ public class AulasAdapter extends RecyclerView.Adapter<AulasAdapter.AulasHolder>
     private AnuncioController anuncioController;
     private DisciplinaController disciplinaController;
     private UsuarioController usuarioController;
+    private Anuncio anuncioReferente;
+    private Disciplina disciplinaReferente;
+    private Usuario usuarioReferente;
 
     public AulasAdapter(Context context, List<Aula> aulas){
         this.context = context;
@@ -37,6 +40,9 @@ public class AulasAdapter extends RecyclerView.Adapter<AulasAdapter.AulasHolder>
         anuncioController = AnuncioController.getInstance(context);
         disciplinaController = DisciplinaController.getInstance(context);
         usuarioController = UsuarioController.getInstance(context);
+        anuncioReferente = new Anuncio();
+        disciplinaReferente = new Disciplina();
+        usuarioReferente = new Usuario();
     }
 
     public static class AulasHolder extends RecyclerView.ViewHolder {
@@ -66,9 +72,6 @@ public class AulasAdapter extends RecyclerView.Adapter<AulasAdapter.AulasHolder>
 
     @Override
     public void onBindViewHolder(@NonNull AulasHolder holder, final int position) {
-        Anuncio anuncioReferente = new Anuncio();
-        Disciplina disciplinaReferente = new Disciplina();
-        Usuario usuarioReferente = new Usuario();
         try {
             anuncioReferente = anuncioController.get(aulas.get(position).getCdAnuncio());
             disciplinaReferente = disciplinaController.get(anuncioReferente.getCdDisciplina());

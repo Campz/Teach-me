@@ -118,11 +118,11 @@
                     app:layout_constraintBottom_toTopOf="@+id/btnPerfil"
                     app:layout_constraintStart_toEndOf="@+id/img_perfil" />
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/img_perfil"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="4dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:paddingEnd="10dp"
                     android:src="@drawable/ruan_foto"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="@+id/layout1"
@@ -132,10 +132,10 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="380dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp">
+                android:layout_margin="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -143,7 +143,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/lblDescricao"
+                        android:id="@+id/txt_disciplinaAnuncio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -174,8 +174,8 @@
                 android:textSize="24sp" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/reccycleAvaliacoes"
-                android:layout_width="390dp"
+                android:id="@+id/recycleAvaliacoes"
+                android:layout_width="match_parent"
                 android:layout_height="304dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp">

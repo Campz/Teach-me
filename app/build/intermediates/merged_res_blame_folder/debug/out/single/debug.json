@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chapeu_white.png.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\ic_chapeu_white.png"
     },
@@ -10,6 +11,18 @@
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\font_champagne_e_limousines.ttf.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\font\\champagne_e_limousines.ttf"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_white_24dp.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_home_white_24dp.xml"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_upload_image.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_upload_image.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_azul.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\button_background_azul.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_blue_64dp.xml.flat",
@@ -68,8 +81,17 @@
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\ruan_foto.png"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_forward_blue_24.xml.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\ic_arrow_forward_blue_24.xml"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wave_azul_topo.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\wave_azul_topo.png"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\transition_explode.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\transition\\explode.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_school_24.xml.flat",
@@ -108,24 +130,43 @@
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\layout\\fragment_perfil.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_novo_anuncio.xml.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\layout\\activity_novo_anuncio.xml"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_avaliacao.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\item_avaliacao.xml"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_retangulo_verde.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\img_retangulo_verde.png"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_capa.png.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\img_capa.png"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back_24.xml.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\ic_back_24.xml"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_book_white_24dp.xml.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\ic_book_white_24dp.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_anuncio.xml.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\layout\\activity_anuncio.xml"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_https_white_24dp.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_https_white_24dp.xml"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_amarelo.xml.flat",
@@ -268,8 +309,17 @@
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_google.png.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\button_google.png"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contratar_aula.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\layout\\activity_contratar_aula.xml"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_background.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\main_background.png"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wave_perfilimage_cima.xml.flat",
@@ -300,8 +350,17 @@
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_login.png.flat",
         "source": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\src\\main\\res\\drawable\\background_login.png"
+=======
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_transparente_r10.xml.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\button_transparente_r10.xml"
+    },
+    {
+        "merged": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local.png.flat",
+        "source": "D:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\src\\main\\res\\drawable\\ic_local.png"
+>>>>>>> Stashed changes
     },
     {
         "merged": "C:\\Users\\Dorizo\\Documents\\Ruan_Estudos\\Teach-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_azul.xml.flat",

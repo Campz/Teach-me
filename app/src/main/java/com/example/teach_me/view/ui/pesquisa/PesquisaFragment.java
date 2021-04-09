@@ -10,6 +10,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -35,16 +37,19 @@ import com.example.teach_me.model.Usuario;
 import com.example.teach_me.view.LoginActivity;
 import com.example.teach_me.view.RegistroActivity;
 import com.example.teach_me.view.ResultadosActivity;
+import com.example.teach_me.view.ResultadosAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class PesquisaFragment extends Fragment {
 
+    View root;
     private PesquisaViewModel mViewModel;
 
     TextView txtDisciplina, txtInstituicao;
     Button btnBuscar;
+    RecyclerView rv_anuncioDestaque;
 
     AnuncioController anuncioController;
     UsuarioController usuarioController;
@@ -56,40 +61,56 @@ public class PesquisaFragment extends Fragment {
     List<Disciplina> disciplinas;
     List<Instituicao> instituicoes;
 
+    ResultadosAdapter resultadosAdapter;
 
     public static PesquisaFragment newInstance() {
         return new PesquisaFragment();
     }
 
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
-                             @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        root = inflater.inflate(R.layout.fragment_pesquisa, container, false);
+        initComponents();
+        buttonsEvents();
 
-        final View root = inflater.inflate(R.layout.fragment_pesquisa, container, false);
+        rv_anuncioDestaque.setAdapter(resultadosAdapter);
+        rv_anuncioDestaque.setLayoutManager(new GridLayoutManager(getContext(),2));
+        return root;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = ViewModelProviders.of(this).get(PesquisaViewModel.class);
+        // TODO: Use the ViewModel
+    }
+
+    private void initComponents(){
         btnBuscar = root.findViewById(R.id.bt_buscar);
         txtDisciplina = root.findViewById(R.id.editText_disciplina);
         txtInstituicao = root.findViewById(R.id.editText_instituicao);
+        rv_anuncioDestaque = root.findViewById(R.id.rv_anunciosDestaques);
 
-        anuncioController = AnuncioController.getInstance(root.getContext());
-        usuarioController = UsuarioController.getInstance(root.getContext());
-        disciplinaController = DisciplinaController.getInstance(root.getContext());
-        instituicaoController = InstituicaoController.getInstance(root.getContext());
+        anuncioController = AnuncioController.getInstance(getContext());
+        usuarioController = UsuarioController.getInstance(getContext());
+        disciplinaController = DisciplinaController.getInstance(getContext());
+        instituicaoController = InstituicaoController.getInstance(getContext());
+        anuncios = anuncioController.listar();
+        usuarios = usuarioController.listar();
+        disciplinas = disciplinaController.listar();
+        instituicoes = instituicaoController.listar();
+        resultadosAdapter = new ResultadosAdapter(getContext(),anuncios);
+    }
 
-        /*anuncios = anuncioController.getAllAnuncios(AnuncioDataModel.TABELA);
-        usuarios = usuarioController.getAllUsuarios(UsuarioDataModel.TABELA);
-        disciplinas = disciplinaController.getAllDisciplinas(DisciplinaDataModel.TABELA);
-        instituicoes = instituicaoController.getAllInstituicoes(InstituicaoDataModel.TABELA);*/
+    private void buttonsEvents(){
 
+        // Realiza uma busca e inicia uma nova intent com os resultados
         btnBuscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), ResultadosActivity.class);
                 startActivity(intent);
 
-                anuncios = anuncioController.listar();
-                usuarios = usuarioController.listar();
-                disciplinas = disciplinaController.listar();
-                instituicoes = instituicaoController.listar();
 
                 boolean isDadosOK = true;
 
@@ -165,14 +186,5 @@ public class PesquisaFragment extends Fragment {
                 }
             }
         });
-
-        return root;
-    }
-
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(PesquisaViewModel.class);
-        // TODO: Use the ViewModel
     }
 }

@@ -1,6 +1,7 @@
 package com.example.teach_me.view;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,8 @@ import com.example.teach_me.R;
 import com.example.teach_me.controller.DisciplinaController;
 import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Anuncio;
+import com.example.teach_me.model.Disciplina;
+import com.example.teach_me.model.Usuario;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -21,14 +24,20 @@ import java.util.List;
 public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.ResultadosHolder> {
     private Context context;
     private List<Anuncio> resultados;
+
     private UsuarioController usuarioController;
     private DisciplinaController disciplinaController;
+
+    private Usuario usuarioReferente;
+    private Disciplina disciplinaReferente;
 
     public ResultadosAdapter(Context context, List<Anuncio> resultados){
         this.context = context;
         this.resultados = resultados;
         usuarioController = UsuarioController.getInstance(context);
         disciplinaController = DisciplinaController.getInstance(context);
+        usuarioReferente = new Usuario();
+        disciplinaReferente = new Disciplina();
     }
 
     public static class ResultadosHolder extends RecyclerView.ViewHolder {
@@ -64,18 +73,31 @@ public class ResultadosAdapter extends RecyclerView.Adapter<ResultadosAdapter.Re
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ResultadosHolder holder, int position) {
-        Picasso.get().load("https://i.imgur.com/MOVU8Im.jpg").into(holder.img_anuncio);
+    public void onBindViewHolder(@NonNull ResultadosHolder holder, final int position) {
         try {
-            holder.txt_nmProfessor.setText(usuarioController.get(resultados.get(position).getCdUsuarioProfessor()).getNmUsuario());
-            holder.txt_avaliacao.setText(usuarioController.get(resultados.get(position).getCdUsuarioProfessor()).getAvaliacao());
-            holder.txt_nomeCurso.setText(disciplinaController.get(resultados.get(position).getCdDisciplina()).getNmDisciplina());
-            holder.txt_nomeLocal.setText("Cefet Timóteo");
-            String preço = "R$" + resultados.get(position).getValor() + "/h";
-            holder.txt_preco.setText(preço);
+            usuarioReferente = usuarioController.get(resultados.get(position).getCdUsuarioProfessor());
+            disciplinaReferente = disciplinaController.get(resultados.get(position).getCdDisciplina());
         } catch (Exception e) {
             e.printStackTrace();
         }
+        Picasso.get().load(usuarioReferente.getFoto()).into(holder.img_anuncio);
+        holder.txt_nmProfessor.setText(usuarioReferente.getNmUsuario());
+        holder.txt_avaliacao.setText(usuarioReferente.getAvaliacao());
+        holder.txt_nomeCurso.setText(disciplinaReferente.getNmDisciplina());
+        holder.txt_nomeLocal.setText("Cefet Timóteo");
+        final String preço = "R$" + resultados.get(position).getValor() + "/h";
+        holder.txt_preco.setText(preço);
+        holder.cv_anuncio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, AnuncioActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.putExtra("Professor", resultados.get(position).getId().toString());
+                intent.putExtra("idAnuncio", resultados.get(position).getId().toString());
+                intent.putExtra("Valor",preço);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

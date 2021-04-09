@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 #Wed Apr 07 19:32:34 BRT 2021
 path.3=classes.dex
 path.2=classes.dex
+=======
+#Thu Apr 08 22:32:24 BRT 2021
+base.0=D\:\\rafav\\Documents\\AndroidStudioProjects\\Teach-me\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+>>>>>>> Stashed changes
 path.1=classes.dex
 path.0=classes.dex
 renamed.3=classes4.dex

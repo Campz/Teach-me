@@ -75,7 +75,7 @@ public class PerfilFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 usuarioController.setUsuarioLogado(null);
-                Intent intent = new Intent(getContext(), LoginActivity.class);
+                Intent intent = new Intent(getContext(), MainActivity.class);
                 startActivity(intent);
             }
         });

@@ -258,6 +258,10 @@ public class Repositorio {
         aula.setCdAnuncio(1);
         aula.setCdUsuarioAluno(3);
         aula.setHorario("23M34");
+        aula.setTitulo("Ótimo!");
+        aula.setAvaliacao(5);
+        aula.setDescricao("Ruan é um ótimo professor, com uma boa didática e atenciosidade.");
+        aula.setIsAvaliado(1);
         aulaController.incluir(aula);
 
         //2
@@ -265,6 +269,17 @@ public class Repositorio {
         aula.setCdAnuncio(2);
         aula.setCdUsuarioAluno(4);
         aula.setHorario("56T12");
+        aulaController.incluir(aula);
+
+        //3
+        aula = new Aula();
+        aula.setCdAnuncio(1);
+        aula.setCdUsuarioAluno(2);
+        aula.setHorario("23T12");
+        aula.setTitulo("Muito bom!");
+        aula.setAvaliacao(3);
+        aula.setDescricao("Ruan me surpreendeu, um excelente professor. Nota 3");
+        aula.setIsAvaliado(1);
         aulaController.incluir(aula);
     }
 }

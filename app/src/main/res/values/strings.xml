@@ -4,4 +4,28 @@
     <string name="title_pesquisar">Pesquisar</string>
     <string name="title_aulas">Aulas</string>
     <string name="title_perfil">Perfil</string>
+    <string-array name="dias_array">
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+    </string-array>
+    <string-array name="horario_array">
+        <item>M1 – 7H</item>
+        <item>M2 – 8H</item>
+        <item>M3 – 9H</item>
+        <item>M4 – 10H</item>
+        <item>M5 – 11H</item>
+        <item>T1 – 13H</item>
+        <item>T2 – 14H</item>
+        <item>T3 – 15H</item>
+        <item>T4 – 16H</item>
+        <item>T5 – 17H</item>
+        <item>N1 – 18H</item>
+        <item>N2 – 19H</item>
+        <item>N3 – 20H</item>
+        <item>N4 – 21H</item>
+        <item>N5 – 22H</item>
+    </string-array>
 </resources>

@@ -10,12 +10,17 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.teach_me.R;
+import com.example.teach_me.controller.AnuncioController;
 import com.example.teach_me.controller.AulaController;
+import com.example.teach_me.controller.DisciplinaController;
 import com.example.teach_me.controller.UsuarioController;
 import com.example.teach_me.model.Anuncio;
 import com.example.teach_me.model.Aula;
+import com.example.teach_me.model.Disciplina;
 import com.example.teach_me.model.Usuario;
 import com.squareup.picasso.Picasso;
 
@@ -25,48 +30,74 @@ import java.util.List;
 public class AnuncioActivity extends AppCompatActivity {
 
     ImageView imgProfessor;
-    TextView txtNome, txtQtdAval, txtPreco, txtDescricao;
+    TextView txtNome, txtQtdAval, txtPreco, txtDescricao, txtDisciplina;
     Button btnPerfil, btnContratar;
     RatingBar rbAvaliacao;
+    RecyclerView rv_avaliacoes;
 
     Anuncio anuncio;
     Usuario professor;
+    Disciplina disciplina;
     List<Usuario> usuarios;
+    List<Aula> aulas;
+    List<Aula> avaliacoes;
 
     UsuarioController usuarioController;
     AulaController aulaController;
+    AnuncioController anuncioController;
+    DisciplinaController disciplinaController;
+
+    AvaliacaoAdapter avaliacaoAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anuncio);
 
-        initComponents();
-
         Intent intent = getIntent();
+
+        initComponents();
 
         // Pega o id do professor e do anúncio
         int idUsuario = Integer.parseInt(intent.getExtras().getString("Professor"));
         int idAnuncio = Integer.parseInt(intent.getExtras().getString("idAnuncio"));
 
-        // Preenche os campos do anúncio
-        txtPreco.setText(intent.getExtras().getString("Valor"));
-        rbAvaliacao.setRating(Float.parseFloat(intent.getExtras().getString("Avaliacao")));
-        txtDescricao.setText(intent.getExtras().getString("Descricao"));
-        txtQtdAval.setText(intent.getExtras().getString("QtdAlunos"));
-
-        usuarios = usuarioController.listar();
-
-        // busca no array de usuarios o usuario do anúncio
-        for (Usuario u:usuarios) {
-            if(u.getId() == idUsuario){
-                professor = u;
-                break;
-            }
+        // Busca o usuário autor do anuncio
+        try {
+            professor = usuarioController.get(idUsuario);
+            anuncio = anuncioController.get(idAnuncio);
+            disciplina = disciplinaController.get(anuncio.getCdDisciplina());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+        // Preenche os campos do anúncio
+        txtNome.setText(professor.getNmUsuario());
+        txtPreco.setText(intent.getExtras().getString("Valor"));
+        rbAvaliacao.setRating(Float.parseFloat(professor.getAvaliacao()));
+        txtDisciplina.setText(disciplina.getNmDisciplina());
+        txtDescricao.setText(anuncio.getDescricao());
+
+        // É pra pegar a quantidade de avaliações do usuário
+        //txtQtdAval.setText(intent.getExtras().getString("QtdAlunos"));
 
         // coloca a foto
         Picasso.get().load(professor.getFoto()).into(imgProfessor);
+
+        // Faz uma busca de todas as avaliações referente a esse anúncio
+        for (Aula aula:aulas){
+            if(aula.getIsAvaliado() == 1 && aula.getCdAnuncio().equals(idAnuncio)){
+                System.out.println(aula.getTitulo());
+                avaliacoes.add(aula);
+            }
+        }
+
+        // Faz a criação de um adapter para as avaliações utiliznando um layout linear na vertical
+        avaliacaoAdapter = new AvaliacaoAdapter(this,avaliacoes);
+        rv_avaliacoes.setAdapter(avaliacaoAdapter);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(RecyclerView.VERTICAL);
+        rv_avaliacoes.setLayoutManager(layoutManager);
 
         buttonsEvents(professor, idAnuncio);
     }
@@ -80,12 +111,18 @@ public class AnuncioActivity extends AppCompatActivity {
         btnPerfil = findViewById(R.id.btnPerfil);
         btnContratar = findViewById(R.id.btnContratar);
         rbAvaliacao = findViewById(R.id.avaliacaoPerfil);
+        txtDisciplina = findViewById(R.id.txt_disciplinaAnuncio);
+        rv_avaliacoes = findViewById(R.id.recycleAvaliacoes);
 
         anuncio = new Anuncio();
         professor = new Usuario();
         usuarios = new ArrayList<>();
+        avaliacoes = new ArrayList<>();
         usuarioController = UsuarioController.getInstance(this);
         aulaController = AulaController.getInstance(this);
+        anuncioController = AnuncioController.getInstance(this);
+        disciplinaController = DisciplinaController.getInstance(this);
+        aulas = aulaController.listar();
     }
 
     private void buttonsEvents(final Usuario u, final int idAnun){
@@ -93,17 +130,18 @@ public class AnuncioActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent telaPerfil = new Intent(AnuncioActivity.this, MainActivity.class);
+                Intent telaPerfil = new Intent(AnuncioActivity.this, PerfilActivity.class);
 
                 telaPerfil.putExtra("Foto", u.getFoto());
                 telaPerfil.putExtra("NmUsuario", u.getNmUsuario());
                 telaPerfil.putExtra("Avaliacao", u.getAvaliacao());
                 telaPerfil.putExtra("Biografia", u.getDescricao());
                 startActivity(telaPerfil);
-                finish();
             }
         });
-
+        // Na verdade essa função deve inicializar uma nova janela com os dados da aula
+        // La vamo dar um jeito do usuário escolher o horário e confirmar o contrato da aula
+        // O layout em questão é o activity_contratar_aula
         btnContratar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,7 +149,7 @@ public class AnuncioActivity extends AppCompatActivity {
 
                 aula = new Aula();
                 aula.setCdAnuncio(idAnun);
-                aula.setCdUsuarioAluno(3); // como pega a id do usuario logado ??????????
+                aula.setCdUsuarioAluno(usuarioController.getUsuarioLogado().getId()); // pega a id do usuario logado
                 aula.setHorario("23M34"); // ???????????
                 aula.setIsAvaliado(0);
                 aulaController.incluir(aula);
